@@ -6,20 +6,21 @@
     <script type="text/javascript" src="scripts/myBootstrap.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styles/myBootstrap.css">
+    <title>January Smith - Google Trusted Photographer</title>
     <script>
       jQuery(document).ready(function($) {
-                                  $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-                                      e.preventDefault();
-                                      var target = this.hash,
-                                      $target = $(target);
-                              
-                                      $('html, body').stop().animate( {
-                                          'scrollTop': $target.offset().top
-                                      }, 900, 'swing', function () {
-                                          window.location.hash = target;
+                                          $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+                                              e.preventDefault();
+                                              var target = this.hash,
+                                              $target = $(target);
+                                      
+                                              $('html, body').stop().animate( {
+                                                  'scrollTop': $target.offset().top
+                                              }, 900, 'swing', function () {
+                                                  window.location.hash = target;
+                                              } );
+                                          } );
                                       } );
-                                  } );
-                              } );
     </script>
   </head><body>
     <div class="cover" id="top">
@@ -37,6 +38,9 @@
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="lead nav navbar-nav navbar-right">
               <li class="active">
+                <a href="#top">Home</a>
+              </li>
+              <li>
                 <a href="#streetview">Google Street View</a>
               </li>
               <li>
@@ -69,6 +73,8 @@
             </div>
             <br>
             <a class="btn btn-lg btn-primary" href="#streetview">Find Out More</a>
+            <br>
+            <br>
           </div>
         </div>
       </div>
@@ -120,7 +126,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-            <a class="btn btn-primary" href="#about">Get Started</a>
+            <a class="btn btn-lg btn-primary" href="#about">Get Started</a>
           </div>
         </div>
       </div>
