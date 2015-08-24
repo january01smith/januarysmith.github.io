@@ -9,22 +9,22 @@
     <title>January Smith - Google Trusted Photographer</title>
     <script>
       jQuery(document).ready(function($) {
-                                          $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-                                              e.preventDefault();
-                                              var target = this.hash,
-                                              $target = $(target);
-                                      
-                                              $('html, body').stop().animate( {
-                                                  'scrollTop': $target.offset().top
-                                              }, 900, 'swing', function () {
-                                                  window.location.hash = target;
-                                              } );
-                                          } );
-                                      } );
+                                                          $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+                                                              e.preventDefault();
+                                                              var target = this.hash,
+                                                              $target = $(target);
+                                                      
+                                                              $('html, body').stop().animate( {
+                                                                  'scrollTop': $target.offset().top
+                                                              }, 900, 'swing', function () {
+                                                                  window.location.hash = target;
+                                                              } );
+                                                          } );
+                                                      } );
     </script>
   </head><body>
     <div class="cover" id="top">
-      <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -53,29 +53,34 @@
           </div>
         </div>
       </div>
-      <div class="cover-image" style="background-image : url('images/home/header.jpg')"></div>
+      <div class="col-md-12 cover-image" style="background-image : url('images/home/header.jpg')"></div>
       <div class="container">
         <br>
         <br>
         <br>
         <div class="row">
-          <div class="col-md-12 text-center">
-            <h1 class="text-inverse">Google Virtual Tours</h1>
-            <p class="text-inverse">
-              <span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; line-height: 27px;">Enhance the online presence of your business across Google+, Google Maps,
-                and Google Search with a 360º virtual tour powered by Street View technology
-                and designed by a Google Trusted Photographer.</span>
-            </p>
-            <br>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://googledrive.com/host/0BxBZVCDcj_ckdTFDMllKRUp3TmM/demo/index.html" allowfullscreen="" style="border:medium double"></iframe>
-              <br>
-            </div>
-            <br>
-            <a class="btn btn-lg btn-primary" href="#streetview">Find Out More</a>
-            <br>
+          <h1 class="text-center">
+            <span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; color: white">Google Virtual Tours</span>
+          </h1>
+          <p class="text-center">
+            <span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; color: white">Enhance the online presence of your business across Google+, Google Maps,
+              and Google Search with a 360º virtual tour powered by Street View technology
+              and designed by a Google Trusted Photographer.</span>
+          </p>
+          <br>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://googledrive.com/host/0BxBZVCDcj_ckdTFDMllKRUp3TmM/demo/index.html" allowfullscreen="" style="border:medium double"></iframe>
             <br>
           </div>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="row text-center">
+          <a class="btn btn-lg btn-primary" href="#streetview">Find Out More</a>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     </div>
