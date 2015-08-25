@@ -41,7 +41,7 @@
 //** Background color for `<body>`.
 @body-bg : white;
 //** Global text color on `<body>`.
-@text-color : black;
+@text-color : white;
 //** Global textual link color.
 @link-color : @brand-primary;
 //** Link hover color set via `darken()` function.
@@ -185,7 +185,7 @@ monospace;
 //** Small `.form-control` height
 @input-height-small : (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
 //** `.form-group` margin
-@form-group-margin-bottom: 15px;
+@form-group-margin-bottom : 15px;
 @legend-color : @gray-dark;
 @legend-border-color : #e5e5e5;
 //** Background color for textual input addons
@@ -232,8 +232,8 @@ monospace;
 @zindex-popover : 1060;
 @zindex-tooltip : 1070;
 @zindex-navbar-fixed : 1030;
-@zindex-modal-background: 1040;
-@zindex-modal: 1050;
+@zindex-modal-background : 1040;
+@zindex-modal : 1050;
 //== Media queries breakpoints
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
@@ -272,7 +272,7 @@ monospace;
 //** Number of columns in the grid.
 @grid-columns : 12;
 //** Padding between columns. Gets divided in half for the left and right.
-@grid-gutter-width : 30px;
+@grid-gutter-width : 1px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 @grid-float-breakpoint : @screen-sm-min;
@@ -396,7 +396,7 @@ monospace;
 @jumbotron-bg : @gray-lighter;
 @jumbotron-heading-color : inherit;
 @jumbotron-font-size : ceil((@font-size-base * 1.5));
-@jumbotron-heading-font-size: ceil((@font-size-base * 4.5));
+@jumbotron-heading-font-size : ceil((@font-size-base * 4.5));
 //== Form states and alerts
 //
 //## Define colors for form feedback states and, by default, alerts.
@@ -681,7 +681,7 @@ monospace;
 //** Blockquote border color
 @blockquote-border-color : @gray-lighter;
 //** Page header border color
-@page-header-border-color: @gray-lighter;
+@page-header-border-color : @gray-lighter;
 //** Width of horizontal description list titles
 @dl-horizontal-offset : @component-offset-horizontal;
 //** Horizontal line color.
