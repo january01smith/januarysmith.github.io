@@ -11,16 +11,16 @@
     <script>
       var map;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 29.425984, lng: -98.486396},
-          zoom: 7
-        });
-      
-      var ctaLayer = new google.maps.KmlLayer({
-    url: '../courthouse/texas_counties.kml',
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: {lat: 29.425760, lng: -98.486437}
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'https://raw.githubusercontent.com/januarysmith/januarysmith.github.io/master/courthouse/texas_counties.kml',
     map: map
   });
-      }
+}
     </script>
   </head><body>
     <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
@@ -46,7 +46,7 @@
               <a href="#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Gallery</span></a>
             </li>
             <li class="active">
-              <a href="#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Courthouse</span></a>
+              <a href="#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Courthouse Tours</span></a>
             </li>
             <li>
               <a href="../index.html#about"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">About</span></a>
