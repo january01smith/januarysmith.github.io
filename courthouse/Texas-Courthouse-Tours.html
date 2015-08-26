@@ -10,17 +10,18 @@
     <meta charset="utf-8">
     <script>
       var map;
-      function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 11,
-    center: {lat: 29.425760, lng: -98.486437}
-  });
-
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'https://raw.githubusercontent.com/januarysmith/januarysmith.github.io/master/courthouse/texas_counties.kml',
-    map: map
-  });
-}
+              function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 11,
+            center: {lat: 29.425760, lng: -98.486437}
+          });
+        
+          var countyLayer = new google.maps.KmlLayer({
+            url: 'https://raw.githubusercontent.com/januarysmith/januarysmith.github.io/master/courthouse/texas_counties.kml',
+            map: map
+          });
+                
+        }
     </script>
   </head><body>
     <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
