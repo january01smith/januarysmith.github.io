@@ -3,8 +3,8 @@
   <Document xmlns="">
     <Style id="trb464">
       <LineStyle>
-        <color>FFCFE4C7</color>
-        <width>3</width>
+        <color>7f0000ff</color>
+      <width>4</width>
       </LineStyle>
       <PolyStyle>
         <color>FF8513CB</color>
