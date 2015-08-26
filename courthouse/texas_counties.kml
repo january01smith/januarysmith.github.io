@@ -8,6 +8,7 @@
       </LineStyle>
       <PolyStyle>
         <color>208513CB</color>
+        <colorMode>random</colorMode> 
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
