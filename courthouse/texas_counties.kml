@@ -10,6 +10,7 @@
       <color>ff0000cc</color>
       <colorMode>random</colorMode>
       <fill>1</fill>
+      <fillOpacity>0.2</fillOpacity>
     </PolyStyle>
       <BalloonStyle>
         <bgColor>ffffffff</bgColor>
