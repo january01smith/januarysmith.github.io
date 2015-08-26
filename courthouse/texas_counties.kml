@@ -3,15 +3,13 @@
   <Document xmlns="">
     <Style id="trb464">
       <LineStyle>
-        <color>7f0000ff</color>
-      <width>4</width>
+        <color>FFCFE4C7</color>
+        <width>1</width>
       </LineStyle>
       <PolyStyle>
-      <color>ff0000cc</color>
-      <colorMode>random</colorMode>
-      <fill>1</fill>
-      <fillOpacity>0.2</fillOpacity>
-    </PolyStyle>
+        <color>FF8513CB</color>
+        <fill>1</fill>
+      </PolyStyle>
       <BalloonStyle>
         <bgColor>ffffffff</bgColor>
         <text></text>
