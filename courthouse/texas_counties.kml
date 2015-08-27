@@ -28,7 +28,7 @@
       </PolyStyle>
       <BalloonStyle>
         <bgColor>ffffffff</bgColor>
-        <text></text>
+        <text>$[tour]</text>
       </BalloonStyle>
     </Style>
     
@@ -4538,7 +4538,12 @@
       </description>
       <open>1</open>
       <Placemark id="173">
-        <Snippet maxLines="0">
+ 		<ExtendedData>
+    		<Data name="tour">
+     		 <value><![CDATA[<iframe width="560" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?layer=c&panoid=-TopXC_TuYQY%2FVU3QKSnlZkI%2FAAAAAAAAmnI%2FZMkSPKDr4kc&ie=UTF8&source=embed&output=svembed&cbp=13%2C11.25%2C%2C0%2C0.10999999999999943"></iframe><br><br>]]></value>
+    		</Data>
+  		</ExtendedData>
+         <Snippet maxLines="0">
         </Snippet>
         
         <description>&lt;a href=&quot;https://goo.gl/maps/yuN1J&quot;&gt;Mason County&lt;/a&gt;</description>
@@ -7797,7 +7802,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5860&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cameron County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cameron County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
