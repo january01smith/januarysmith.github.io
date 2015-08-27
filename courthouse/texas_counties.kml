@@ -4567,7 +4567,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;a href=&quot;https://goo.gl/maps/8xTx7&quot;&gt;Llano County&lt;/a&gt;</description>
+        <description>Llano County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4580,7 +4580,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
     
@@ -6551,7 +6551,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;a href=&quot;https://goo.gl/maps/cyvhd&quot;&gt;La Salle County&lt;/a&gt;</description>
+        <description>La Salle County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
