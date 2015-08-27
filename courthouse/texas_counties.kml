@@ -630,6 +630,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hall County</name>
       <description>
@@ -639,7 +640,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4385&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hall County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hall County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -655,6 +656,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Childress County</name>
       <description>
@@ -664,7 +666,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4386&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Childress County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Childress County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -680,6 +682,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Parmer County</name>
       <description>
@@ -689,7 +692,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4388&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Parmer County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Parmer County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -705,6 +708,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hardeman County</name>
       <description>
@@ -714,7 +718,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4427&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hardeman County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hardeman County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -730,6 +734,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wilbarger County</name>
       <description>
@@ -739,7 +744,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4460&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wilbarger County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wilbarger County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -755,6 +760,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Motley County</name>
       <description>
@@ -764,7 +770,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4484&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Motley County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Motley County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -780,6 +786,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Cottle County</name>
       <description>
@@ -789,7 +796,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4485&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cottle County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cottle County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -805,6 +812,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Floyd County</name>
       <description>
@@ -814,7 +822,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4487&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Floyd County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Floyd County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -830,6 +838,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hale County</name>
       <description>
@@ -839,7 +848,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4488&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hale County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hale County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -855,6 +864,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lamb County</name>
       <description>
@@ -864,7 +874,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4489&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lamb County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lamb County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -880,6 +890,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bailey County</name>
       <description>
@@ -889,7 +900,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4491&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bailey County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bailey County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -905,6 +916,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Foard County</name>
       <description>
@@ -914,7 +926,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4506&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Foard County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Foard County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -930,6 +942,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wichita County</name>
       <description>
@@ -939,7 +952,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4509&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wichita County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wichita County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -955,6 +968,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Clay County</name>
       <description>
@@ -964,7 +978,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4529&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Clay County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Clay County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -980,6 +994,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Montague County</name>
       <description>
@@ -989,7 +1004,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4561&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Montague County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Montague County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1005,6 +1020,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Red River County</name>
       <description>
@@ -1014,7 +1030,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4571&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Red River County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Red River County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1030,6 +1046,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Grayson County</name>
       <description>
@@ -1039,7 +1056,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4573&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Grayson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Grayson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1055,6 +1072,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Cooke County</name>
       <description>
@@ -1064,7 +1082,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4574&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cooke County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cooke County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1080,6 +1098,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lamar County</name>
       <description>
@@ -1089,7 +1108,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4580&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lamar County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lamar County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1105,6 +1124,8 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
+    
     <Folder>
       <name>Fannin County</name>
       <description>
@@ -1114,7 +1135,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4592&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Fannin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Fannin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1130,6 +1151,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>King County</name>
       <description>
@@ -1139,7 +1161,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4600&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;King County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>King County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1155,6 +1177,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Knox County</name>
       <description>
@@ -1164,7 +1187,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4601&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Knox County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Knox County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1180,6 +1203,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Archer County</name>
       <description>
@@ -1189,7 +1213,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4602&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Archer County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Archer County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1205,6 +1229,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Dickens County</name>
       <description>
@@ -1214,7 +1239,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4603&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Dickens County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Dickens County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1230,6 +1255,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Crosby County</name>
       <description>
@@ -1239,7 +1265,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4604&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Crosby County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Crosby County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1255,6 +1281,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Baylor County</name>
       <description>
@@ -1264,7 +1291,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4605&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Baylor County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Baylor County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1280,6 +1307,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lubbock County</name>
       <description>
@@ -1289,7 +1317,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4606&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lubbock County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lubbock County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1305,6 +1333,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Cochran County</name>
       <description>
@@ -1314,7 +1343,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4607&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cochran County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cochran County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1330,6 +1359,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hockley County</name>
       <description>
@@ -1339,7 +1369,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4608&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hockley County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hockley County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1355,6 +1385,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bowie County</name>
       <description>
@@ -1364,7 +1395,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4626&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bowie County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bowie County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1380,6 +1411,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Delta County</name>
       <description>
@@ -1389,7 +1421,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4655&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Delta County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Delta County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1405,6 +1437,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jack County</name>
       <description>
@@ -1414,7 +1447,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4665&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jack County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jack County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1430,6 +1463,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wise County</name>
       <description>
@@ -1439,7 +1473,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4670&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wise County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wise County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1455,6 +1489,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Denton County</name>
       <description>
@@ -1464,7 +1499,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4671&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Denton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Denton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1480,6 +1515,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hunt County</name>
       <description>
@@ -1489,7 +1525,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4673&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hunt County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hunt County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1505,6 +1541,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Collin County</name>
       <description>
@@ -1514,7 +1551,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4674&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Collin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Collin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1530,6 +1567,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kent County</name>
       <description>
@@ -1539,7 +1577,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4675&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kent County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kent County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1555,6 +1593,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Stonewall County</name>
       <description>
@@ -1564,7 +1603,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4676&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Stonewall County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Stonewall County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1580,6 +1619,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Titus County</name>
       <description>
@@ -1589,7 +1629,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4677&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Titus County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Titus County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1605,6 +1645,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Garza County</name>
       <description>
@@ -1614,7 +1655,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4678&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Garza County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Garza County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1630,6 +1671,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Throckmorton County</name>
       <description>
@@ -1639,7 +1681,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4679&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Throckmorton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Throckmorton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1655,6 +1697,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Young County</name>
       <description>
@@ -1664,7 +1707,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4680&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Young County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Young County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1680,6 +1723,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Haskell County</name>
       <description>
@@ -1689,7 +1733,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4681&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Haskell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Haskell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1705,6 +1749,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lynn County</name>
       <description>
@@ -1714,7 +1759,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4683&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lynn County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lynn County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1730,6 +1775,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Yoakum County</name>
       <description>
@@ -1739,7 +1785,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4685&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Yoakum County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Yoakum County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1755,6 +1801,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Terry County</name>
       <description>
@@ -1764,7 +1811,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4686&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Terry County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Terry County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1780,6 +1827,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Franklin County</name>
       <description>
@@ -1789,7 +1837,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4687&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Franklin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Franklin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1805,6 +1853,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hopkins County</name>
       <description>
@@ -1814,7 +1863,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4689&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hopkins County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hopkins County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1830,6 +1879,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Morris County</name>
       <description>
@@ -1839,7 +1889,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4690&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Morris County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Morris County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1855,6 +1905,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Cass County</name>
       <description>
@@ -1864,7 +1915,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4697&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cass County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cass Count</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1880,6 +1931,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Camp County</name>
       <description>
@@ -1889,7 +1941,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4727&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Camp County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Camp County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1905,6 +1957,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wood County</name>
       <description>
@@ -1914,7 +1967,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4744&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wood County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wood County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1930,6 +1983,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Palo Pinto County</name>
       <description>
@@ -1939,7 +1993,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4750&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Palo Pinto County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Palo Pinto County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1955,6 +2009,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Parker County</name>
       <description>
@@ -1964,7 +2019,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4752&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Parker County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Parker County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -1980,6 +2035,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Tarrant County</name>
       <description>
@@ -1989,7 +2045,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4755&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Tarrant County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Tarrant County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2005,6 +2061,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Dallas County</name>
       <description>
@@ -2014,7 +2071,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4756&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Dallas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Dallas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2030,6 +2087,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Rockwall County</name>
       <description>
@@ -2039,7 +2097,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4758&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Rockwall County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Rockwall County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2055,6 +2113,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Rains County</name>
       <description>
@@ -2064,7 +2123,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4759&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Rains County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Rains County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2080,6 +2139,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Scurry County</name>
       <description>
@@ -2089,7 +2149,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4761&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Scurry County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Scurry County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2105,6 +2165,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Fisher County</name>
       <description>
@@ -2114,7 +2175,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4763&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Fisher County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Fisher County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2130,6 +2191,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Borden County</name>
       <description>
@@ -2139,7 +2201,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4764&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Borden County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Borden County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2155,6 +2217,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Dawson County</name>
       <description>
@@ -2164,7 +2227,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4765&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Dawson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Dawson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2180,6 +2243,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Gaines County</name>
       <description>
@@ -2189,7 +2253,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4766&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Gaines County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Gaines County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2205,6 +2269,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jones County</name>
       <description>
@@ -2214,7 +2279,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4767&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jones County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jones County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2230,6 +2295,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Shackelford County</name>
       <description>
@@ -2239,7 +2305,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4768&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Shackelford County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Shackelford County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2255,6 +2321,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Stephens County</name>
       <description>
@@ -2264,7 +2331,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4769&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Stephens County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Stephens County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2280,6 +2347,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Upshur County</name>
       <description>
@@ -2289,7 +2357,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4775&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Upshur County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Upshur County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2305,6 +2373,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Marion County</name>
       <description>
@@ -2314,7 +2383,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4778&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Marion County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Marion County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2330,6 +2399,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kaufman County</name>
       <description>
@@ -2339,7 +2409,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4783&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kaufman County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kaufman County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2355,6 +2425,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Van Zandt County</name>
       <description>
@@ -2364,7 +2435,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4785&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Van Zandt County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Van Zandt County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2380,6 +2451,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Harrison County</name>
       <description>
@@ -2389,7 +2461,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4788&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Harrison County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Harrison County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2405,6 +2477,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Smith County</name>
       <description>
@@ -2414,7 +2487,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4804&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Smith County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Smith County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2430,6 +2503,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Gregg County</name>
       <description>
@@ -2439,7 +2513,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4806&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Gregg County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Gregg County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2455,6 +2529,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hood County</name>
       <description>
@@ -2464,7 +2539,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4824&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hood County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hood County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2480,6 +2555,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Johnson County</name>
       <description>
@@ -2489,7 +2565,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4825&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Johnson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Johnson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2505,6 +2581,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Ellis County</name>
       <description>
@@ -2514,7 +2591,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4827&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Ellis County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Ellis County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2530,6 +2607,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Howard County</name>
       <description>
@@ -2539,7 +2617,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4830&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Howard County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Howard County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2555,6 +2633,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Mitchell County</name>
       <description>
@@ -2564,7 +2643,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4831&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Mitchell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Mitchell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2580,6 +2659,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Nolan County</name>
       <description>
@@ -2589,7 +2669,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4832&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Nolan County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Nolan County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2605,6 +2685,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Martin County</name>
       <description>
@@ -2614,7 +2695,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4833&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Martin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Martin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2630,6 +2711,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Andrews County</name>
       <description>
@@ -2639,7 +2721,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4834&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Andrews County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Andrews County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2655,6 +2737,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Taylor County</name>
       <description>
@@ -2664,7 +2747,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4836&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Taylor County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Taylor County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2680,6 +2763,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Eastland County</name>
       <description>
@@ -2689,7 +2773,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4837&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Eastland County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Eastland County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2705,6 +2789,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Erath County</name>
       <description>
@@ -2714,7 +2799,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4838&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Erath County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Erath County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2730,6 +2815,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Callahan County</name>
       <description>
@@ -2739,7 +2825,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4839&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Callahan County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Callahan County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2755,6 +2841,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Rusk County</name>
       <description>
@@ -2764,7 +2851,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4852&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Rusk County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Rusk County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2780,6 +2867,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Panola County</name>
       <description>
@@ -2789,7 +2877,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4856&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Panola County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Panola County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2805,6 +2893,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Henderson County</name>
       <description>
@@ -2814,7 +2903,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4857&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Henderson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Henderson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2830,6 +2919,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Navarro County</name>
       <description>
@@ -2839,7 +2929,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4863&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Navarro County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Navarro County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2855,6 +2945,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Somervell County</name>
       <description>
@@ -2864,7 +2955,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4864&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Somervell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Somervell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2880,6 +2971,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hill County</name>
       <description>
@@ -2889,7 +2981,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4873&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hill County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hill County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2905,6 +2997,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Comanche County</name>
       <description>
@@ -2914,7 +3007,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4874&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Comanche County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Comanche County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2930,6 +3023,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bosque County</name>
       <description>
@@ -2939,7 +3033,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4886&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bosque County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bosque County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2955,6 +3049,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Cherokee County</name>
       <description>
@@ -2964,7 +3059,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4892&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Cherokee County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Cherokee County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -2980,6 +3075,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Sterling County</name>
       <description>
@@ -2989,7 +3085,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4895&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Sterling County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Sterling County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3005,6 +3101,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Glasscock County</name>
       <description>
@@ -3014,7 +3111,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4896&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Glasscock County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Glasscock County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3030,6 +3127,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Midland County</name>
       <description>
@@ -3039,7 +3137,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4897&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Midland County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Midland County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3055,6 +3153,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Ector County</name>
       <description>
@@ -3064,7 +3163,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4898&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Ector County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Ector County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3080,6 +3179,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Winkler County</name>
       <description>
@@ -3089,7 +3189,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4899&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Winkler County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Winkler County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3105,6 +3205,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Coke County</name>
       <description>
@@ -3114,7 +3215,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4900&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Coke County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Coke County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3130,6 +3231,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Anderson County</name>
       <description>
@@ -3139,7 +3241,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4901&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Anderson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Anderson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3155,6 +3257,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Coleman County</name>
       <description>
@@ -3164,7 +3267,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4902&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Coleman County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Coleman County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3180,6 +3283,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Runnels County</name>
       <description>
@@ -3189,7 +3293,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4903&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Runnels County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Runnels County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3205,6 +3309,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Brown County</name>
       <description>
@@ -3214,7 +3319,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4904&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Brown County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Brown County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3230,6 +3335,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hamilton County</name>
       <description>
@@ -3239,7 +3345,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4910&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hamilton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hamilton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3255,6 +3361,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Freestone County</name>
       <description>
@@ -3264,7 +3371,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4912&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Freestone County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Freestone County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3280,6 +3387,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Culberson County</name>
       <description>
@@ -3289,7 +3397,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4913&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Culberson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Culberson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3305,6 +3413,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hudspeth County</name>
       <description>
@@ -3314,7 +3423,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4914&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hudspeth County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hudspeth County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3330,6 +3439,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>El Paso County</name>
       <description>
@@ -3339,7 +3449,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4915&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;El Paso County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>El Paso County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3355,6 +3465,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Loving County</name>
       <description>
@@ -3364,7 +3475,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4916&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Loving County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Loving County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3380,6 +3491,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Reeves County</name>
       <description>
@@ -3389,7 +3501,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4917&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Reeves County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Reeves County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3405,6 +3517,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Shelby County</name>
       <description>
@@ -3414,7 +3527,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4920&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Shelby County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Shelby County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3430,6 +3543,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>McLennan County</name>
       <description>
@@ -3439,7 +3553,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4932&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;McLennan County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>McLennan County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3455,6 +3569,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Nacogdoches County</name>
       <description>
@@ -3464,7 +3579,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4937&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Nacogdoches County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Nacogdoches County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3480,6 +3595,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Limestone County</name>
       <description>
@@ -3489,7 +3605,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4942&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Limestone County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Limestone County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3505,6 +3621,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Mills County</name>
       <description>
@@ -3514,7 +3631,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4955&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Mills County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Mills County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3530,6 +3647,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Coryell County</name>
       <description>
@@ -3539,7 +3657,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4958&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Coryell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Coryell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3555,6 +3673,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Tom Green County</name>
       <description>
@@ -3564,7 +3683,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4959&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Tom Green County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Tom Green County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3580,6 +3699,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Leon County</name>
       <description>
@@ -3589,7 +3709,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4963&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Leon County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Leon County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3605,6 +3725,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Upton County</name>
       <description>
@@ -3614,7 +3735,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4964&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Upton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Upton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3630,6 +3751,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Crane County</name>
       <description>
@@ -3639,7 +3761,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4965&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Crane County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Crane County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3655,6 +3777,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>San Augustine County</name>
       <description>
@@ -3664,7 +3787,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4966&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;San Augustine County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>San Augustine County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3680,6 +3803,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Reagan County</name>
       <description>
@@ -3689,7 +3813,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4967&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Reagan County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Reagan County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3705,6 +3829,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Ward County</name>
       <description>
@@ -3714,7 +3839,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4968&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Ward County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Ward County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3730,6 +3855,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Sabine County</name>
       <description>
@@ -3739,7 +3865,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4974&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Sabine County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Sabine County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3755,6 +3881,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Houston County</name>
       <description>
@@ -3764,7 +3891,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4976&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Houston County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Houston County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3780,6 +3907,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Concho County</name>
       <description>
@@ -3789,7 +3917,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4977&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Concho County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Concho County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3805,6 +3933,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Irion County</name>
       <description>
@@ -3814,7 +3943,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4981&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Irion County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Irion County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3830,6 +3959,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Angelina County</name>
       <description>
@@ -3839,7 +3969,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4982&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Angelina County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Angelina County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3855,6 +3985,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Falls County</name>
       <description>
@@ -3864,7 +3995,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4984&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Falls County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Falls County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3880,6 +4011,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>McCulloch County</name>
       <description>
@@ -3889,7 +4021,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4986&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;McCulloch County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>McCulloch County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3905,6 +4037,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>San Saba County</name>
       <description>
@@ -3914,7 +4047,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4987&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;San Saba County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>San Saba County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3930,6 +4063,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lampasas County</name>
       <description>
@@ -3939,7 +4073,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4990&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lampasas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lampasas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3955,6 +4089,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Trinity County</name>
       <description>
@@ -3964,7 +4099,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Trinity County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Trinity County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3980,6 +4115,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Pecos County</name>
       <description>
@@ -3989,7 +4125,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5001&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Pecos County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Pecos County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4005,6 +4141,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Robertson County</name>
       <description>
@@ -4014,7 +4151,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5006&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Robertson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Robertson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4030,6 +4167,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bell County</name>
       <description>
@@ -4039,7 +4177,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5016&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4055,6 +4193,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Newton County</name>
       <description>
@@ -4064,7 +4203,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5025&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Newton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Newton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4080,6 +4219,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jasper County</name>
       <description>
@@ -4089,7 +4229,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5031&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jasper County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jasper County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4105,6 +4245,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Polk County</name>
       <description>
@@ -4114,7 +4255,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5033&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Polk County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Polk County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4130,6 +4271,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Milam County</name>
       <description>
@@ -4139,7 +4281,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5036&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Milam County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Milam County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4155,6 +4297,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jeff Davis County</name>
       <description>
@@ -4164,7 +4307,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5037&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jeff Davis County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jeff Davis County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4180,6 +4323,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Madison County</name>
       <description>
@@ -4189,7 +4333,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5038&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Madison County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Madison County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4205,6 +4349,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Menard County</name>
       <description>
@@ -4214,7 +4359,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5039&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Menard County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Menard County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4230,6 +4375,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Schleicher County</name>
       <description>
@@ -4239,7 +4385,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5040&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Schleicher County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Schleicher County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4255,6 +4401,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Crockett County</name>
       <description>
@@ -4264,7 +4411,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5041&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Crockett County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Crockett County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4280,6 +4427,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Tyler County</name>
       <description>
@@ -4289,7 +4437,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5048&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Tyler County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Tyler County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4305,6 +4453,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Walker County</name>
       <description>
@@ -4314,7 +4463,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5049&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Walker County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Walker County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4330,6 +4479,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Burnet County</name>
       <description>
@@ -4339,7 +4489,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5051&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Burnet County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Burnet County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4355,6 +4505,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Brazos County</name>
       <description>
@@ -4364,7 +4515,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5071&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Brazos County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Brazos County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4442,7 +4593,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5076&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Williamson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Williamson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4458,6 +4609,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>San Jacinto County</name>
       <description>
@@ -4467,7 +4619,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5077&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;San Jacinto County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>San Jacinto County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4483,6 +4635,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Grimes County</name>
       <description>
@@ -4492,7 +4645,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5081&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Grimes County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Grimes County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4508,6 +4661,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Burleson County</name>
       <description>
@@ -4517,7 +4671,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5091&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Burleson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Burleson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4533,6 +4687,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kimble County</name>
       <description>
@@ -4542,7 +4697,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5097&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kimble County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kimble County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4558,6 +4713,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Sutton County</name>
       <description>
@@ -4567,7 +4723,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5099&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Sutton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Sutton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4583,6 +4739,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Brewster County</name>
       <description>
@@ -4592,7 +4749,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Brewster County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Brewster County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4608,6 +4765,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Terrell County</name>
       <description>
@@ -4617,7 +4775,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5106&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Terrell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Terrell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4633,6 +4791,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Presidio County</name>
       <description>
@@ -4642,7 +4801,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5111&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Presidio County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Presidio County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4658,6 +4817,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Montgomery County</name>
       <description>
@@ -4667,7 +4827,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5112&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Montgomery County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Montgomery County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4683,6 +4843,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Travis County</name>
       <description>
@@ -4692,7 +4853,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5113&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Travis County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Travis County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4708,6 +4869,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lee County</name>
       <description>
@@ -4717,7 +4879,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5122&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lee County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lee County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4733,6 +4895,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hardin County</name>
       <description>
@@ -4742,7 +4905,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5124&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hardin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hardin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4758,6 +4921,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Gillespie County</name>
       <description>
@@ -4767,7 +4931,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5126&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Gillespie County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Gillespie County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4783,6 +4947,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Blanco County</name>
       <description>
@@ -4792,7 +4957,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5127&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Blanco County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Blanco County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4808,6 +4973,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Liberty County</name>
       <description>
@@ -4817,7 +4983,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5131&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Liberty County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Liberty County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4833,6 +4999,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bastrop County</name>
       <description>
@@ -4842,7 +5009,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5137&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bastrop County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bastrop County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4858,6 +5025,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Washington County</name>
       <description>
@@ -4867,7 +5035,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5142&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Washington County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Washington County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4883,6 +5051,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hays County</name>
       <description>
@@ -4892,7 +5061,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5155&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hays County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hays County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4908,6 +5077,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Val Verde County</name>
       <description>
@@ -4917,7 +5087,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5167&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Val Verde County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Val Verde County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4933,6 +5103,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Edwards County</name>
       <description>
@@ -4942,7 +5113,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5168&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Edwards County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Edwards County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4958,6 +5129,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kerr County</name>
       <description>
@@ -4967,7 +5139,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5169&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kerr County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kerr County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4983,6 +5155,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Orange County</name>
       <description>
@@ -4992,7 +5165,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5178&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Orange County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Orange County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5008,6 +5181,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Waller County</name>
       <description>
@@ -5017,7 +5191,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5179&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Waller County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Waller County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5033,6 +5207,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jefferson County</name>
       <description>
@@ -5042,7 +5217,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5189&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jefferson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jefferson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5058,6 +5233,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Harris County</name>
       <description>
@@ -5067,7 +5243,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5190&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Harris County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Harris County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5083,6 +5259,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Fayette County</name>
       <description>
@@ -5092,7 +5269,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5194&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Fayette County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Fayette Count</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5108,6 +5285,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kendall County</name>
       <description>
@@ -5117,7 +5295,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5201&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kendall County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kendall County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5133,6 +5311,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Austin County</name>
       <description>
@@ -5142,7 +5321,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5210&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Austin County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Austin County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5158,6 +5337,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Real County</name>
       <description>
@@ -5167,7 +5347,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5216&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Real County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Real County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5183,6 +5363,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Caldwell County</name>
       <description>
@@ -5192,7 +5373,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5220&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Caldwell County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Caldwell County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5208,6 +5389,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Comal County</name>
       <description>
@@ -5217,7 +5399,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5237&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Comal County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Comal County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5233,6 +5415,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Colorado County</name>
       <description>
@@ -5242,7 +5425,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5263&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Colorado County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Colorado County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5258,6 +5441,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bandera County</name>
       <description>
@@ -5267,7 +5451,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5282&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bandera County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bandera County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5283,6 +5467,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Chambers County</name>
       <description>
@@ -5292,7 +5477,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5289&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Chambers County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Chambers County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5346,6 +5531,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Guadalupe County</name>
       <description>
@@ -5355,7 +5541,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5300&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Guadalupe County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Guadalupe County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5371,6 +5557,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Fort Bend County</name>
       <description>
@@ -5380,7 +5567,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5315&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Fort Bend County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Fort Bend County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5396,6 +5583,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Gonzales County</name>
       <description>
@@ -5405,7 +5593,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5316&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Gonzales County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Gonzales County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5457,7 +5645,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5346&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Medina County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Medina County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5473,6 +5661,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wharton County</name>
       <description>
@@ -5482,7 +5671,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5370&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wharton County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wharton County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5498,6 +5687,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Lavaca County</name>
       <description>
@@ -5507,7 +5697,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5371&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Lavaca County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Lavaca County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5523,6 +5713,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Uvalde County</name>
       <description>
@@ -5532,7 +5723,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5373&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Uvalde County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Uvalde County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5548,6 +5739,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kinney County</name>
       <description>
@@ -5557,7 +5749,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5374&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kinney County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kinney County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5573,6 +5765,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Galveston County</name>
       <description>
@@ -5582,7 +5775,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5380&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Galveston County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Galveston County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5731,6 +5924,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Brazoria County</name>
       <description>
@@ -5740,7 +5934,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5381&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Brazoria County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Brazoria County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5775,6 +5969,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Wilson County</name>
       <description>
@@ -5784,7 +5979,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5423&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Wilson County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Wilson County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5800,6 +5995,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>DeWitt County</name>
       <description>
@@ -5809,7 +6005,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5440&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;DeWitt County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>DeWitt County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5850,6 +6046,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Atascosa County</name>
       <description>
@@ -5859,7 +6056,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5489&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Atascosa County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Atascosa County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5875,6 +6072,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Matagorda County</name>
       <description>
@@ -5884,7 +6082,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5499&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Matagorda County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Matagorda County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5919,6 +6117,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Karnes County</name>
       <description>
@@ -5928,7 +6127,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5502&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Karnes County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Karnes County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5944,6 +6143,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Victoria County</name>
       <description>
@@ -5953,7 +6153,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5561&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Victoria County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Victoria County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5969,6 +6169,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Frio County</name>
       <description>
@@ -5978,7 +6179,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5576&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Frio County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Frio County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5994,6 +6195,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Zavala County</name>
       <description>
@@ -6003,7 +6205,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5577&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Zavala County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Zavala County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6019,6 +6221,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Maverick County</name>
       <description>
@@ -6028,7 +6231,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5578&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Maverick County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Maverick County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6044,6 +6247,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Goliad County</name>
       <description>
@@ -6053,7 +6257,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5605&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Goliad County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Goliad County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6069,6 +6273,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Live Oak County</name>
       <description>
@@ -6078,7 +6283,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5642&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Live Oak County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Live Oak County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6094,6 +6299,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Calhoun County</name>
       <description>
@@ -6103,7 +6309,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5653&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Calhoun County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Calhoun County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6309,6 +6515,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Bee County</name>
       <description>
@@ -6318,7 +6525,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5654&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Bee County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Bee County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6334,6 +6541,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>La Salle County</name>
       <description>
@@ -6343,7 +6551,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5663&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;La Salle County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>&lt;a href=&quot;https://goo.gl/maps/cyvhd&quot;&gt;La Salle County&lt;/a&gt;</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6356,9 +6564,10 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>McMullen County</name>
       <description>
@@ -6368,7 +6577,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5664&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;McMullen County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>McMullen County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6384,6 +6593,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Dimmit County</name>
       <description>
@@ -6393,7 +6603,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5666&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Dimmit County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Dimmit County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6409,6 +6619,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Refugio County</name>
       <description>
@@ -6418,7 +6629,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5671&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Refugio County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Refugio County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6434,6 +6645,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Aransas County</name>
       <description>
@@ -6443,7 +6655,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5683&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Aransas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Aransas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6535,6 +6747,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Webb County</name>
       <description>
@@ -6544,7 +6757,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5687&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Webb County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Webb County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6560,6 +6773,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>San Patricio County</name>
       <description>
@@ -6569,7 +6783,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5689&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;San Patricio County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>San Patricio County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6585,6 +6799,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Duval County</name>
       <description>
@@ -6594,7 +6809,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5696&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Duval County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Duval County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6610,6 +6825,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jim Wells County</name>
       <description>
@@ -6619,7 +6835,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5697&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jim Wells County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jim Wells County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6635,6 +6851,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Nueces County</name>
       <description>
@@ -6644,7 +6861,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5700&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Nueces County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Nueces County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6932,6 +7149,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Jim Hogg County</name>
       <description>
@@ -6941,7 +7159,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5754&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Jim Hogg County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Jim Hogg County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6957,6 +7175,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Zapata County</name>
       <description>
@@ -6966,7 +7185,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5759&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Zapata County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Zapata County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6982,6 +7201,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kenedy County</name>
       <description>
@@ -6991,7 +7211,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5761&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kenedy County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kenedy County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7292,6 +7512,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Brooks County</name>
       <description>
@@ -7301,7 +7522,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5763&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Brooks County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Brooks County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7317,6 +7538,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Starr County</name>
       <description>
@@ -7326,7 +7548,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5799&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Starr County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Starr County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7342,6 +7564,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Hidalgo County</name>
       <description>
@@ -7351,7 +7574,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5802&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Hidalgo County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Hidalgo County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7367,6 +7590,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Willacy County</name>
       <description>
@@ -7376,7 +7600,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5828&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Willacy County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Willacy County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
