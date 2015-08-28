@@ -4541,7 +4541,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;a href=&quot;https://goo.gl/maps/yuN1J&quot;&gt;Mason County&lt;/a&gt;</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Mason County</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4567,7 +4567,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>Llano County</description>
+        <description><![CDATA[<iframe width="560" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?layer=c&panoid=-dDJDlUhSzm0%2FVSfmIyzyGjI%2FAAAAAAAAAAA%2F4UO6zC2nqhw&ie=UTF8&source=embed&output=svembed&cbp=13%2C265.48%2C%2C0%2C16.950000000000003"></iframe>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6674,7 +6674,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5693&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Aransas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Aransas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6693,7 +6693,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5694&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Aransas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Aransas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6712,7 +6712,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5704&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Aransas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Aransas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6731,7 +6731,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5705&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Aransas County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Aransas County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7086,6 +7086,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Kleberg County</name>
       <description>
@@ -7095,7 +7096,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5736&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kleberg County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kleberg County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7114,7 +7115,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5739&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kleberg County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kleberg County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -7133,7 +7134,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;5760&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Kleberg County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Kleberg County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
