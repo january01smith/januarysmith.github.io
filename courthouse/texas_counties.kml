@@ -580,6 +580,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Briscoe County</name>
       <description>
@@ -589,7 +590,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4382&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Briscoe County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Briscoe County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -605,6 +606,7 @@
         <styleUrl>#default</styleUrl>
       </Placemark>
     </Folder>
+    
     <Folder>
       <name>Castro County</name>
       <description>
@@ -614,7 +616,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>&lt;br&gt;&lt;br&gt;&lt;table border="1"padding="1"width="97%"&gt;&lt;tr&gt;&lt;td&gt;COUNTYP020:&lt;/td&gt;&lt;td&gt;4384&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;STATE:&lt;/td&gt;&lt;td&gt;TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COUNTY:&lt;/td&gt;&lt;td&gt;Castro County&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+        <description>Castro County</description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5087,7 +5089,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>Val Verde County</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5100,7 +5102,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano</styleUrl>
       </Placemark>
     </Folder>
     
@@ -5749,7 +5751,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>Kinney County</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5762,7 +5764,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano</styleUrl>
       </Placemark>
     </Folder>
     
