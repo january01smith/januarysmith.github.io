@@ -28,7 +28,7 @@
       </PolyStyle>
       <BalloonStyle>
         <bgColor>ffffffff</bgColor>
-        <text></text>
+        <text>$[tour]</text>
       </BalloonStyle>
     </Style>
     
