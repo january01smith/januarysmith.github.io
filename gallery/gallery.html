@@ -1,345 +1,338 @@
 <html><head>
-    <link rel="icon" href="images/home/favicon.ico">
-    <meta name="keywords" content="Google Trusted Photographer, San Antonio, Texas, virtual tour, Google Street View">
-    <meta name="description" content="Examples of Google Street View virtual tours.">
+    <meta name="keywords" content="Google Trusted Photographer, Street View, Virtual Tour">
+    <meta name="description" content="This is the persoanl webside of Google Trusted Photographer January Smith">
+    <title>January Smith - Google Trusted Photographer</title>
+    <link rel="icon" href="../../../Documents/januarysmith.github.io/images/home/favicon.ico">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../scripts/bootstrap.js"></script>
+    <link href="../styles/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-    <title>January Smith - Gallery</title>
     <style>
       html, body {
-                                                          height: 100%;
-                                                          margin: 0px;
-                                                          padding: 0px
-                                                        }
-                                                        #panel {
-                                                       position: absolute;
-                                                       top: 50px;
-                                                       left: 0px;
-                                                       background-color: whitesmoke;
-                                                        }
-                                                              #menu
-                                                    {
-                                                        padding:0;
-                                                        margin:0;
-                                                        list-style-type:none;
-                                                        font-family: arial;
-                                                        font-size:13px;
-                                                        color:#717171;
-                                                        width:100%;
-                                                    }
-                                                
-                                                    #menu li
-                                                    {
-                                                        border-bottom:1px solid #eeeeee;
-                                                        padding:7px 10px 7px 10px;
-                                                    }
-                                                
-                                                    #menu li:hover
-                                                    {
-                                                        background-color:#337cbb;
-                                                    }
-                                                    #menu li:hover a
-                                                    {
-                                                        color:White;
-                                                    }
-                                                    #menu a:link
-                                                    {
-                                                        color:#717171;
-                                                        text-decoration:none;
-                                                    }
-                                                    #menu a:hover
-                                                    {
-                                                        color:White;
-                                                    }
+                                                                          height: 100%;
+                                                                          margin: 0px;
+                                                                          padding: 0px
+                                                                        }
+                                                                        #panel {
+                                                                       position: absolute;
+                                                                       top: 50px;
+                                                                       left: 0px;
+                                                                       background-color: whitesmoke;
+                                                                        }
+                                                                              #menu
+                                                                    {
+                                                                        padding:0;
+                                                                        margin:0;
+                                                                        list-style-type:none;
+                                                                        font-family: arial;
+                                                                        font-size:13px;
+                                                                        color:#717171;
+                                                                        width:100%;
+                                                                    }
+                                                                
+                                                                    #menu li
+                                                                    {
+                                                                        border-bottom:1px solid #eeeeee;
+                                                                        padding:7px 10px 7px 10px;
+                                                                    }
+                                                                
+                                                                    #menu li:hover
+                                                                    {
+                                                                        background-color:#337cbb;
+                                                                    }
+                                                                    #menu li:hover a
+                                                                    {
+                                                                        color:White;
+                                                                    }
+                                                                    #menu a:link
+                                                                    {
+                                                                        color:#717171;
+                                                                        text-decoration:none;
+                                                                    }
+                                                                    #menu a:hover
+                                                                    {
+                                                                        color:White;
+                                                                    }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATcgRESAmvM2XMCMTwgotS0T5afRJuPUc"></script>
     <script>
       var panoramaOptions;
-                                                      var panorama = google.maps.StreetViewPanorama;
-                                                      
-                                                      function initialize() {
-                                                      
-                                                             //================================================================
-                                                              //
-                                                              // Set User Preferences
-                                                              //
-                                                              //================================================================
-                                                              var upPanoID = "kjct6n0sItMAAAQYKDbvKA";
-                                                              var upHeading = 0;
-                                                              var upPitch = 0;
-                                                              var upZoomLevel = 0;
-                                                              var upEnableAutoRotate = true;
-                                                              var upEnableAddress = false;
-                                                              var upEnablePan = false;
-                                                              var upEnableZoom = false;
-                                                              var upEnableLinks = false;
-                                                              var upEnableClickToGo = false;
-                                                              var upEnableScrollWheel = false;
-                                                              var upEnableClickToDisableAutoRotate = true;
-                                                              var upEnableShowLinksAfterDisableAutoRotate = true;
-                                                              var upEnableAutoPilot = false;
-                                                       
-                                                              //================================================================
-                                                              //
-                                                              // Set google.maps.StreetViewPanoramaOptions object to User Preference values
-                                                              //
-                                                              //================================================================
-                                                              panoramaOptions = {
-                                                                      pano: upPanoID,
-                                                                      zoom: upZoomLevel,
-                                                                      panControl: upEnablePan,
-                                                                      zoomControl:  upEnableZoom,
-                                                                      addressControl:  upEnableAddress,
-                                                                      linksControl: upEnableLinks,
-                                                                      clickToGo: upEnableClickToGo,
-                                                                      scrollwheel: upEnableScrollWheel,
-                                                                      pov: {
-                                                                        heading: upHeading,
-                                                                        pitch: upPitch
-                                                                        }
-                                                                      };
-                                                      
-                                                              
-                                                             //================================================================
-                                                              // If option to turn_off_aut_rotate_when_you_click the panorama is selected
-                                                              // then turn off interval timer that rotates point of view heading and turn on 
-                                                              // links control so you can navigate virtual tour
-                                                              //================================================================
-                                                              function toggleAutoRotate() {
-                                                                if(upEnableClickToDisableAutoRotate) {
-                                                                  upEnableAutoRotate="false";
-                                                                  window.clearInterval(myTimer);
-                                                                  if(upEnableShowLinksAfterDisableAutoRotate){
-                                                                    panorama.setOptions({linksControl:"true"});
-                                                                    }
-                                                                }
-                                                              }  
-                                                              //================================================================
-                                                              // If option to auto rotate the panorama is selected
-                                                              // then set interval timer that rotates point of view 
-                                                              // by incrementing heading .1 degree every 20 milli seconds 
-                                                              //================================================================    
-                                                              if (upEnableAutoRotate) {
-                                                                  var myTimer = window.setInterval(function() {
-                                                      
-                                                                      var nextLinks = panorama.getLinks();
-                                                                      var pov = panorama.getPov();
-                                                                      var nextPano = "";
-                                                                      var i = 0;
-                                                      
-                                                                      //=============================================================
-                                                                      // Loop through link on this pano to see if the pov.heading has 
-                                                                      // rotated to a link - if it has then jump to the next pano
-                                                                      //=============================================================
-                                                                      if(upEnableAutoPilot){
-                                                                          while (nextLinks[i]){
-                                                      
-                                                                            if(parseInt(pov.heading) === parseInt(nextLinks[i].heading)){    
-                                                      
-                                                                              nextPano = nextLinks[i].pano;
-                                                                            }
-                                                                          i++;
-                                                                          }
-                                                       
-                                                                          //=============================================================
-                                                                          // If nextPano has been set then rotate heading back 100
-                                                                          //  and jump to next pano
-                                                                          //=============================================================
-                                                                          if(nextPano !== ""){
-                                                      
-                                                                            pov.heading -= 100.0;  
-                                                                            panorama.setPano(nextPano);
-                                                      
-                                                                          }
-                                                                      }
-                                                                      pov.heading += 0.1;       
-                                                                      panorama.setPov(pov);
-                                                      
-                                                                  }, 20);
-                                                              }
-                                                              
-                                                              var ul = document.getElementById('menu');
-                                                          	ul.onclick = function(event) {
-                                                              var target = getEventTarget(event);        
-                                                              switch (target.innerHTML) {
-                                                          		case "Advanced Smile Care":
-                                                          		panoramaOptions.pano="FJ2zWEuz4QoAAAQYaKhd7A";
-                                                          		break;
-                                                          		
-                                                          		case "Aladdin Carpets":    		
-                                                          		panoramaOptions.pano="0kMPde70qqwAAAGuvY_iuw";
-                                                          		break;
-                                                      
-                                                          		case "Alamo Heights Pet Clinic":
-                                                          		panoramaOptions.pano="nQ8NTZKDf-QAAAQYk4EKnQ";
-                                                          		break;
-                                                          		
-                                                          		case "Alamo Karts":
-                                                          		panoramaOptions.pano="5fJuBj5J-REAAAQWzI7wUw";
-                                                          		break;
-                                                          		
-                                                          		case "Anytime Fitness (Copperas Cove)":
-                                                          		panoramaOptions.pano="Y1An91S9jiwAAAQfDZMTTA";
-                                                          		break;
-                                                          		
-                                                          		case "Anytime Fitness (Kerrville)":
-                                                          		panoramaOptions.pano="Wlg9RQHTl5MAAAQppySsIw";
-                                                      			break;
-                                                          		
-                                                          		case "Anytime Fitness (Medical Center)":
-                                                          		panoramaOptions.pano="3w4JH0LM84sAAAQfDSpDgg";
-                                                          		break;
-                                                          		
-                                                          		case "Augustine Law Office":
-                                                           		panoramaOptions.pano="SsOj0Ec5D8UAAAQYlGXWEw";
-                                                         		break;
-                                                          		
-                                                          		case "Aziz Rugs":
-                                                           		panoramaOptions.pano="SrJyK05t4JUAAAQXMBew5w";
-                                                          		break;
-                                                          		
-                                                          		case "Bec Dental Center":
-                                                            		panoramaOptions.pano="3GGcgAi70doAAAGutXiSSA";
-                                                         		break;
-                                                 
-                                                                case "ExploreUSA":
-                                                            		panoramaOptions.pano="D76VCMWIRnUAAAQp2bIJ2w";
-                                                         		break;
-                                                                  
-                                                          		case "Futon Furniture Store":
-                                                            		panoramaOptions.pano="Vv5NZl5pQCQAAAAGOwb0OQ";
-                                                         		break;
-                                                                  
-                                                          		case "Gems of the Hill Country":
-                                                            		panoramaOptions.pano="QK4oox8JiA0AAAQfCMrg5w";
-                                                         		break;
-                                                
-                                                           		case "Irish Embassy Pub":
-                                                            		panoramaOptions.pano="E2j3A7gI3uIAAAAGOt2O0w";
-                                                         		break;
+                                                                      var panorama = google.maps.StreetViewPanorama;
+                                                                      
+                                                                      function initialize() {
+                                                                      
+                                                                             //================================================================
+                                                                              //
+                                                                              // Set User Preferences
+                                                                              //
+                                                                              //================================================================
+                                                                              var upPanoID = "kjct6n0sItMAAAQYKDbvKA";
+                                                                              var upHeading = 0;
+                                                                              var upPitch = 0;
+                                                                              var upZoomLevel = 0;
+                                                                              var upEnableAutoRotate = true;
+                                                                              var upEnableAddress = false;
+                                                                              var upEnablePan = false;
+                                                                              var upEnableZoom = false;
+                                                                              var upEnableLinks = false;
+                                                                              var upEnableClickToGo = false;
+                                                                              var upEnableScrollWheel = false;
+                                                                              var upEnableClickToDisableAutoRotate = true;
+                                                                              var upEnableShowLinksAfterDisableAutoRotate = true;
+                                                                              var upEnableAutoPilot = false;
+                                                                       
+                                                                              //================================================================
+                                                                              //
+                                                                              // Set google.maps.StreetViewPanoramaOptions object to User Preference values
+                                                                              //
+                                                                              //================================================================
+                                                                              panoramaOptions = {
+                                                                                      pano: upPanoID,
+                                                                                      zoom: upZoomLevel,
+                                                                                      panControl: upEnablePan,
+                                                                                      zoomControl:  upEnableZoom,
+                                                                                      addressControl:  upEnableAddress,
+                                                                                      linksControl: upEnableLinks,
+                                                                                      clickToGo: upEnableClickToGo,
+                                                                                      scrollwheel: upEnableScrollWheel,
+                                                                                      pov: {
+                                                                                        heading: upHeading,
+                                                                                        pitch: upPitch
+                                                                                        }
+                                                                                      };
+                                                                      
+                                                                              
+                                                                             //================================================================
+                                                                              // If option to turn_off_aut_rotate_when_you_click the panorama is selected
+                                                                              // then turn off interval timer that rotates point of view heading and turn on 
+                                                                              // links control so you can navigate virtual tour
+                                                                              //================================================================
+                                                                              function toggleAutoRotate() {
+                                                                                if(upEnableClickToDisableAutoRotate) {
+                                                                                  upEnableAutoRotate="false";
+                                                                                  window.clearInterval(myTimer);
+                                                                                  if(upEnableShowLinksAfterDisableAutoRotate){
+                                                                                    panorama.setOptions({linksControl:"true"});
+                                                                                    }
+                                                                                }
+                                                                              }  
+                                                                              //================================================================
+                                                                              // If option to auto rotate the panorama is selected
+                                                                              // then set interval timer that rotates point of view 
+                                                                              // by incrementing heading .1 degree every 20 milli seconds 
+                                                                              //================================================================    
+                                                                              if (upEnableAutoRotate) {
+                                                                                  var myTimer = window.setInterval(function() {
+                                                                      
+                                                                                      var nextLinks = panorama.getLinks();
+                                                                                      var pov = panorama.getPov();
+                                                                                      var nextPano = "";
+                                                                                      var i = 0;
+                                                                      
+                                                                                      //=============================================================
+                                                                                      // Loop through link on this pano to see if the pov.heading has 
+                                                                                      // rotated to a link - if it has then jump to the next pano
+                                                                                      //=============================================================
+                                                                                      if(upEnableAutoPilot){
+                                                                                          while (nextLinks[i]){
+                                                                      
+                                                                                            if(parseInt(pov.heading) === parseInt(nextLinks[i].heading)){    
+                                                                      
+                                                                                              nextPano = nextLinks[i].pano;
+                                                                                            }
+                                                                                          i++;
+                                                                                          }
+                                                                       
+                                                                                          //=============================================================
+                                                                                          // If nextPano has been set then rotate heading back 100
+                                                                                          //  and jump to next pano
+                                                                                          //=============================================================
+                                                                                          if(nextPano !== ""){
+                                                                      
+                                                                                            pov.heading -= 100.0;  
+                                                                                            panorama.setPano(nextPano);
+                                                                      
+                                                                                          }
+                                                                                      }
+                                                                                      pov.heading += 0.1;       
+                                                                                      panorama.setPov(pov);
+                                                                      
+                                                                                  }, 20);
+                                                                              }
+                                                                              
+                                                                              var ul = document.getElementById('menu');
+                                                                          	ul.onclick = function(event) {
+                                                                              var target = getEventTarget(event);        
+                                                                              switch (target.innerHTML) {
+                                                                          		case "Advanced Smile Care":
+                                                                          		panoramaOptions.pano="FJ2zWEuz4QoAAAQYaKhd7A";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Aladdin Carpets":    		
+                                                                          		panoramaOptions.pano="0kMPde70qqwAAAGuvY_iuw";
+                                                                          		break;
+                                                                      
+                                                                          		case "Alamo Heights Pet Clinic":
+                                                                          		panoramaOptions.pano="nQ8NTZKDf-QAAAQYk4EKnQ";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Alamo Karts":
+                                                                          		panoramaOptions.pano="5fJuBj5J-REAAAQWzI7wUw";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Anytime Fitness (Copperas Cove)":
+                                                                          		panoramaOptions.pano="Y1An91S9jiwAAAQfDZMTTA";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Anytime Fitness (Kerrville)":
+                                                                          		panoramaOptions.pano="Wlg9RQHTl5MAAAQppySsIw";
+                                                                      			break;
+                                                                          		
+                                                                          		case "Anytime Fitness (Medical Center)":
+                                                                          		panoramaOptions.pano="3w4JH0LM84sAAAQfDSpDgg";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Augustine Law Office":
+                                                                           		panoramaOptions.pano="SsOj0Ec5D8UAAAQYlGXWEw";
+                                                                         		break;
+                                                                          		
+                                                                          		case "Aziz Rugs":
+                                                                           		panoramaOptions.pano="SrJyK05t4JUAAAQXMBew5w";
+                                                                          		break;
+                                                                          		
+                                                                          		case "Bec Dental Center":
+                                                                            		panoramaOptions.pano="3GGcgAi70doAAAGutXiSSA";
+                                                                         		break;
                                                                  
-                                                          		case "Law Offices Jesus Lopez":
-                                                            		panoramaOptions.pano="dMEdw05BcMcAAAQfCWsl6A";
-                                                         		break;
-                                                
-                                                           		case "Museum of Western Art":
-                                                            		panoramaOptions.pano="KSNieaMzWxUAAAQfCM6ATw";
-                                                         		break;
-                                                            
-                                                          		case "Oriental Rug Gallery of Texas":
-                                                            		panoramaOptions.pano="zF3TaoiCVywAAAQfCXQ69A";
-                                                         		break;
-                                                             
-                                                          		case "Owens Liquor":
-                                                            		panoramaOptions.pano="BKWPfinJShcAAAQY7LbxcA";
-                                                         		break;
-                                                                  
-                                                          		case "Re-Bath(Bandera)":
-                                                            		panoramaOptions.pano="cLCKP5fp3HkAAAQqyep5VA";
-                                                         		break;
-                                                                  
-                                                          		case "Re-Bath(Schertz)":
-                                                            		panoramaOptions.pano="aDPpegoQLq0AAAQun3JKpg";
-                                                         		break;
-                                                                  
-                                                          		case "Sew Special":
-                                                            		panoramaOptions.pano="ZwK9tfC2mbUAAAGu5veOcg";
-                                                         		break;
-                                                                  
-                                                          		case "Stone Oak Orthodontics":
-                                                            		panoramaOptions.pano="7AlEB4CrUJ0AAAQZUItWcQ";
-                                                         		break;
-                                                                  
-                                                          		case "Thanks for Vaping(Blanco)":
-                                                            		panoramaOptions.pano="C2kLyCMFAagAAAQZZXWq9w";
-                                                         		break;
-                                                                  
-                                                          		case "Thanks for Vaping(San Pedro)":
-                                                            		panoramaOptions.pano="QrXJ_xFAMuYAAAQZZXWRWQ";
-                                                         		break;
-                                                                  
-                                                          		case "The French Connection":
-                                                            		panoramaOptions.pano="f7VRQmL_7OIAAAQZSJejTA";
-                                                         		break;
-                                                                  
-                                                          		case "Thrifty Liquor(Huebner)":
-                                                            		panoramaOptions.pano="H_Of3Fdvz2UAAAAGOvYGbQ";
-                                                         		break;
-                                                
-                                                                case "Thrifty Liquor(IH10)":
-                                                            		panoramaOptions.pano="Xeoxf4UuavAAAAAGO0OFbw";
-                                                         		break;
-                                                                  
-                                                          		case "Trinity Baptist Church":
-                                                            		panoramaOptions.pano="KC5Num7C7esAAAQpkPq5lQ";
-                                                         		break;
-                                                                  
-                                                          		case "Urban Mattress":
-                                                            		panoramaOptions.pano="slMaViq0cl0AAAQqZcRMsQ";
-                                                         		break;
-                                                                  
-                                                          		case "The Vapor Room":
-                                                            		panoramaOptions.pano="04pmXlJmKwEAAAQZLBEVPA";
-                                                         		break;
-                                                                  
-                                                          		case "Wilson Family Chiropractic":
-                                                            		panoramaOptions.pano="Vfw74XkEKb4AAAQYZ4bijw";
-                                                         		break;
-                                                                  
-                                                          		case "Winters Gallery":
-                                                            		panoramaOptions.pano="50p19NuDtiMAAAQXH9V90A";
-                                                         		break;
-                                                                  
-                                                          		case "W Dental":
-                                                            		panoramaOptions.pano="Nm0g8bk0qsAAAAQqfeeJ7w";
-                                                         		break;
-                                                                  
-                                                          		case "Yummiberry Yogurt":
-                                                            		panoramaOptions.pano="z7lGzsBJlVAAAAAGOo4dUA";
-                                                         		break;
-                                                
-                                                
-                                                              }
-                                                          	panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
-                                                          };
-                                                      
-                                                              //================================================================
-                                                              // Instantiate panorama with user specified options
-                                                              //================================================================
-                                                              panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
-                                                      
-                                                              //================================================================
-                                                              // Add listener to handle click event that will stop auto rotate
-                                                              //================================================================
-                                                              var mapClickEvent = google.maps.event.addDomListener(document.getElementById('panoDIV'), 'click', toggleAutoRotate);
-                                                      
-                                                              //================================================================
-                                                              // Show panorama
-                                                              //================================================================
-                                                              panorama.setVisible(true);
-                                                      
-                                                      }
-                                                      
-                                                      google.maps.event.addDomListener(window, 'load', initialize);
-                                                      
-                                                      function getEventTarget(e) {
-                                                              e = e || window.event;
-                                                              return e.target || e.srcElement; 
-                                                          }
-                        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                
-                  		ga('create', 'UA-48280446-1', 'auto');
-                  		ga('send', 'pageview');
+                                                                                case "ExploreUSA":
+                                                                            		panoramaOptions.pano="D76VCMWIRnUAAAQp2bIJ2w";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Futon Furniture Store":
+                                                                            		panoramaOptions.pano="Vv5NZl5pQCQAAAAGOwb0OQ";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Gems of the Hill Country":
+                                                                            		panoramaOptions.pano="QK4oox8JiA0AAAQfCMrg5w";
+                                                                         		break;
+                                                                
+                                                                           		case "Irish Embassy Pub":
+                                                                            		panoramaOptions.pano="E2j3A7gI3uIAAAAGOt2O0w";
+                                                                         		break;
+                                                                                 
+                                                                          		case "Law Offices Jesus Lopez":
+                                                                            		panoramaOptions.pano="dMEdw05BcMcAAAQfCWsl6A";
+                                                                         		break;
+                                                                
+                                                                           		case "Museum of Western Art":
+                                                                            		panoramaOptions.pano="KSNieaMzWxUAAAQfCM6ATw";
+                                                                         		break;
+                                                                            
+                                                                          		case "Oriental Rug Gallery of Texas":
+                                                                            		panoramaOptions.pano="zF3TaoiCVywAAAQfCXQ69A";
+                                                                         		break;
+                                                                             
+                                                                          		case "Owens Liquor":
+                                                                            		panoramaOptions.pano="BKWPfinJShcAAAQY7LbxcA";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Re-Bath(Bandera)":
+                                                                            		panoramaOptions.pano="cLCKP5fp3HkAAAQqyep5VA";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Re-Bath(Schertz)":
+                                                                            		panoramaOptions.pano="aDPpegoQLq0AAAQun3JKpg";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Sew Special":
+                                                                            		panoramaOptions.pano="ZwK9tfC2mbUAAAGu5veOcg";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Stone Oak Orthodontics":
+                                                                            		panoramaOptions.pano="7AlEB4CrUJ0AAAQZUItWcQ";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Thanks for Vaping(Blanco)":
+                                                                            		panoramaOptions.pano="C2kLyCMFAagAAAQZZXWq9w";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Thanks for Vaping(San Pedro)":
+                                                                            		panoramaOptions.pano="QrXJ_xFAMuYAAAQZZXWRWQ";
+                                                                         		break;
+                                                                                  
+                                                                          		case "The French Connection":
+                                                                            		panoramaOptions.pano="f7VRQmL_7OIAAAQZSJejTA";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Thrifty Liquor(Huebner)":
+                                                                            		panoramaOptions.pano="H_Of3Fdvz2UAAAAGOvYGbQ";
+                                                                         		break;
+                                                                
+                                                                                case "Thrifty Liquor(IH10)":
+                                                                            		panoramaOptions.pano="Xeoxf4UuavAAAAAGO0OFbw";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Trinity Baptist Church":
+                                                                            		panoramaOptions.pano="KC5Num7C7esAAAQpkPq5lQ";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Urban Mattress":
+                                                                            		panoramaOptions.pano="slMaViq0cl0AAAQqZcRMsQ";
+                                                                         		break;
+                                                                                  
+                                                                          		case "The Vapor Room":
+                                                                            		panoramaOptions.pano="04pmXlJmKwEAAAQZLBEVPA";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Wilson Family Chiropractic":
+                                                                            		panoramaOptions.pano="Vfw74XkEKb4AAAQYZ4bijw";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Winters Gallery":
+                                                                            		panoramaOptions.pano="50p19NuDtiMAAAQXH9V90A";
+                                                                         		break;
+                                                                                  
+                                                                          		case "W Dental":
+                                                                            		panoramaOptions.pano="Nm0g8bk0qsAAAAQqfeeJ7w";
+                                                                         		break;
+                                                                                  
+                                                                          		case "Yummiberry Yogurt":
+                                                                            		panoramaOptions.pano="z7lGzsBJlVAAAAAGOo4dUA";
+                                                                         		break;
+                                                                
+                                                                
+                                                                              }
+                                                                          	panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
+                                                                          };
+                                                                      
+                                                                              //================================================================
+                                                                              // Instantiate panorama with user specified options
+                                                                              //================================================================
+                                                                              panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
+                                                                      
+                                                                              //================================================================
+                                                                              // Add listener to handle click event that will stop auto rotate
+                                                                              //================================================================
+                                                                              var mapClickEvent = google.maps.event.addDomListener(document.getElementById('panoDIV'), 'click', toggleAutoRotate);
+                                                                      
+                                                                              //================================================================
+                                                                              // Show panorama
+                                                                              //================================================================
+                                                                              panorama.setVisible(true);
+                                                                      
+                                                                      }
+                                                                      
+                                                                      google.maps.event.addDomListener(window, 'load', initialize);
+                                                                      
+                                                                      function getEventTarget(e) {
+                                                                              e = e || window.event;
+                                                                              return e.target || e.srcElement; 
+                                                                          }
     </script>
   </head><body>
-    <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -348,24 +341,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../index.html#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 20px;">January Smith</span></a>
+          <a class="navbar-brand" href="#"><span>January Smith</span></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="../index.html#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Home</span></a>
+              <a href="../index.html#top">Home</a>
             </li>
             <li>
-              <a href="../index.html#streetview"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Google Street View</span></a>
+              <a href="../index.html#streetview">Google Street View</a>
             </li>
-            <li class="active">
-              <a href="#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Gallery</span></a>
+            <li class="active dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Google Street View Tours</a>
+                </li>
+                <li>
+                  <a href="../courthouse/Texas-Courthouse-Tours.html">Texas County Courthouse Tours</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="../courthouse/Texas-Courthouse-Tours.html#top"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">Courthouse Tours</span></a>
-            </li>
-            <li>
-              <a href="../index.html#about"><span style="font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif; font-size: 18px;">About</span></a>
+              <a href="../index.html#about">About</a>
             </li>
           </ul>
         </div>
