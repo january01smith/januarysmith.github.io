@@ -1,544 +1,542 @@
-<html>
-   <head>
-      <meta name="keywords" content="Google Trusted Photographer, Street View, Virtual Tour">
-      <meta name="description" content="This is the persoanl webside of Google Trusted Photographer January Smith">
-      <title>January Smith - Google Trusted Photographer</title>
-      <link rel="icon" href="../../../Documents/januarysmith.github.io/images/home/favicon.ico">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-      <script type="text/javascript" src="../scripts/bootstrap.js"></script>
-      <link href="../styles/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <style>
-         html, body {
-         height: 100%;
-         margin: 0px;
-         padding: 0px
-         }
-         #panel {
-         position: absolute;
-         top: 50px;
-         left: 0px;
-         background-color: whitesmoke;
-         }
-         #menu
-         {
-         padding:0;
-         margin:0;
-         list-style-type:none;
-         font-family: arial;
-         font-size:13px;
-         color:#717171;
-         width:100%;
-         }
-         #menu li
-         {
-         border-bottom:1px solid #eeeeee;
-         padding:7px 10px 7px 10px;
-         }
-         #menu li:hover
-         {
-         background-color:#337cbb;
-         }
-         #menu li:hover a
-         {
-         color:White;
-         }
-         #menu a:link
-         {
-         color:#717171;
-         text-decoration:none;
-         }
-         #menu a:hover
-         {
-         color:White;
-         }
-      </style>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATcgRESAmvM2XMCMTwgotS0T5afRJuPUc"></script>
-      <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-48280446-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-      <script>
-         var panoramaOptions;
-		   var panorama = google.maps.StreetViewPanorama;
-	   
-		   function initialize() {
-	   
-				  //================================================================
-				   //
-				   // Set User Preferences
-				   //
-				   //================================================================
-				   var upPanoID = "kjct6n0sItMAAAQYKDbvKA";
-				   var upHeading = 0;
-				   var upPitch = 0;
-				   var upZoomLevel = 0;
-				   var upEnableAutoRotate = true;
-				   var upEnableAddress = false;
-				   var upEnablePan = false;
-				   var upEnableZoom = false;
-				   var upEnableLinks = false;
-				   var upEnableClickToGo = false;
-				   var upEnableScrollWheel = false;
-				   var upEnableClickToDisableAutoRotate = true;
-				   var upEnableShowLinksAfterDisableAutoRotate = true;
-				   var upEnableAutoPilot = false;
-		
-				   //================================================================
-				   //
-				   // Set google.maps.StreetViewPanoramaOptions object to User Preference values
-				   //
-				   //================================================================
-				   panoramaOptions = {
-						   pano: upPanoID,
-						   zoom: upZoomLevel,
-						   panControl: upEnablePan,
-						   zoomControl:  upEnableZoom,
-						   addressControl:  upEnableAddress,
-						   linksControl: upEnableLinks,
-						   clickToGo: upEnableClickToGo,
-						   scrollwheel: upEnableScrollWheel,
-						   pov: {
-							 heading: upHeading,
-							 pitch: upPitch
-							 }
-						   };
-	   
-			   
-				  //================================================================
-				   // If option to turn_off_aut_rotate_when_you_click the panorama is selected
-				   // then turn off interval timer that rotates point of view heading and turn on 
-				   // links control so you can navigate virtual tour
-				   //================================================================
-				   function toggleAutoRotate() {
-					 if(upEnableClickToDisableAutoRotate) {
-					   upEnableAutoRotate="false";
-					   window.clearInterval(myTimer);
-					   if(upEnableShowLinksAfterDisableAutoRotate){
-						 panorama.setOptions({linksControl:"true"});
-						 }
-					 }
-				   }  
-				   //================================================================
-				   // If option to auto rotate the panorama is selected
-				   // then set interval timer that rotates point of view 
-				   // by incrementing heading .1 degree every 20 milli seconds 
-				   //================================================================    
-				   if (upEnableAutoRotate) {
-					   var myTimer = window.setInterval(function() {
-	   
-						   var nextLinks = panorama.getLinks();
-						   var pov = panorama.getPov();
-						   var nextPano = "";
-						   var i = 0;
-	   
-						   //=============================================================
-						   // Loop through link on this pano to see if the pov.heading has 
-						   // rotated to a link - if it has then jump to the next pano
-						   //=============================================================
-						   if(upEnableAutoPilot){
-							   while (nextLinks[i]){
-	   
-								 if(parseInt(pov.heading) === parseInt(nextLinks[i].heading)){    
-	   
-								   nextPano = nextLinks[i].pano;
-								 }
-							   i++;
-							   }
-		
-							   //=============================================================
-							   // If nextPano has been set then rotate heading back 100
-							   //  and jump to next pano
-							   //=============================================================
-							   if(nextPano !== ""){
-	   
-								 pov.heading -= 100.0;  
-								 panorama.setPano(nextPano);
-	   
-							   }
-						   }
-						   pov.heading += 0.1;       
-						   panorama.setPov(pov);
-	   
-					   }, 20);
-				   }
-			   
-				   var ul = document.getElementById('menu');
-				ul.onclick = function(event) {
-				   var target = getEventTarget(event);        
-				   switch (target.innerHTML) {
-					case "Advanced Smile Care":
-					panoramaOptions.pano="FJ2zWEuz4QoAAAQYaKhd7A";
-					break;
-				
-					case "Aladdin Carpets":    		
-					panoramaOptions.pano="0kMPde70qqwAAAGuvY_iuw";
-					break;
-	   
-					case "Alamo Heights Pet Clinic":
-					panoramaOptions.pano="nQ8NTZKDf-QAAAQYk4EKnQ";
-					break;
-				
-					case "Alamo Karts":
-					panoramaOptions.pano="5fJuBj5J-REAAAQWzI7wUw";
-					break;
-				
-					case "Anytime Fitness (Copperas Cove)":
-					panoramaOptions.pano="Y1An91S9jiwAAAQfDZMTTA";
-					break;
-				
-					case "Anytime Fitness (Kerrville)":
-					panoramaOptions.pano="Wlg9RQHTl5MAAAQppySsIw";
-					break;
-				
-					case "Anytime Fitness (Medical Center)":
-					panoramaOptions.pano="3w4JH0LM84sAAAQfDSpDgg";
-					break;
-				
-					case "Augustine Law Office":
-						panoramaOptions.pano="SsOj0Ec5D8UAAAQYlGXWEw";
-					break;
-				
-					case "Aziz Rugs":
-						panoramaOptions.pano="SrJyK05t4JUAAAQXMBew5w";
-					break;
-				
-					case "Bec Dental Center":
-						panoramaOptions.pano="3GGcgAi70doAAAGutXiSSA";
-					break;
-  
-					 case "ExploreUSA":
-						panoramaOptions.pano="D76VCMWIRnUAAAQp2bIJ2w";
-					break;
-				   
-					case "Futon Furniture Store":
-						panoramaOptions.pano="Vv5NZl5pQCQAAAAGOwb0OQ";
-					break;
-				   
-					case "Gems of the Hill Country":
-						panoramaOptions.pano="QK4oox8JiA0AAAQfCMrg5w";
-					break;
- 
-						case "Irish Embassy Pub":
-						panoramaOptions.pano="E2j3A7gI3uIAAAAGOt2O0w";
-					break;
-				  
-					case "Law Offices Jesus Lopez":
-						panoramaOptions.pano="dMEdw05BcMcAAAQfCWsl6A";
-					break;
- 
-						case "Museum of Western Art":
-						panoramaOptions.pano="KSNieaMzWxUAAAQfCM6ATw";
-					break;
-			 
-					case "Oriental Rug Gallery of Texas":
-						panoramaOptions.pano="zF3TaoiCVywAAAQfCXQ69A";
-					break;
-			  
-					case "Owens Liquor":
-						panoramaOptions.pano="BKWPfinJShcAAAQY7LbxcA";
-					break;
-				   
-					case "Re-Bath(Bandera)":
-						panoramaOptions.pano="cLCKP5fp3HkAAAQqyep5VA";
-					break;
-				   
-					case "Re-Bath(Schertz)":
-						panoramaOptions.pano="aDPpegoQLq0AAAQun3JKpg";
-					break;
-				   
-					case "Sew Special":
-						panoramaOptions.pano="ZwK9tfC2mbUAAAGu5veOcg";
-					break;
-				   
-					case "Stone Oak Orthodontics":
-						panoramaOptions.pano="7AlEB4CrUJ0AAAQZUItWcQ";
-					break;
-				   
-					case "Thanks for Vaping(Blanco)":
-						panoramaOptions.pano="C2kLyCMFAagAAAQZZXWq9w";
-					break;
-				   
-					case "Thanks for Vaping(San Pedro)":
-						panoramaOptions.pano="QrXJ_xFAMuYAAAQZZXWRWQ";
-					break;
-				   
-					case "The French Connection":
-						panoramaOptions.pano="f7VRQmL_7OIAAAQZSJejTA";
-					break;
-				   
-					case "Thrifty Liquor(Huebner)":
-						panoramaOptions.pano="H_Of3Fdvz2UAAAAGOvYGbQ";
-					break;
- 
-					 case "Thrifty Liquor(IH10)":
-						panoramaOptions.pano="Xeoxf4UuavAAAAAGO0OFbw";
-					break;
-				   
-					case "Trinity Baptist Church":
-						panoramaOptions.pano="KC5Num7C7esAAAQpkPq5lQ";
-					break;
-				   
-					case "Urban Mattress":
-						panoramaOptions.pano="slMaViq0cl0AAAQqZcRMsQ";
-					break;
-				   
-					case "The Vapor Room":
-						panoramaOptions.pano="04pmXlJmKwEAAAQZLBEVPA";
-					break;
-				   
-					case "Wilson Family Chiropractic":
-						panoramaOptions.pano="Vfw74XkEKb4AAAQYZ4bijw";
-					break;
-				   
-					case "Winters Gallery":
-						panoramaOptions.pano="50p19NuDtiMAAAQXH9V90A";
-					break;
-				   
-					case "W Dental":
-						panoramaOptions.pano="Nm0g8bk0qsAAAAQqfeeJ7w";
-					break;
-				   
-					case "Yummiberry Yogurt":
-						panoramaOptions.pano="z7lGzsBJlVAAAAAGOo4dUA";
-					break;
- 
- 
-				   }
-				panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
-			   };
-	   
-				   //================================================================
-				   // Instantiate panorama with user specified options
-				   //================================================================
-				   panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
-	   
-				   //================================================================
-				   // Add listener to handle click event that will stop auto rotate
-				   //================================================================
-				   var mapClickEvent = google.maps.event.addDomListener(document.getElementById('panoDIV'), 'click', toggleAutoRotate);
-	   
-				   //================================================================
-				   // Show panorama
-				   //================================================================
-				   panorama.setVisible(true);
-	   
-		   }
-	   
-		   google.maps.event.addDomListener(window, 'load', initialize);
-	   
-		   function getEventTarget(e) {
-				   e = e || window.event;
-				   return e.target || e.srcElement; 
-			   }
-      </script>
-   </head>
-   <body>
-      <div class="navbar navbar-default navbar-fixed-top">
-         <div class="container-fluid">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="../index.html"><span>January Smith</span></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="../index.html#top">Home</a>
-                  </li>
-                  <li>
-                     <a href="../index.html#streetview">Google Street View</a>
-                  </li>
-                  <li class="active dropdown">
-                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
-                     <ul class="dropdown-menu">
+<html><head>
+        <meta name="keywords" content="Google Trusted Photographer, Street View, Virtual Tour">
+        <meta name="description" content="This is the persoanl website of Google Street View Trusted Photographer January Smith - this page displays a gallery of my virtual tours.">
+        <title>January Smith - Google Street View Trusted Photographer</title>
+        <link rel="icon" href="../../../Documents/januarysmith.github.io/images/home/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="../scripts/bootstrap.js"></script>
+        <link href="../styles/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <style>
+            html, body {
+             height: 100%;
+             margin: 0px;
+             padding: 0px
+             }
+             #panel {
+             position: absolute;
+             top: 50px;
+             left: 0px;
+             background-color: whitesmoke;
+             }
+             #menu
+             {
+             padding:0;
+             margin:0;
+             list-style-type:none;
+             font-family: arial;
+             font-size:13px;
+             color:#717171;
+             width:100%;
+             }
+             #menu li
+             {
+             border-bottom:1px solid #eeeeee;
+             padding:7px 10px 7px 10px;
+             }
+             #menu li:hover
+             {
+             background-color:#337cbb;
+             }
+             #menu li:hover a
+             {
+             color:White;
+             }
+             #menu a:link
+             {
+             color:#717171;
+             text-decoration:none;
+             }
+             #menu a:hover
+             {
+             color:White;
+             }
+        </style>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATcgRESAmvM2XMCMTwgotS0T5afRJuPUc"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            	  ga('create', 'UA-48280446-1', 'auto');
+            	  ga('send', 'pageview');
+        </script>
+        <script>
+            var panoramaOptions;
+    		   var panorama = google.maps.StreetViewPanorama;
+    	   
+    		   function initialize() {
+    	   
+    				  //================================================================
+    				   //
+    				   // Set User Preferences
+    				   //
+    				   //================================================================
+    				   var upPanoID = "kjct6n0sItMAAAQYKDbvKA";
+    				   var upHeading = 0;
+    				   var upPitch = 0;
+    				   var upZoomLevel = 0;
+    				   var upEnableAutoRotate = true;
+    				   var upEnableAddress = false;
+    				   var upEnablePan = false;
+    				   var upEnableZoom = false;
+    				   var upEnableLinks = false;
+    				   var upEnableClickToGo = false;
+    				   var upEnableScrollWheel = false;
+    				   var upEnableClickToDisableAutoRotate = true;
+    				   var upEnableShowLinksAfterDisableAutoRotate = true;
+    				   var upEnableAutoPilot = false;
+    		
+    				   //================================================================
+    				   //
+    				   // Set google.maps.StreetViewPanoramaOptions object to User Preference values
+    				   //
+    				   //================================================================
+    				   panoramaOptions = {
+    						   pano: upPanoID,
+    						   zoom: upZoomLevel,
+    						   panControl: upEnablePan,
+    						   zoomControl:  upEnableZoom,
+    						   addressControl:  upEnableAddress,
+    						   linksControl: upEnableLinks,
+    						   clickToGo: upEnableClickToGo,
+    						   scrollwheel: upEnableScrollWheel,
+    						   pov: {
+    							 heading: upHeading,
+    							 pitch: upPitch
+    							 }
+    						   };
+    	   
+    			   
+    				  //================================================================
+    				   // If option to turn_off_aut_rotate_when_you_click the panorama is selected
+    				   // then turn off interval timer that rotates point of view heading and turn on 
+    				   // links control so you can navigate virtual tour
+    				   //================================================================
+    				   function toggleAutoRotate() {
+    					 if(upEnableClickToDisableAutoRotate) {
+    					   upEnableAutoRotate="false";
+    					   window.clearInterval(myTimer);
+    					   if(upEnableShowLinksAfterDisableAutoRotate){
+    						 panorama.setOptions({linksControl:"true"});
+    						 }
+    					 }
+    				   }  
+    				   //================================================================
+    				   // If option to auto rotate the panorama is selected
+    				   // then set interval timer that rotates point of view 
+    				   // by incrementing heading .1 degree every 20 milli seconds 
+    				   //================================================================    
+    				   if (upEnableAutoRotate) {
+    					   var myTimer = window.setInterval(function() {
+    	   
+    						   var nextLinks = panorama.getLinks();
+    						   var pov = panorama.getPov();
+    						   var nextPano = "";
+    						   var i = 0;
+    	   
+    						   //=============================================================
+    						   // Loop through link on this pano to see if the pov.heading has 
+    						   // rotated to a link - if it has then jump to the next pano
+    						   //=============================================================
+    						   if(upEnableAutoPilot){
+    							   while (nextLinks[i]){
+    	   
+    								 if(parseInt(pov.heading) === parseInt(nextLinks[i].heading)){    
+    	   
+    								   nextPano = nextLinks[i].pano;
+    								 }
+    							   i++;
+    							   }
+    		
+    							   //=============================================================
+    							   // If nextPano has been set then rotate heading back 100
+    							   //  and jump to next pano
+    							   //=============================================================
+    							   if(nextPano !== ""){
+    	   
+    								 pov.heading -= 100.0;  
+    								 panorama.setPano(nextPano);
+    	   
+    							   }
+    						   }
+    						   pov.heading += 0.1;       
+    						   panorama.setPov(pov);
+    	   
+    					   }, 20);
+    				   }
+    			   
+    				   var ul = document.getElementById('menu');
+    				ul.onclick = function(event) {
+    				   var target = getEventTarget(event);        
+    				   switch (target.innerHTML) {
+    					case "Advanced Smile Care":
+    					panoramaOptions.pano="FJ2zWEuz4QoAAAQYaKhd7A";
+    					break;
+    				
+    					case "Aladdin Carpets":    		
+    					panoramaOptions.pano="0kMPde70qqwAAAGuvY_iuw";
+    					break;
+    	   
+    					case "Alamo Heights Pet Clinic":
+    					panoramaOptions.pano="nQ8NTZKDf-QAAAQYk4EKnQ";
+    					break;
+    				
+    					case "Alamo Karts":
+    					panoramaOptions.pano="5fJuBj5J-REAAAQWzI7wUw";
+    					break;
+    				
+    					case "Anytime Fitness (Copperas Cove)":
+    					panoramaOptions.pano="Y1An91S9jiwAAAQfDZMTTA";
+    					break;
+    				
+    					case "Anytime Fitness (Kerrville)":
+    					panoramaOptions.pano="Wlg9RQHTl5MAAAQppySsIw";
+    					break;
+    				
+    					case "Anytime Fitness (Medical Center)":
+    					panoramaOptions.pano="3w4JH0LM84sAAAQfDSpDgg";
+    					break;
+    				
+    					case "Augustine Law Office":
+    						panoramaOptions.pano="SsOj0Ec5D8UAAAQYlGXWEw";
+    					break;
+    				
+    					case "Aziz Rugs":
+    						panoramaOptions.pano="SrJyK05t4JUAAAQXMBew5w";
+    					break;
+    				
+    					case "Bec Dental Center":
+    						panoramaOptions.pano="3GGcgAi70doAAAGutXiSSA";
+    					break;
+      
+    					 case "ExploreUSA":
+    						panoramaOptions.pano="D76VCMWIRnUAAAQp2bIJ2w";
+    					break;
+    				   
+    					case "Futon Furniture Store":
+    						panoramaOptions.pano="Vv5NZl5pQCQAAAAGOwb0OQ";
+    					break;
+    				   
+    					case "Gems of the Hill Country":
+    						panoramaOptions.pano="QK4oox8JiA0AAAQfCMrg5w";
+    					break;
+     
+    						case "Irish Embassy Pub":
+    						panoramaOptions.pano="E2j3A7gI3uIAAAAGOt2O0w";
+    					break;
+    				  
+    					case "Law Offices Jesus Lopez":
+    						panoramaOptions.pano="dMEdw05BcMcAAAQfCWsl6A";
+    					break;
+     
+    						case "Museum of Western Art":
+    						panoramaOptions.pano="KSNieaMzWxUAAAQfCM6ATw";
+    					break;
+    			 
+    					case "Oriental Rug Gallery of Texas":
+    						panoramaOptions.pano="zF3TaoiCVywAAAQfCXQ69A";
+    					break;
+    			  
+    					case "Owens Liquor":
+    						panoramaOptions.pano="BKWPfinJShcAAAQY7LbxcA";
+    					break;
+    				   
+    					case "Re-Bath(Bandera)":
+    						panoramaOptions.pano="cLCKP5fp3HkAAAQqyep5VA";
+    					break;
+    				   
+    					case "Re-Bath(Schertz)":
+    						panoramaOptions.pano="aDPpegoQLq0AAAQun3JKpg";
+    					break;
+    				   
+    					case "Sew Special":
+    						panoramaOptions.pano="ZwK9tfC2mbUAAAGu5veOcg";
+    					break;
+    				   
+    					case "Stone Oak Orthodontics":
+    						panoramaOptions.pano="7AlEB4CrUJ0AAAQZUItWcQ";
+    					break;
+    				   
+    					case "Thanks for Vaping(Blanco)":
+    						panoramaOptions.pano="C2kLyCMFAagAAAQZZXWq9w";
+    					break;
+    				   
+    					case "Thanks for Vaping(San Pedro)":
+    						panoramaOptions.pano="QrXJ_xFAMuYAAAQZZXWRWQ";
+    					break;
+    				   
+    					case "The French Connection":
+    						panoramaOptions.pano="f7VRQmL_7OIAAAQZSJejTA";
+    					break;
+    				   
+    					case "Thrifty Liquor(Huebner)":
+    						panoramaOptions.pano="H_Of3Fdvz2UAAAAGOvYGbQ";
+    					break;
+     
+    					 case "Thrifty Liquor(IH10)":
+    						panoramaOptions.pano="Xeoxf4UuavAAAAAGO0OFbw";
+    					break;
+    				   
+    					case "Trinity Baptist Church":
+    						panoramaOptions.pano="KC5Num7C7esAAAQpkPq5lQ";
+    					break;
+    				   
+    					case "Urban Mattress":
+    						panoramaOptions.pano="slMaViq0cl0AAAQqZcRMsQ";
+    					break;
+    				   
+    					case "The Vapor Room":
+    						panoramaOptions.pano="04pmXlJmKwEAAAQZLBEVPA";
+    					break;
+    				   
+    					case "Wilson Family Chiropractic":
+    						panoramaOptions.pano="Vfw74XkEKb4AAAQYZ4bijw";
+    					break;
+    				   
+    					case "Winters Gallery":
+    						panoramaOptions.pano="50p19NuDtiMAAAQXH9V90A";
+    					break;
+    				   
+    					case "W Dental":
+    						panoramaOptions.pano="Nm0g8bk0qsAAAAQqfeeJ7w";
+    					break;
+    				   
+    					case "Yummiberry Yogurt":
+    						panoramaOptions.pano="z7lGzsBJlVAAAAAGOo4dUA";
+    					break;
+     
+     
+    				   }
+    				panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
+    			   };
+    	   
+    				   //================================================================
+    				   // Instantiate panorama with user specified options
+    				   //================================================================
+    				   panorama = new google.maps.StreetViewPanorama(document.getElementById('panoDIV'), panoramaOptions);
+    	   
+    				   //================================================================
+    				   // Add listener to handle click event that will stop auto rotate
+    				   //================================================================
+    				   var mapClickEvent = google.maps.event.addDomListener(document.getElementById('panoDIV'), 'click', toggleAutoRotate);
+    	   
+    				   //================================================================
+    				   // Show panorama
+    				   //================================================================
+    				   panorama.setVisible(true);
+    	   
+    		   }
+    	   
+    		   google.maps.event.addDomListener(window, 'load', initialize);
+    	   
+    		   function getEventTarget(e) {
+    				   e = e || window.event;
+    				   return e.target || e.srcElement; 
+    			   }
+        </script>
+    </head><body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><span>January Smith</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
                         <li>
-                           <a href="#">Google Street View Tours</a>
+                            <a href="../index.html#top">Home</a>
                         </li>
                         <li>
-                           <a href="../courthouse/Texas-Courthouse-Tours.html">Texas County Courthouse Tours</a>
+                            <a href="../index.html#streetview">Google Street View</a>
                         </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="../index.html#about">About</a>
-                  </li>
-               </ul>
+                        <li class="active dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Google Street View Tours</a>
+                                </li>
+                                <li>
+                                    <a href="../courthouse/Texas-Courthouse-Tours.html">Texas County Courthouse Tours</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../index.html#about">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-         </div>
-      </div>
-      <div style="width: 100%; height: 100%;float:left" class="hidden-xs" id="panoDIV"></div>
-      <div id="panel">
-         <ul id="menu" style="width: 250px; height: 300px; overflow: auto" class="hidden-xs">
-            <li>
-               <a href="#">Advanced Smile Care</a>
-            </li>
-            <li>
-               <a href="#">Aladdin Carpets</a>
-            </li>
-            <li>
-               <a href="#">Alamo Heights Pet Clinic</a>
-            </li>
-            <li>
-               <a href="#">Alamo Karts</a>
-            </li>
-            <li>
-               <a href="#">Anytime Fitness (Copperas Cove)</a>
-            </li>
-            <li>
-               <a href="#">Anytime Fitness (Kerrville)</a>
-            </li>
-            <li>
-               <a href="#">Anytime Fitness (Medical Center)</a>
-            </li>
-            <li>
-               <a href="#">Augustine Law Office</a>
-            </li>
-            <li>
-               <a href="#">Aziz Rugs</a>
-            </li>
-            <li>
-               <a href="#">Bec Dental Center</a>
-            </li>
-            <li>
-               <a href="#">ExploreUSA</a>
-            </li>
-            <li>
-               <a href="#">Futon Furniture Store</a>
-            </li>
-            <li>
-               <a href="#">Gems of the Hill Country</a>
-            </li>
-            <li>
-               <a href="#">Irish Embassy Pub</a>
-            </li>
-            <li>
-               <a href="#">Law Offices Jesus Lopez</a>
-            </li>
-            <li>
-               <a href="#">Museum of Western Art</a>
-            </li>
-            <li>
-               <a href="#">Oriental Rug Gallery of Texas</a>
-            </li>
-            <li>
-               <a href="#">Owens Liquor</a>
-            </li>
-            <li>
-               <a href="#">Re-Bath(Bandera)</a>
-            </li>
-            <li>
-               <a href="#">Re-Bath(Schertz)</a>
-            </li>
-            <li>
-               <a href="#">Sew Special</a>
-            </li>
-            <li>
-               <a href="#">Stone Oak Orthodontics</a>
-            </li>
-            <li>
-               <a href="#">Thanks for Vaping(Blanco)</a>
-            </li>
-            <li>
-               <a href="#">Thanks for Vaping(San Pedro)</a>
-            </li>
-            <li>
-               <a href="#">The French Connection</a>
-            </li>
-            <li>
-               <a href="#">Thrifty Liquor(Huebner)</a>
-            </li>
-            <li>
-               <a href="#">Thrifty Liquor(IH10)</a>
-            </li>
-            <li>
-               <a href="#">Trinity Baptist Church</a>
-            </li>
-            <li>
-               <a href="#">Urban Mattress</a>
-            </li>
-            <li>
-               <a href="#">The Vapor Room</a>
-            </li>
-            <li>
-               <a href="#">Wilson Family Chiropractic</a>
-            </li>
-            <li>
-               <a href="#">Winters Gallery</a>
-            </li>
-            <li>
-               <a href="#">W Dental</a>
-            </li>
-            <li>
-               <a href="#">Yummiberry Yogurt</a>
-            </li>
-         </ul>
-      </div>
-      <div class="carousel hidden-lg hidden-md hidden-sm slide" id="carousel" data-interval="5000" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="item active">
-               <img src="../images/gallery/advanced.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/place/Advanced+Smile+Care/@29.5654912,-98.5587029,3a,75y,225h,90t/data=!3m8!1e1!3m6!1sFJ2zWEuz4QoAAAQYaKhd7A!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DFJ2zWEuz4QoAAAQYaKhd7A%26w%3D124%26h%3D75%26yaw%3D225%26pitch%3D0%26thumbfov%3D103%26ll%3D29.565491,-98.558703!7i13312!8i6656!4m2!3m1!1s0x865c60e516cc8a4f:0x1a4eaeab29ccf9be!6m1!1e1">
+        </div>
+        <div style="width: 100%; height: 100%;float:left" class="hidden-xs" id="panoDIV"></div>
+        <div id="panel">
+            <ul id="menu" style="width: 250px; height: 300px; overflow: auto" class="hidden-xs">
+                <li>
+                    <a href="#">Advanced Smile Care</a>
+                </li>
+                <li>
+                    <a href="#">Aladdin Carpets</a>
+                </li>
+                <li>
+                    <a href="#">Alamo Heights Pet Clinic</a>
+                </li>
+                <li>
+                    <a href="#">Alamo Karts</a>
+                </li>
+                <li>
+                    <a href="#">Anytime Fitness (Copperas Cove)</a>
+                </li>
+                <li>
+                    <a href="#">Anytime Fitness (Kerrville)</a>
+                </li>
+                <li>
+                    <a href="#">Anytime Fitness (Medical Center)</a>
+                </li>
+                <li>
+                    <a href="#">Augustine Law Office</a>
+                </li>
+                <li>
+                    <a href="#">Aziz Rugs</a>
+                </li>
+                <li>
+                    <a href="#">Bec Dental Center</a>
+                </li>
+                <li>
+                    <a href="#">ExploreUSA</a>
+                </li>
+                <li>
+                    <a href="#">Futon Furniture Store</a>
+                </li>
+                <li>
+                    <a href="#">Gems of the Hill Country</a>
+                </li>
+                <li>
+                    <a href="#">Irish Embassy Pub</a>
+                </li>
+                <li>
+                    <a href="#">Law Offices Jesus Lopez</a>
+                </li>
+                <li>
+                    <a href="#">Museum of Western Art</a>
+                </li>
+                <li>
+                    <a href="#">Oriental Rug Gallery of Texas</a>
+                </li>
+                <li>
+                    <a href="#">Owens Liquor</a>
+                </li>
+                <li>
+                    <a href="#">Re-Bath(Bandera)</a>
+                </li>
+                <li>
+                    <a href="#">Re-Bath(Schertz)</a>
+                </li>
+                <li>
+                    <a href="#">Sew Special</a>
+                </li>
+                <li>
+                    <a href="#">Stone Oak Orthodontics</a>
+                </li>
+                <li>
+                    <a href="#">Thanks for Vaping(Blanco)</a>
+                </li>
+                <li>
+                    <a href="#">Thanks for Vaping(San Pedro)</a>
+                </li>
+                <li>
+                    <a href="#">The French Connection</a>
+                </li>
+                <li>
+                    <a href="#">Thrifty Liquor(Huebner)</a>
+                </li>
+                <li>
+                    <a href="#">Thrifty Liquor(IH10)</a>
+                </li>
+                <li>
+                    <a href="#">Trinity Baptist Church</a>
+                </li>
+                <li>
+                    <a href="#">Urban Mattress</a>
+                </li>
+                <li>
+                    <a href="#">The Vapor Room</a>
+                </li>
+                <li>
+                    <a href="#">Wilson Family Chiropractic</a>
+                </li>
+                <li>
+                    <a href="#">Winters Gallery</a>
+                </li>
+                <li>
+                    <a href="#">W Dental</a>
+                </li>
+                <li>
+                    <a href="#">Yummiberry Yogurt</a>
+                </li>
+            </ul>
+        </div>
+        <div class="carousel hidden-lg hidden-md hidden-sm slide" id="carousel" data-interval="5000" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../images/gallery/advanced.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/place/Advanced+Smile+Care/@29.5654912,-98.5587029,3a,75y,225h,90t/data=!3m8!1e1!3m6!1sFJ2zWEuz4QoAAAQYaKhd7A!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DFJ2zWEuz4QoAAAQYaKhd7A%26w%3D124%26h%3D75%26yaw%3D225%26pitch%3D0%26thumbfov%3D103%26ll%3D29.565491,-98.558703!7i13312!8i6656!4m2!3m1!1s0x865c60e516cc8a4f:0x1a4eaeab29ccf9be!6m1!1e1">
                      <h2 class="text-primary">Advanced Smile Care</h2>
                   </a>
-               </div>
-            </div>
-            <div class="item">
-               <img src="../images/gallery/aladdin.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/place/Aladdin+Cleaning+%26+Restoration/@29.4470458,-98.4855091,3a,75y,111h,90t/data=!3m8!1e1!3m6!1s0kMPde70qqwAAAGuvY_iuw!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3D0kMPde70qqwAAAGuvY_iuw%26w%3D124%26h%3D75%26yaw%3D111%26pitch%3D0%26thumbfov%3D103%26ll%3D29.447046,-98.485509!7i13312!8i6656!4m2!3m1!1s0x865c5f5f941d00af:0x5ce87e79617f759e!6m1!1e1">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/gallery/aladdin.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/place/Aladdin+Cleaning+%26+Restoration/@29.4470458,-98.4855091,3a,75y,111h,90t/data=!3m8!1e1!3m6!1s0kMPde70qqwAAAGuvY_iuw!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3D0kMPde70qqwAAAGuvY_iuw%26w%3D124%26h%3D75%26yaw%3D111%26pitch%3D0%26thumbfov%3D103%26ll%3D29.447046,-98.485509!7i13312!8i6656!4m2!3m1!1s0x865c5f5f941d00af:0x5ce87e79617f759e!6m1!1e1">
                      <h2 class="text-primary">Aladdin Cleaning and Restoration</h2>
                   </a>
-               </div>
-            </div>
-            <div class="item">
-               <img src="../images/gallery/pet.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/place/Alamo+Heights+Pet+Clinic/@29.4900587,-98.4584917,3a,75y,133.85h,86.54t/data=!3m8!1e1!3m6!1s6a4npFiawwcAAAQYk4DQaQ!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3D6a4npFiawwcAAAQYk4DQaQ%26w%3D124%26h%3D75%26yaw%3D122%26pitch%3D0%26thumbfov%3D103%26ll%3D29.490059,-98.458492!7i13312!8i6656!4m2!3m1!1s0x865cf5139ca4036f:0x5545618bdbda8a2!6m1!1e1">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/gallery/pet.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/place/Alamo+Heights+Pet+Clinic/@29.4900587,-98.4584917,3a,75y,133.85h,86.54t/data=!3m8!1e1!3m6!1s6a4npFiawwcAAAQYk4DQaQ!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3D6a4npFiawwcAAAQYk4DQaQ%26w%3D124%26h%3D75%26yaw%3D122%26pitch%3D0%26thumbfov%3D103%26ll%3D29.490059,-98.458492!7i13312!8i6656!4m2!3m1!1s0x865cf5139ca4036f:0x5545618bdbda8a2!6m1!1e1">
                      <h2 class="text-primary">Alamo Heights Pet Clinic</h2>
                   </a>
-               </div>
-            </div>
-            <div class="item">
-               <img src="../images/gallery/alamo.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/@29.682296,-98.6389182,3a,75y,61.95h,73.3t/data=!3m7!1e1!3m5!1svSwvNcnWam0AAAQWtO6zjA!2e0!3e2!7i13312!8i6656!6m1!1e1">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/gallery/alamo.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/@29.682296,-98.6389182,3a,75y,61.95h,73.3t/data=!3m7!1e1!3m5!1svSwvNcnWam0AAAQWtO6zjA!2e0!3e2!7i13312!8i6656!6m1!1e1">
                      <h2 class="text-primary">Alamo Karts</h2>
                   </a>
-               </div>
-            </div>
-            <div class="item">
-               <img src="../images/gallery/augustine.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/@29.4555074,-98.4710159,3a,75y,348.75h,87.68t/data=!3m7!1e1!3m5!1sSsOj0Ec5D8UAAAQYlGXWEw!2e0!3e2!7i13312!8i6656!6m1!1e1">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/gallery/augustine.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/@29.4555074,-98.4710159,3a,75y,348.75h,87.68t/data=!3m7!1e1!3m5!1sSsOj0Ec5D8UAAAQYlGXWEw!2e0!3e2!7i13312!8i6656!6m1!1e1">
                      <h2 class="text-primary">Law Office of Arthur Augustine</h2>
                   </a>
-               </div>
-            </div>
-            <div class="item">
-               <img src="../images/gallery/anytime.png">
-               <div class="carousel-caption">
-                  <a href="https://www.google.com/maps/place/Anytime+Fitness/@31.1191097,-97.8632492,3a,75y,133h,90t/data=!3m8!1e1!3m6!1sY1An91S9jiwAAAQfDZMTTA!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DY1An91S9jiwAAAQfDZMTTA%26w%3D124%26h%3D75%26yaw%3D133%26pitch%3D0%26thumbfov%3D103%26ll%3D31.119110,-97.863249!7i13312!8i6656!4m2!3m1!1s0x865ab3f988b642bb:0x2bb25402fc8b9b8!6m1!1e1">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/gallery/anytime.png">
+                    <div class="carousel-caption">
+                        <a href="https://www.google.com/maps/place/Anytime+Fitness/@31.1191097,-97.8632492,3a,75y,133h,90t/data=!3m8!1e1!3m6!1sY1An91S9jiwAAAQfDZMTTA!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DY1An91S9jiwAAAQfDZMTTA%26w%3D124%26h%3D75%26yaw%3D133%26pitch%3D0%26thumbfov%3D103%26ll%3D31.119110,-97.863249!7i13312!8i6656!4m2!3m1!1s0x865ab3f988b642bb:0x2bb25402fc8b9b8!6m1!1e1">
                      <h2 class="text-primary">Anytime Fitness (Copperas Cove)</h2>
                   </a>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <a class="left carousel-control" href="#carousel" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
-         <a class="right carousel-control" href="#carousel" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
-      </div>
-   </body>
-</html>
+            <a class="left carousel-control" href="#carousel" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
+            <a class="right carousel-control" href="#carousel" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+        </div>
+    
+
+</body></html>
