@@ -6058,7 +6058,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>Atascosa County</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/TvIFJ">Atascosa County</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6071,7 +6071,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano</styleUrl>
       </Placemark>
     </Folder>
     
