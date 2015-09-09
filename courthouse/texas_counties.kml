@@ -6058,7 +6058,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1441816894700!6m8!1m7!1sz7lGzsBJlVAAAAAGOo4dUA!2m2!1d29.56296472051996!2d-98.58612931435391!3f149!4f0!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br><br>]]></description>
+        <description><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1441816894700!6m8!1m7!1sz7lGzsBJlVAAAAAGOo4dUA!2m2!1d29.56296472051996!2d-98.58612931435391!3f149!4f0!5f0.7820865974627469" width="200" height="100" frameborder="0" style="border:0" allowfullscreen></iframe><br><br>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
