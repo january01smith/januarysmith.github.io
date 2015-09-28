@@ -5483,7 +5483,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse</a>]]><br>Bandera, TX</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5496,7 +5496,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano2</styleUrl>
+        <styleUrl>#pano3</styleUrl>
       </Placemark>
     </Folder>
     
