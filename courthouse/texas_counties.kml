@@ -5119,7 +5119,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County</a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County Courthouse<img src="../images/courthouse/ValVerde.png" alt="Val Verde County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5483,7 +5483,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse<br><img src="../images/courthouse/Bandera.png" alt="Bandera County Courthouse" style="width:200px;height:200px;"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse<br><img src="../images/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5781,7 +5781,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County</a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County Courthouse <img src="../images/courthouse/Kinney.png" alt="Kinney County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
