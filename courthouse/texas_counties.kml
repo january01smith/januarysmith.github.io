@@ -17,13 +17,43 @@
       </BalloonStyle>
     </Style>
     
-    <Style id="pano">
+    <Style id="pano1">
       <LineStyle>
         <color>FFFF0000</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
         <color>20FF0000</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+    
+    <Style id="pano2">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2000FF00</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+    
+    <Style id="pano3">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>200000FF</color>
         <fill>1</fill>
       </PolyStyle>
       <BalloonStyle>
@@ -3919,7 +3949,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>Concho County</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/WMoTKj8Pz5T2">Concho County Courthouse<br> Paintrock, TX</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3932,7 +3962,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano1</styleUrl>
       </Placemark>
     </Folder>
     
@@ -4556,7 +4586,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#pano1</styleUrl>
       </Placemark>
     </Folder>
     
@@ -4582,7 +4612,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#pano2</styleUrl>
       </Placemark>
     </Folder>
     
@@ -5102,7 +5132,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#pano3</styleUrl>
       </Placemark>
     </Folder>
     
@@ -5764,7 +5794,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#pano1</styleUrl>
       </Placemark>
     </Folder>
     
@@ -6071,7 +6101,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano</styleUrl>
+        <styleUrl>#pano2</styleUrl>
       </Placemark>
     </Folder>
     
