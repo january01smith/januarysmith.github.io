@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    January Smith
+    january@januarysmith.com
+
+# THANKS
+
+   
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Bootstrap
+    jQuery, Normalize.css
