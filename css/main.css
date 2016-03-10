@@ -102,7 +102,7 @@ html, body{
 }
 
 body {
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #mainNav {
