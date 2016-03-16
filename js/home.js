@@ -1,461 +1,125 @@
 
 // static properties:
 var g_ObjectsForOnLoad=new Array();
-var g_HasFlash10=false;
-var g_FlashVersion=null;
 // instance properties:
 PANOViewer.prototype.m_ViewerVars;
 PANOViewer.prototype.m_ContainerForEmbedOnLoad=null;
 PANOViewer.prototype.m_bodyLoaded=false;
-function _debuglog(msg) {
-setTimeout(function() {
-throw new Error(msg);
-}, 0);
-}
 
 // static:           
-function g_OnLoad()
-{
-if(PANOViewer)
-{
-if(g_ObjectsForOnLoad)
-{
-for(var i=0; i < g_ObjectsForOnLoad.length; i++)
-{
-g_ObjectsForOnLoad[i].bodyOnLoad();
+function g_OnLoad(){
+	if(PANOViewer){
+		if(g_ObjectsForOnLoad){
+			for(var i=0; i < g_ObjectsForOnLoad.length; i++){
+				g_ObjectsForOnLoad[i].bodyOnLoad();
+			}
+		g_ObjectsForOnLoad=null;
+		}
+	}
 }
-g_ObjectsForOnLoad=null;
-}
-}
-}
+
 // register obj.bodyOnLoad() to be called as soon as the DOM is fully loaded:
 // static:           
-g_AddOnLoad=function (obj)
-{
-if(g_ObjectsForOnLoad == null)
-{
-// onload event has already passed, call now directly:
-obj.bodyOnLoad();
-}
-else
-{
-g_ObjectsForOnLoad[g_ObjectsForOnLoad.length]=obj;
-}
+g_AddOnLoad = function(obj) {
+    if (g_ObjectsForOnLoad == null) {
+        // onload event has already passed, call now directly:
+        obj.bodyOnLoad();
+    } else {
+        g_ObjectsForOnLoad[g_ObjectsForOnLoad.length] = obj;
+    }
 }
 // initialization:
 
-if(window.addEventListener)
-{
-window.addEventListener("load", g_OnLoad, false);
+if (window.addEventListener) {
+    window.addEventListener("load", g_OnLoad, false);
+} else if (window.attachEvent) {
+    window.attachEvent("onload", g_OnLoad);
+} else {
+    alert("Your browser is not supported");
 }
-else if(window.attachEvent)
-{
-window.attachEvent("onload", g_OnLoad);
-}
-else
-{
-alert("Your browser is not supported");
-}
+
 // constructor           
-function PANOViewer()
-{
-this.m_ViewerVars=new Array();
-//this.m_FlashObjectParams=new Array();
-//this.m_FlashObjectParams["wmode"]="transparent";
-//this.m_FlashObjectParams["wmode"]="direct"; // for mouse wheel under firefox
-//this.m_SwfUrl=null;
-this.m_ContainerForEmbedOnLoad=null;
-g_AddOnLoad(this); // so that this.bodyOnLoad() gets called once the DOM is ready 
+function PANOViewer() {
+    this.m_ViewerVars = new Array();
+    this.m_ContainerForEmbedOnLoad = null;
+    g_AddOnLoad(this); // so that this.bodyOnLoad() gets called once the DOM is ready 
 }
 
-PANOViewer.prototype.bodyOnLoad = function()
-{
-this.m_bodyLoaded=true;
-if(this.m_ContainerForEmbedOnLoad)
-{
-this.embedNow(this.m_ContainerForEmbedOnLoad);
-this.m_ContainerForEmbedOnLoad=null;
+PANOViewer.prototype.bodyOnLoad = function() {
+    this.m_bodyLoaded = true;
+    if (this.m_ContainerForEmbedOnLoad) {
+        this.embedNow(this.m_ContainerForEmbedOnLoad);
+        this.m_ContainerForEmbedOnLoad = null;
+    }
 }
-}
-PANOViewer.prototype.preferHtmlViewer = function()
-{
+PANOViewer.prototype.preferHtmlViewer = function() {
 
 }
-PANOViewer.prototype.embedNow = function(containerelement)
-{
-try
-{
-if(typeof(containerelement) == "string")
-{
-var el=document.getElementById(containerelement);
-if(!el)
-{
-throw new Error("The document should contain an element with id '"+containerelement+"'");
-}
-containerelement=el;
+PANOViewer.prototype.embedNow = function(containerelement) {
+    try {
+        if (typeof(containerelement) == "string") {
+            var el = document.getElementById(containerelement);
+            if (!el) {
+                throw new Error("The document should contain an element with id '" + containerelement + "'");
+            }
+            containerelement = el;
+        }
+
+        // empty the container:
+        while (containerelement.hasChildNodes()) {
+            var child = containerelement.childNodes[0];
+            containerelement.removeChild(child);
+        }
+
+        // Check browser for support
+        var supportsHtmlViewer = nhPanoramaViewer.isSupported();
+
+        if (!supportsHtmlViewer) {
+            errtxt = "To view this panorama you need the ";
+            errtxt += "<a href=\"http://www.apple.com/safari/download/\" target=\"_blank\">Safari 5</a> or <a href=\"http://www.google.com/chrome/\" target=\"_blank\">Chrome 9</a> web browser.";
+            containerelement.innerHTML = errtxt;
+        } else {
+            this.createHtml5Viewer(containerelement, this.m_ViewerVars);
+        }
+    } catch (e) {
+        alert("Error: " + e.message);
+    }
 }
 
-// empty the container:
-while(containerelement.hasChildNodes())
-{
-var child=containerelement.childNodes[0];
-containerelement.removeChild(child);
-}
-var supportsHtmlViewer=nhPanoramaViewer.isSupported();
-if( (!supportsHtmlViewer) && ((!g_HasFlash10) || (!this.m_SwfUrl)) )
-{
-var errtxt;
-if(this.m_SwfUrl)
-{
-errtxt="To view this panorama you need the <a href=\"http://www.adobe.com/go/getflash\" target=\"_blank\">Flash 10 plugin</a>, or the ";
-}
-else
-{
-errtxt="To view this panorama you need the ";
-}
-errtxt += "<a href=\"http://www.apple.com/safari/download/\" target=\"_blank\">Safari 5</a> or <a href=\"http://www.google.com/chrome/\" target=\"_blank\">Chrome 9</a> web browser.";
-containerelement.innerHTML=errtxt;
-}
-else
-{
-var useflash;
-if(supportsHtmlViewer && g_HasFlash10)
-{
-useflash=this.m_preferFlash;
-}
-else
-{
-useflash=g_HasFlash10;
-}
-if(useflash)
-{
-this.createFlashViewer(containerelement,this.m_SwfUrl, this.m_ViewerVars, this.m_FlashObjectParams);
-}
-else
-{
-this.createHtml5Viewer(containerelement, this.m_ViewerVars);
-}
-}                
-}
-catch(e)
-{
-alert("Error: "+e.message);
-}
-}
-PANOViewer.prototype.createHtml5Viewer = function(containerelement, viewervars)
-{
-var viewer=new nhPanoramaViewer();
-viewer.setParams(viewervars);
-viewer.createControl(containerelement);
-}
-PANOViewer.prototype.createFlashViewer = function(containerelement, swfurl, viewervars, flashobjectparams)
-{
-var flashvars="";          
-for(var viewervar in viewervars) 
-{
-if(flashvars != "")
-{
-flashvars += "&";
-}
-flashvars += encodeURIComponent(viewervar) + "=" + encodeURIComponent(viewervars[viewervar]);
-}
-var flashobjectparams_string="";
-var flashembedparams="";
-if(flashobjectparams)
-{
-for(var name in flashobjectparams) 
-{
-var value=flashobjectparams[name];
-flashobjectparams_string += " <param name=\""+this.encodeHtml(name)+"\" value=\""+this.encodeHtml(value)+"\" />";
-flashembedparams += " "+name+"=\""+this.encodeHtml(value)+"\"";
-}
-} 
-var flashtag="<object width=\"100%\" height=\"100%\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\">"
-+"<param name=\"movie\" value=\""+this.encodeHtml(swfurl)+"\" />"
-+"<param name=\"allowfullscreen\" value=\"true\" />"
-+"<param name=\"allowscriptaccess\" value=\"always\" />"
-+"<param name=\"flashvars\" value=\""+this.encodeHtml(flashvars)+"\" />"
-+flashobjectparams_string
-+"<embed src=\""+this.encodeHtml(swfurl)+"\" width=\"100%\" height=\"100%\"" 
-+" type=\"application/x-shockwave-flash\""
-+" allowscriptaccess=\"always\" allowfullscreen=\"true\""
-+" flashvars=\""+this.encodeHtml(flashvars)+"\""
-+flashembedparams
-+" />"
-+"</object>";
-containerelement.innerHTML=flashtag;
+PANOViewer.prototype.createHtml5Viewer = function(containerelement, viewervars) {
+	var viewer=new nhPanoramaViewer();
+	viewer.setParams(viewervars);
+	viewer.createControl(containerelement);
 }
 
-PANOViewer.prototype.encodeHtml = function(str)
-{
-var result=str;
-result=result.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;");
-return result;
+PANOViewer.prototype.encodeHtml = function(str) {
+	var result=str;
+	result=result.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;");
+	return result;
 }
 
-PANOViewer.prototype.setVars = function(vars)
-{
-this.m_ViewerVars=vars;
+PANOViewer.prototype.setVars = function(vars) {
+	this.m_ViewerVars=vars;
 }
-PANOViewer.prototype.embed = function(id) 
-{
-try
-{
-if(this.m_bodyLoaded)
-{
-this.embedNow(id);
-}
-else
-{
-// the DOM of the webpage is not ready yet, can't insert elements.
-// embedNow() will be called later from bodyOnLoad
-this.m_ContainerForEmbedOnLoad=id;
-}
-}
-catch(e)
-{
-alert("Error: "+e.message);
-}
-}
-PANOViewer.isMac=function()
-{
-return !!(window.navigator.platform.match(/^mac/i));
-}
-PANOViewer.prototype.showInLightbox = function() 
-{
-var _this=this;
-if(!this.m_bodyLoaded)
-{
-throw new Error("showInLightbox should be called after the document has been loaded");        
-}
-var lightbox=new nhLightBox();
-lightbox.openWithCallback(function(containerdiv){
-var contentdiv=document.createElement("div");
-contentdiv.style.width="100%";
-contentdiv.style.height="100%";
-containerdiv.appendChild(contentdiv);
-_this.embedNow(contentdiv);
-});
-}
-///////
-function nhLightBox()
-{
-}
-nhLightBox.prototype.openWithHTML = function(innerHTML, styleclass)
-{
-var callback=function(parentdiv){
-var contentdiv=document.createElement("div");
-contentdiv.style.width="100%";
-contentdiv.style.height="100%";
-contentdiv.innerHTML=innerHTML;
-contentdiv.id="contentdiv";
-parentdiv.appendChild(contentdiv);
-};
-this.openWithCallback(callback, styleclass);
-}
-nhLightBox.prototype.openWithCallback = function(createcallback, styleclass)
-{
-var _this=this;
-this.m_CreateCallback=createcallback;
-//  var body = document.getElementsByTagName("body")[0]; 
-var div=document.createElement("div");
-div.style.position="fixed";
-div.style.zIndex="10000";
-div.style.width="0%";
-div.style.height="0%";
-if(styleclass)
-{
-div.className=styleclass;
-}
-else
-{
-div.style.backgroundColor="rgb(0,0,0)";
-}
-var dpi=this.getDpi();
-var btnwidth=dpi*0.3;
-var closebtn=document.createElement("canvas");
-closebtn.width=btnwidth;
-closebtn.height=btnwidth;
-closebtn.style.position="absolute";
-closebtn.style.left="5px";
-closebtn.style.top="5px";
-closebtn.style.cursor="pointer";
-closebtn.style.zIndex="10000";
-this.drawCloseButtonToCanvas(closebtn);
 
-if(window.addEventListener)
-{
-closebtn.addEventListener("click",function(){
-_this.close();
-},false);
+PANOViewer.prototype.embed = function(id) {
+    try {
+        if (this.m_bodyLoaded) {
+            this.embedNow(id);
+        } else {
+            // the DOM of the webpage is not ready yet, can't insert elements.
+            // embedNow() will be called later from bodyOnLoad
+            this.m_ContainerForEmbedOnLoad = id;
+        }
+    } catch (e) {
+        alert("Error: " + e.message);
+    }
 }
-else if(window.attachEvent)
-{
-closebtn.attachEvent("onclick",function(){
-_this.close();
-});
-}
-div.appendChild(closebtn);
-var ua=window.navigator.userAgent;  
-if(ua.match(/ applewebkit\/.*/i))
-{
-if(ua.match(/ mobile\/.*/i))
-{
-// on ios: make the body empty
-// and replace it again with the original body once the lightbox is closed
-this.m_BodyBeforeFullScreen=document.body;
-document.body=document.createElement("body");
-}
-}
-document.body.appendChild(div);
-this.m_Div=div;
-var now=new Date().getTime();
-window.setTimeout(function(){
-_this.animate(now,false);
-},0);
-}
-nhLightBox.prototype.getDpi = function()
-{
-var result=96.0;
-var ua=window.navigator.userAgent;  
-if(ua.match(/ applewebkit\/.*/i))
-{
-if(ua.match(/ mobile\/.*/i))
-{
-var longside,shortside;  // inch
-if(ua.match(/ipad\;/i))
-{
-longside=7.77;
-shortside=5.82;
-}
-else
-{
-longside=2.97;
-shortside=1.98;
-}
-if(window.innerWidth > window.innerHeight)
-{
-// landscape:
-result=window.innerWidth / longside;
-}
-else
-{
-// portrait:
-result=window.innerWidth / shortside;
-}
-}
-}
-return result;
-}
-nhLightBox.prototype.animate = function(starttime,isclosing)
-{
-var _this=this;
-var div=this.m_Div;
-var now=new Date().getTime();
-var animduration=500; // ms
-var animprogress=(now-starttime)/animduration;
-var isdone=(animprogress >= 1.0);
-if(isclosing) animprogress=1.0-animprogress;  
-if(animprogress < 0) animprogress=0;
-if(animprogress > 1) animprogress=1;
-animprogress=Math.sin(0.5*animprogress*Math.PI);
-var size=animprogress*100+"%";
-var offset=(1.0-animprogress)*50+"%";
-var opacity=animprogress*1.0;
-div.style.width=size;
-div.style.height=size;
-div.style.left=offset;
-div.style.top=offset;
-div.style.opacity=opacity;
-div.style.filter="alpha(opacity="+(opacity*100)+")"; /* For IE8 and earlier */
-if(!isdone)
-{
-window.setTimeout(function(){
-_this.animate(starttime,isclosing);
-},30);
-}
-else
-{
-if(isclosing)
-{
-div.parentNode.removeChild(div);
-if(this.m_BodyBeforeFullScreen)
-{
-document.body=this.m_BodyBeforeFullScreen;
-this.m_BodyBeforeFullScreen=null;
-}
-}
-else
-{
-this.m_CreateCallback(div);
-}
-}
-}
-nhLightBox.prototype.close = function()
-{
-var _this=this;
-var div=this.m_Div;
-while(div.firstChild) 
-{
-div.removeChild(div.firstChild);
-}
-var now=new Date().getTime();
-window.setTimeout(function(){
-_this.animate(now,true);
-},0);
-}
-nhLightBox.prototype.drawCloseButtonToCanvas = function(canvas)
-{
-if(canvas.getContext)
-{ 
-var c=canvas.getContext('2d');
-if(c)
-{
-var w=canvas.width;
-var center=w/2.0;
-c.lineWidth=w/16.0;
-var r=0.4375*w;
-var d1=0.21875*w;
-var d2=0.125*w;
-var d3=0.09375*w;
-var gradient=c.createLinearGradient(0,0,w,w);
-gradient.addColorStop(0.2,"rgb(255,158,158)");
-gradient.addColorStop(0.8,"rgb(188,0,0)");      
 
-c.fillStyle=gradient;
-c.lineJoin="round";
-c.strokeStyle="rgb(128,0,0)";
-c.beginPath();
-c.arc(center,center,r,0,360);
-c.closePath();
-c.fill();
-c.stroke();
-c.fillStyle="rgb(255,255,255)";
-c.strokeStyle="rgb(128,0,0)";
-c.beginPath();
-c.moveTo(center-d1, center-d1);
-c.lineTo(center-d2, center-d1);
-c.lineTo(center-0, center-d3);
-c.lineTo(center+d2, center-d1);
-c.lineTo(center+d1, center-d1);
-c.lineTo(center+d1, center-d2);
-c.lineTo(center+d3, center-0);
-c.lineTo(center+d1, center+d2);
-c.lineTo(center+d1, center+d1);
-c.lineTo(center+d2, center+d1);
-c.lineTo(center+0, center+d3);
-c.lineTo(center-d2, center+d1);
-c.lineTo(center-d1, center+d1);
-c.lineTo(center-d1, center+d2);
-c.lineTo(center-d3, center+0);
-c.lineTo(center-d1, center-d2);
-c.lineTo(center-d1, center-d1);
-c.closePath();
-c.fill();
-c.stroke();
+PANOViewer.isMac=function(){
+	return !!(window.navigator.platform.match(/^mac/i));
 }
-}
-};
+
 var p1=nhPanoramaViewer.prototype;
 p1.xxh=0;
 p1.xSc=1;
@@ -479,7 +143,7 @@ p1.xwb=0;
 p1.xrc=true;
 p1.xFe=true;
 p1.xVg=-1;
-p1.xJc="60337240389312038807378101703253291188085801607122459149815687344456454028658850724139006418813300568302855416701775277687";
+//JHS p1.xJc
 p1.x4f="17";
 p1.xad="";
 p1.xJd="";
@@ -551,6 +215,7 @@ p1.xMd=90.0;
 p1.x3d=-90.0;
 p1.xGf=800;
 p1.xbd=false;
+
 function nhPanoramaViewer()
 {
 this.xmc=(nhPanoramaViewer.isIOS() || nhPanoramaViewer.isAndroid());
@@ -622,24 +287,10 @@ try
 {
 var x9b=document.createElement("img");
 this.xGh=x9b;
-x9b.src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAsCAYAAAAjFjtnAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAANFAAADRQBNYNz7wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAYhSURBVGiB7VpNaFNZFP5u+vKSVzWjDdYi0k0xU5HWhWCIRRCDughTKDpIwJ/QUje6UaS4URRctOCmRaQIrQuRVpQsOkUXKijooFYstLbRLlxowYpEEEP+7sv7ZtHmTf5eaupA7eAHF/LeuT/ne+ec+3NuBEnkQghhA/AHgL0AdgJoAqBgeaADmATwN4D7AP4iaeTVIGkWABsAPADAn7Q8ALAhT+cc5b0APv4ESi5WPgLwZvUWJCGE+A3A2wULmBBCwOPxoK6uDsuBubk5zMzMoNDNAXwC8DvJr1lhH3JYKorC7u5uRqNRLjei0Si7u7upKEqhJfoWdEcj5oPFFI6Oji633kUYHR0tJKADaFQA/AmgKmubYDCIQCAAkpidnUUikYCUElJK6LoOKSXS6bT5W9d1aJoGv99fkXskEgmk02kYhgGSyGQyZjwahmG+NwwDdXV1CAQCCAaDGBoaynZRtaA77uQym5iYIEkmk0m2tLSwurqamqZR0zQ6nU46HA6qqkq73U5FUdjQ0MBHjx5V/EXHx8fp8/nocrm4Zs2avLJ69Wqz1NTU8NWrVyTJiYmJQivcAeaDlwDocDgopSRJplIp+ny+sjNCQ0MDnzx5smS3mJqa4o4dO8qO4XA4+OzZM5KklJIOhyNX/hYAEtkXzc3NZufJZJI7d+607Njj8fDp06dLVj6LmZkZtrS0WI6jqmreR2pubs6VJ2wARNapNE0zfVQIASFMUR6EEAiFQvB6vd/t81bYvHkzLly4kDd2LkhCSmk+F9QTtnKdWxEgiUuXLuHatWvIZDIVK52L8fFxnD59GolEwrJOLoFClCVgs1mL4/E4Tp06hd7e3iWTePnyJQ4fPozJyUnLOoUWKNKx3AC5Fli1alWRRVKpFM6ePYuenp5Sq2VZjI2N4ciRI5ieni6SrVu3zhyLJHRdr5yAEMK0QH19PcLhMEKhUJFVNE1DfX29pbtZwel0wul0Fr1vamrCvXv3cPToUQghFrUAACSxENVer9eMdikl/X4/N23axIcPH5IkY7EYOzo6aLPZCIBr167lzZs3aRjGkmag169fc/v27eassmXLFnPO//btG0OhEG02G4eGhsw2Xq83dxZKWhJIp9M8dOgQ79+/nzdoPB7n8ePH6Xa7OTw8vGTls8iuBY2NjRwbG8uTxWIxtre388aNG5UTyGQyjEQiJQeNx+N8/PjxDymeizdv3vDFixclZbFYjFNTU5UT+FlRSKDsLLQS8IvAcuMXgeXGLwL/BfhvaqdiWBKQUuL69eslN1IfPnxAV1cXvnz5sqRBc2EYBgYGBtDX11e0qyWJ4eFhvHv3rmwfJReyVCrF3bt38+LFi+YxkyTfv39Pv99PIQTb2tr4+fPnJS9KmUyG/f391DSNqqry8uXL1HXdlN++fZsbN27k9PS05UJmSSCdTnPPnj1UFIXnz5+nlJKzs7P0+/15R77W1lZ++vSpYuV1XeeVK1fodDrNvux2O3t6eiilZDgcZk1NDTVNW9pWQkrJ/fv3m4murq4u7tu3r+S59cCBA0wmkxURuHXrFjVNK+rLbrfzxIkTdLvdBEBN0zg5OVk5AV3XGQgEzMpCiJLKu91uhsPhii3w9etXHjt2zNyaWxVN08xUTykCZQ80qqrmBVQh1q9fj4GBAbS1tZUNslJwuVy4evUqOjs7yx5dgflAt0JZAopifS1QW1uLwcFBtLa2foe6pVFdXY3e3l6cPHkSVVVVJetwkSm2LAG73W7Z0OfzYdeuXRUfJQuhqir27t1rmVYBFreASa8wtVHOAiMjI+js7EQ0Gq1A3XyQxN27d9HR0YFYLPZdbQp0JGCRWiTJ9vb2sgGGhWl0bm6u4iA2DIMjIyOsra1dNLWYPWqWSi0qmL+D8gDzaZJIJIKmpiYAgMfjwcGDB003yWbrcp8BYHBwEGfOnCnrcoV4/vw5+vv7sXXrVmzbtg2qqqKqqgp2ux2KouQ9u1wuAEAkEkEqlcrtZhIAzuUyDgaDRV8qWwrf/wiklEylUkyn05RSUtd16rrOTCZj2SYYDBZa6Bywwi84VvwV0//jko8r+Jp1xV90i0LzrLS/GvwDLgNY0Q5kTioAAAAASUVORK5CYII=";
-x9b.style.position="absolute";
-x9b.style.top="5px";
-x9b.style.right="5px";
-x9b.style.visibility="hidden";
-x9b.style.opacity="0.2";
-x9b.style.cursor="pointer";
-//JHS xei.appendChild(x9b);
+
 var xph=document.createElement("img");
 this.xNe=xph;
-xph.src="data:image/png;base64,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";
-xph.style.position="absolute";
-xph.style.top="5px";
-xph.style.right="5px";
-xph.style.visibility="hidden";
-xph.style.opacity="0.2";
-xph.style.cursor="pointer";
-//JHS xei.appendChild(xph);
+
 var xjh=this.xSg("20em","8em");
 this.xeh=xjh;
 this.xmh=this.xSg("30em","10em");
@@ -668,44 +319,7 @@ xYe.addEventListener("mousedown", function(xfe){return xwc.xf(xfe? xfe : window.
 window.addEventListener("resize", function(xfe){return xwc.xM(xfe? xfe : window.event)}, false);
 document.addEventListener("mousemove", function(xfe){return xwc.xQe(xfe? xfe : window.event)}, false);
 document.addEventListener("mouseup", function(xfe){return xwc.xuc(xfe? xfe : window.event)}, false);
-/*JHS if("onwheel"in document.createElement("div"))
-{
-xYe.addEventListener("wheel", function(xfe){
-if(!xfe) xfe=window.event;
-xwc.xdb(xfe);
-var xdl=1;
-if(xfe.deltaMode >= 2)
-{
-xdl *= 10;
-}
-if(xfe.deltaMode >= 1)
-{
-xdl *= 33;
-}
-var deltaX=xfe.deltaX * xdl;
-var deltaY=xfe.deltaY * xdl;
-xwc.xC(deltaX, deltaY);
-}, false);
-}
-else
-{
-xYe.addEventListener("mousewheel", function(xfe){
-if(!xfe) xfe=window.event;
-xwc.xdb(xfe);
-var deltaX, deltaY;
-if("wheelDeltaX"in xfe)
-{
-deltaX = -xfe.wheelDeltaX / 3;
-deltaY = -xfe.wheelDeltaY / 3;
-}
-else
-{
-deltaX=0;
-deltaY = -xfe.wheelDelta;
-}
-xwc.xC(deltaX, deltaY);
-}, false);
-} */
+
 document.addEventListener("keydown", function(xfe){return xwc.xy(xfe? xfe : window.event)}, false);
 document.addEventListener("keyup", function(xfe){return xwc.xVf(xfe? xfe : window.event)}, false);
 if(this.xmc)
