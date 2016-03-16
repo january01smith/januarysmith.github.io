@@ -6,7 +6,13 @@ $( document ).ready(function() {
 
     for(i=0; i<response.items.length; i++){
     	gObj=response.items[i];
-    	$('#podList').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2"><a href="' + gObj.object.url + '" target="_self"><img src="' + gObj.object.attachments[0].image.url +'" class="podImage" height="200px" width="400px" ></a></div>');
+    	$('#podList').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">'+
+    							//'<figure>'+
+    							'<a href="' + gObj.object.url + '" target="_self">'+
+    								'<img src="' + gObj.object.attachments[0].image.url +'" class="podImage">'+
+    							'</a>'+
+    							//'</figure'+
+    						'</div>');
     }
 	});
 });
