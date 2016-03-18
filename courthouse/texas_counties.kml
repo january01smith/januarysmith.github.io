@@ -4,7 +4,7 @@
   
     <Style id="default">
       <LineStyle>
-        <color>FFFF0000</color>
+        <color>FFb77a33</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
@@ -4053,7 +4053,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/6G7FZEF5PVP2">McCulloch County Courthouse<br><img src="../images/courthouse/McCulloch.png" alt="McCulloch County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/6G7FZEF5PVP2">McCulloch County Courthouse<br><img src="../img/courthouse/McCulloch.png" alt="McCulloch County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4573,7 +4573,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Mason County Courthouse<br><img src="../images/courthouse/Mason.png" alt="Mason County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Mason County Courthouse<br><img src="../img/courthouse/Mason.png" alt="Mason County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4599,7 +4599,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/3Vc7H">Llano County Courthouse<br><img src="../images/courthouse/Llano.png" alt="Llano County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/3Vc7H">Llano County Courthouse<br><img src="../img/courthouse/Llano.png" alt="Llano County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5119,7 +5119,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County Courthouse<br><img src="../images/courthouse/ValVerde.png" alt="Val Verde County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County Courthouse<br><img src="../img/courthouse/ValVerde.png" alt="Val Verde County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5483,7 +5483,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse<br><img src="../images/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse<br><img src="../img/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5781,7 +5781,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County Courthouse<br><img src="../images/courthouse/Kinney.png" alt="Kinney County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County Courthouse<br><img src="../img/courthouse/Kinney.png" alt="Kinney County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6088,7 +6088,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Atascosa County Courthouse<br><img src="../images/courthouse/Atascosa.png" alt="Atascosa County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Atascosa County Courthouse<br><img src="../img/courthouse/Atascosa.png" alt="Atascosa County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
