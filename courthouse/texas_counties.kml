@@ -2726,7 +2726,8 @@
         </Snippet>
         
         <description>Howard County</description>
-        <visibility>1</visibility>
+        <description><![CDATA[<a href="https://goo.gl/maps/bSt4oCzREpn" style="text-align:center; display:block;">Howard County Courthouse<br>Big Spring<br><img src="../img/courthouse/Howard.png" alt="Howard County Courthouse"></a>]]></description>
+       <visibility>1</visibility>
         <open>0</open>
         <Polygon>
           <extrude>1</extrude>
@@ -2738,7 +2739,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano3</styleUrl>
       </Placemark>
     </Folder>
     
@@ -2854,9 +2855,8 @@
       <Placemark id="104">
         <Snippet maxLines="0">
         </Snippet>
-        
-        <description>Taylor County</description>
-        <visibility>1</visibility>
+        <description><![CDATA[<a href="https://goo.gl/maps/35wUW2VsuDs" style="text-align:center; display:block;">Taylor County Courthouse<br>Abilene<br><img src="../img/courthouse/Taylor.png" alt="Taylor County Courthouse"></a>]]></description>
+        <visibility>1</visibility>        <visibility>1</visibility>
         <open>0</open>
         <Polygon>
           <extrude>1</extrude>
@@ -2868,7 +2868,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano1</styleUrl>
       </Placemark>
     </Folder>
     
@@ -3192,8 +3192,7 @@
       <Placemark id="117">
         <Snippet maxLines="0">
         </Snippet>
-        
-        <description>Sterling County</description>
+        <description><![CDATA[<a href="https://goo.gl/maps/KD5fs9fgev72" style="text-align:center; display:block;">Sterling County Courthouse<br>Sterling City<br><img src="../img/courthouse/Sterling.png" alt="Sterling County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -3206,7 +3205,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano2</styleUrl>
       </Placemark>
     </Folder>
     
@@ -4025,7 +4024,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/WMoTKj8Pz5T2" style="text-align:center; display:block;">Concho County Courthouse<br>Paintrock</a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/WMoTKj8Pz5T2" style="text-align:center; display:block;">Concho County Courthouse<br>Paintrock<img src="../img/courthouse/Concho.png" alt="Concho County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
