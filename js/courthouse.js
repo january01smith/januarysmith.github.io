@@ -8,7 +8,7 @@ function initMap() {
             lat: 31.5,
             lng: -100.0
         },
-        disableDefaultUI: true
+        disableDefaultUI: false
     });
 
     var countyLayer = new google.maps.KmlLayer({
