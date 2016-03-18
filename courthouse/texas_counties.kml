@@ -62,6 +62,82 @@
       </BalloonStyle>
     </Style>
     
+    <Style id="pano4">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>20C29AF4</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+
+    <Style id="pano5">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>200000FF</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+
+    <Style id="pano6">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>200000FF</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+
+    <Style id="pano7">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>200000FF</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+
+    <Style id="pano8">
+      <LineStyle>
+        <color>FFFF0000</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>200000FF</color>
+        <fill>1</fill>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <text></text>
+      </BalloonStyle>
+    </Style>
+
+
     <name>Texas Counties</name>
     <open>0</open>
     
@@ -3949,7 +4025,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/WMoTKj8Pz5T2">Concho County Courthouse<br>Paintrock</a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/WMoTKj8Pz5T2" style="text-align:center; display:block;">Concho County Courthouse<br>Paintrock</a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4053,7 +4129,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/6G7FZEF5PVP2">McCulloch County Courthouse<br>Brady<br>><img src="../img/courthouse/McCulloch.png" alt="McCulloch County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/6G7FZEF5PVP2" style="text-align:center; display:block;">McCulloch County Courthouse<br>Brady<br>><img src="../img/courthouse/McCulloch.png" alt="McCulloch County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4573,7 +4649,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Mason County Courthouse<br>Mason<br><img src="../img/courthouse/Mason.png" alt="Mason County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J" style="text-align:center; display:block;">Mason County Courthouse<br>Mason<br><img src="../img/courthouse/Mason.png" alt="Mason County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -4586,7 +4662,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#pano1</styleUrl>
+        <styleUrl>#pano4</styleUrl>
       </Placemark>
     </Folder>
     
@@ -4599,7 +4675,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/3Vc7H">Llano County Courthouse<br>Llano<br><img src="../img/courthouse/Llano.png" alt="Llano County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/3Vc7H" style="text-align:center; display:block;">Llano County Courthouse<br>Llano<br><img src="../img/courthouse/Llano.png" alt="Llano County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5483,7 +5559,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2">Bandera County Courthouse<br>Bandera<br><img src="../img/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2" style="text-align:center; display:block;">Bandera County Courthouse<br>Bandera<br><img src="../img/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -5781,7 +5857,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC">Kinney County Courthouse<br>Brackettville<img src="../img/courthouse/Kinney.png" alt="Kinney County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/y2nQC" style="text-align:center; display:block;">Kinney County Courthouse<br>Brackettville<br><img src="../img/courthouse/Kinney.png" alt="Kinney County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6088,7 +6164,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J">Atascosa County Courthouse<br>Jourdanton<br><img src="../img/courthouse/Atascosa.png" alt="Atascosa County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/yuN1J" style="text-align:center; display:block;">Atascosa County Courthouse<br>Jourdanton<br><img src="../img/courthouse/Atascosa.png" alt="Atascosa County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
