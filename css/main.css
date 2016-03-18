@@ -138,6 +138,10 @@ opacity: .9;
     opacity: .7;
 }
 
+.podCaption{
+    text-align: center;
+}
+
 .fill { 
     min-height: 100%;
     height: 100%;

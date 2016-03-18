@@ -32,11 +32,10 @@ function buildList(response){
         podDate=new Date(gObj.published);
 
         $('#podList').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">'+
-                                //'<figure>'+
                                 '<a href="' + gObj.object.url + '" target="_self" title="Picture of the Day \r'+ podDate.toDateString() +' ">'+
                                     '<img src="' + gObj.object.attachments[0].image.url +'" class="podImage" alt="Picture of the Day '+ podDate.toDateString() +' ">'+
                                 '</a>'+
-                                //'</figure'+
+                                '<div  class="visible-xs podCaption"> '+ podDate.toDateString() +' </div>' +
                             '</div>');
     }
 
