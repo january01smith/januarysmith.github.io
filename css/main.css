@@ -123,10 +123,6 @@ opacity: .9;
     width: 100%;  
 }
 
-#courthouseImage{
-    text-align: center;
-}
-
 .podImage{
     width: 100%;
     height: 150px;
@@ -146,7 +142,6 @@ opacity: .9;
     min-height: 100%;
     height: 100%;
 }
-
 
 
 /* ==========================================================================
