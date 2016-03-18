@@ -5119,7 +5119,7 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA">Val Verde County Courthouse<br><img src="../img/courthouse/ValVerde.png" alt="Val Verde County Courthouse"></a>]]></description>
+        <description><![CDATA[<a href="https://goo.gl/maps/7QZIA" class="courthouseImage" target="_self">Val Verde County Courthouse<br>Del Rio<br><img src="../img/courthouse/ValVerde.png" alt="Val Verde County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
