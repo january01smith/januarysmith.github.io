@@ -5452,9 +5452,8 @@
       <Placemark id="204">
         <Snippet maxLines="0">
         </Snippet>
-        
-        <description>Real County</description>
-        <visibility>1</visibility>
+         <description><![CDATA[<a href="https://www.google.com/maps/contrib/108623753953418418615/photos/@29.7260098,-99.76228,3a,75y,11.8h,94.92t/data=!3m8!1e1!3m6!1s-JAFfJnuyeN8%2FVEVAexBcjfI%2FAAAAAAAAX5Y%2F6JNcq96upGow7fGttiDXj88zpO49MwUBw!2e4!3e11!6s%2F%2Flh4.googleusercontent.com%2F-JAFfJnuyeN8%2FVEVAexBcjfI%2FAAAAAAAAX5Y%2F6JNcq96upGow7fGttiDXj88zpO49MwUBw%2Fw203-h100-p-k-no%2F!7i8000!8i4000!6m1!1e1" style="text-align:center; display:block;">Real County Courthouse<br>Leakey<br><img src="../img/courthouse/Real.png" alt="Real County Courthouse"></a>]]></description>
+       <visibility>1</visibility>
         <open>0</open>
         <Polygon>
           <extrude>1</extrude>
@@ -5466,7 +5465,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano7</styleUrl>
       </Placemark>
     </Folder>
     
@@ -5556,7 +5555,6 @@
       <Placemark id="208">
         <Snippet maxLines="0">
         </Snippet>
-        
         <description><![CDATA[<a href="https://goo.gl/maps/MZSF3NaUcnD2" style="text-align:center; display:block;">Bandera County Courthouse<br>Bandera<br><img src="../img/courthouse/Bandera.png" alt="Bandera County Courthouse"></a>]]></description>
         <visibility>1</visibility>
         <open>0</open>
