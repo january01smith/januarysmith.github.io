@@ -83,7 +83,7 @@
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>200000FF</color>
+        <color>20C1DCED</color>
         <fill>1</fill>
       </PolyStyle>
       <BalloonStyle>
@@ -98,7 +98,7 @@
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>200000FF</color>
+        <color>20B6FFD3</color>
         <fill>1</fill>
       </PolyStyle>
       <BalloonStyle>
@@ -113,7 +113,7 @@
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>200000FF</color>
+        <color>20CFA8E6</color>
         <fill>1</fill>
       </PolyStyle>
       <BalloonStyle>
@@ -128,7 +128,7 @@
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>200000FF</color>
+        <color>2094FF8B</color>
         <fill>1</fill>
       </PolyStyle>
       <BalloonStyle>
@@ -6684,7 +6684,8 @@
         <Snippet maxLines="0">
         </Snippet>
         
-        <description>McMullen County</description>
+       <description><![CDATA[<a href="https://goo.gl/maps/wiLegQyqHMr" style="text-align:center; display:block;">McMullen County Courthouse<br>Tilden<br><img src="../img/courthouse/McMullen.png" alt="McMullen County Courthouse"></a>]]></description>
+
         <visibility>1</visibility>
         <open>0</open>
         <Polygon>
@@ -6697,7 +6698,7 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-        <styleUrl>#default</styleUrl>
+        <styleUrl>#pano5</styleUrl>
       </Placemark>
     </Folder>
     
