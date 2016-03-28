@@ -95,53 +95,71 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html, body{
-  width: 100%;
-  height: 100%;
-  margin: 0px;  
+
+html,body {
+    background-color: black;
+    overflow: hidden;
 }
 
-body {
-    overflow-x: hidden;
+html, body, article, section, #mainRow, #title, #myPanoViewer{
+     height: 100%
 }
 
-#mainNav {
-opacity: .9;
+#mainNav{
+  background-color: black;
 }
 
-#mypanoviewer {
-    height: 100%;
-    width: 100%; 
+#mainRow{
+    margin-top: 40px;
+    background-color: white;
 }
 
-#podSection{
-    margin-top: 70px;
+#secondRow{
+    margin-top: 40px;
+    background-color: white;
+}
+
+#aboutPage{
+        margin-top: 40px;
+        padding-top: 40px;
+        background-color: white;
+        color: black;
+        overflow: auto;
 }
 
 #map{
+    margin-top: 40px;
+    padding-top: 40px;
+    height: 90%;
+}
+
+#title{
+text-align: center;
+transform: translateY(35%);
+}
+
+h4{
+    color: gray;
+}
+
+#myPanoViewer{
+    padding: 0px;
+    cursor: move;
+}
+
+#iStock{
+    min-height: 100%;
+    width:100%;
     height: 100%;
-    width: 100%;  
-}
-
-.podImage{
-    width: 100%;
-    height: 150px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.podImage:hover{
-    opacity: .7;
-}
-
-.podCaption{
-    text-align: center;
+  
 }
 
 .fill { 
     min-height: 100%;
+    width:100%;
     height: 100%;
 }
+
 
 
 /* ==========================================================================

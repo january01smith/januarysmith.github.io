@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>January Smith - Photographer/Developer</title>
-        <meta name="description" content="This is the Texas Courthouse Tours page on the personal website of panoramic photographer and application software developer January Smith.  The page contains 360 degree Street View virtual tours of the courthouses in the state of Texas.">
+        <meta name="description" content="This page displays virtual tours of county courthouses around the state of Texas and is located on the personal website of panoramic photographer and application software developer January Smith.">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="icon" href="../img/home/favicon.ico">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -16,8 +16,8 @@
 <!-- ===============================
         Navagation
      =============================== -->        
-     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
-        <div class="container-fluid">
+     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-bottom navbar-expanded">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="../index.html">
-                    January Smith
+                    Home
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,10 +39,10 @@
                     <li class="dropdown">
                         <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
                         <ul class="dropdown-menu">
-                            <li><a href="../blog/blog.html">Pic of the Day</a></li>
+                            <!-- <li><a href="../blog/blog.html">Pic of the Day</a></li> -->
                             <li><a href="http://www.istockphoto.com/portfolio/01smith">Stock Photos</a></li>
-                            <li><a href="#">Texas Courthouse Tours</a></li>
-                       </ul>
+                            <li><a href="../courthouse/Texas-Courthouse-Tours.html">Texas Courthouse Tours</a></li>
+                        </ul>
                     </li>
 
                      <li>
@@ -57,28 +57,25 @@
 <!-- ===============================
         Content
      =============================== -->        
+    <article class="container">
 
-  <div id="map"> 
-  </div>
+        <div id="map" >
+            
+        </div>
 
-
-<!-- ===============================
-        Scripts
-     =============================== -->            
-
-<script src="../js/vendor/jquery-1.12.1.min.js"></script>
-<script src="../js/plugins.js"></script>
-<script src="../js/vendor/bootstrap.min.js"></script>
-<script src="../js/courthouse.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap&amp;key=AIzaSyA3h96Za7Gnx6cCCYZq9qNDZEdpN_jqX-Y"></script>
+    </article>
+    <script src="../js/vendor/jquery-1.12.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+     <script src="../js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&amp;key=AIzaSyA3h96Za7Gnx6cCCYZq9qNDZEdpN_jqX-Y"></script>
 <!-- Google Analytics: -->
-<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='https://www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-48280446-1','auto');ga('send','pageview');
-</script>
-
-</body></html>
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-48280446-1','auto');ga('send','pageview');
+    </script>
+</html>

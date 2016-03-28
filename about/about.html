@@ -16,8 +16,8 @@
 <!-- ===============================
         Navagation
      =============================== -->        
-     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
-        <div class="container-fluid">
+     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-bottom navbar-expanded">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="../index.html">
-                    January Smith
+                    Home
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +39,7 @@
                     <li class="dropdown">
                         <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
                         <ul class="dropdown-menu">
-                            <li><a href="../blog/blog.html">Pic of the Day</a></li>
+                            <!-- <li><a href="../blog/blog.html">Pic of the Day</a></li> -->
                             <li><a href="http://www.istockphoto.com/portfolio/01smith">Stock Photos</a></li>
                             <li><a href="../courthouse/Texas-Courthouse-Tours.html">Texas Courthouse Tours</a></li>
                         </ul>
@@ -57,103 +57,99 @@
 <!-- ===============================
         Content
      =============================== -->        
-    <article>
-        <section>
-            <div class="container">
+    <article id="aboutPage" class="container">
 
-            <div class="row">
-                <br>
-                <br>
-                <br>
-                <div class="col-md-4">
-                    <img src="../img/about/me.jpg" alt="Head Shot picture of January Smith" class="center-block img-responsive img-rounded">
-                    
-                </div>
-                <div class="col-md-3">
-                    <h3 class="text-primary">January Smith</h3>
-                    <h5 class="text-primary">11942 Mission Trace
-                        <br>San Antonio, Tx 78230</h5>
-                    <p class="text-primary">
-                        <i class="fa fa-fw fa-lg fa-phone"></i>(210) 870-6991</p>
-                    <p class="text-primary">
-                        <i class="fa fa-envelope fa-fw fa-lg"></i>
-                        <a href="mailto:january@januarysmith.com">january@januarysmith.com</a>
-                    </p>
-                    <a href="https://plus.google.com/+januarysmith"><img src="../img/about/GooglePlus.png" alt="Google Plus Logo" height="25" width="25"> Google+</a> 
-                    <br>  
-                    <a href="https://www.linkedin.com/profile/view?id=AAkAAAGVHm8Bd9oNt32i5kOrc9uzhzpPhSpXJjY"><img src="../img/about/LinkedIn.png" alt="LinkedIn Logo" height="25" width="25"> LinkedIn</a> 
-                    <br>
-                    <a href="http://www.istockphoto.com/portfolio/01smith"><img src="../img/about/iStock.png" alt="LinkedIn Logo" height="23" width="23" > iStockPhoto</a> 
-                    <br>
-                </div>
-                <div class="col-md-5">
-                    <p class="text-primary">I am a panoramic photographer and application software developer based in my home town of San Antonio, Texas.</p>
-                    <p class="text-primary">I started my career over 30 years ago writing COBOL programs using punched cards on a Sperry Univac 90/30. Since then I have written a variety of applications across different hardware and software platforms up to Javascript/CSS/HTML and the mobile web applications of today.  A couple of years ago I took up photography and have been shooting high quality stock and panoramic images around the world.  I enjoy the challenge of composing an image in a full 360 degrees and the interactive results that can be shared online.</p>
-                    
-                    <p class="text-primary">Give me a call, send me an email, or use the contact form below to get in touch...</p>
-                </div>
-                </div>
-            </div>
-        </section>
+ 		<div id="mainRow" class="row">
 
-        <section>
-        <div class="row" id="contact">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h2 class="text-center">Contact</h2>
-                </div>
-                <div class="panel-body">
-                    <form class="form-horizontal" action="//formspree.io/INFO@januarysmith.com" method="POST">
-                        <input type="text" name="_gotcha" style="display:none">
-                        <input type="hidden" name="_next" value="//januarysmith.com">
-                        <div class="form-group">
-                            <div class="col-sm-2">
-                                <label for="inputName" class="control-label">Name</label>
-                            </div>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputName" placeholder="Name" name="name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-2">
-                                <label for="inputPhone" class="control-label">Phone</label>
-                            </div>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputPhone" placeholder="Phone" name="_subject">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-2">
-                                <label for="inputEmail" class="control-label">Email</label>
-                            </div>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="_replyto">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-2">
-                                <label for="inputMessage" class="control-label">Message</label>
-                            </div>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputMessage" placeholder="Message..." name="message">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div id="title" class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+	            <h1>January Smith</h1>
+	            <hr>
+	            <h4>Photographer</h4>
+	            <h4>Developer</h4>
             </div>
+            <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9">
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                	<img src="../img/about/me.jpg" alt="Head Shot picture of January Smith" class="center-block img-responsive img-rounded">  
+            	</div>
+            	<div class="col-sm-8 col-md-8 col-lg-8">
+            	
+                <p >I am a panoramic photographer and application software developer based in my home town of San Antonio, Texas.</p>
+                <p >I started my career over 30 years ago writing COBOL programs using punched cards on a Sperry Univac 90/30. Since then I have written a variety of applications across different hardware and software platforms up to Javascript/CSS/HTML and the mobile web applications of today.  A couple of years ago I took up photography and have been shooting high quality stock and panoramic images around the world.  I enjoy the challenge of composing an image in a full 360 degrees and the interactive results that can be shared online.</p>
+                
+                <p >Give me a call, send me an email, or use the contact form below to get in touch...</p>
+
+	                <h5 >January Smith<br>
+	                11942 Mission Trace<br>
+	                San Antonio, Tx 78230</h5>
+	                <p >
+	                    <i class="fa fa-fw fa-lg fa-phone"></i>(210) 870-6991</p>
+	                <p >
+	                    <i class="fa fa-envelope fa-fw fa-lg"></i>
+	                    <a href="mailto:january@januarysmith.com">january@januarysmith.com</a>
+	                </p>
+	                <a href="https://plus.google.com/+januarysmith"><img src="../img/about/GooglePlus.png" alt="Google Plus Logo" height="25" width="25"> Google+</a> 
+	                
+	                <a href="https://www.linkedin.com/profile/view?id=AAkAAAGVHm8Bd9oNt32i5kOrc9uzhzpPhSpXJjY"><img src="../img/about/LinkedIn.png" alt="LinkedIn Logo" height="25" width="25"> LinkedIn</a> 
+	                
+	                <a href="http://www.istockphoto.com/portfolio/01smith"><img src="../img/about/iStock.png" alt="LinkedIn Logo" height="23" width="23" > iStockPhoto</a> 
+                	<br>
+                     <br>
+		            <br>
+		            <br>
+		    	</div>
+
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 row">
+	            <div class="panel panel-primary">
+	                <div class="panel-heading">
+	                    <h2 class="text-center">Contact</h2>
+	                </div>
+	                <div class="panel-body">
+	                    <form class="form-horizontal" action="//formspree.io/INFO@januarysmith.com" method="POST">
+	                        <input type="text" name="_gotcha" style="display:none">
+	                        <input type="hidden" name="_next" value="//januarysmith.com">
+	                        <div class="form-group">
+	                            <div class="col-sm-2">
+	                                <label for="inputName" class="control-label">Name</label>
+	                            </div>
+	                            <div class="col-sm-10">
+	                                <input type="text" class="form-control" id="inputName" placeholder="Name" name="name">
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="col-sm-2">
+	                                <label for="inputPhone" class="control-label">Phone</label>
+	                            </div>
+	                            <div class="col-sm-10">
+	                                <input type="text" class="form-control" id="inputPhone" placeholder="Phone" name="_subject">
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="col-sm-2">
+	                                <label for="inputEmail" class="control-label">Email</label>
+	                            </div>
+	                            <div class="col-sm-10">
+	                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="_replyto">
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="col-sm-2">
+	                                <label for="inputMessage" class="control-label">Message</label>
+	                            </div>
+	                            <div class="col-sm-10">
+	                                <input type="text" class="form-control" id="inputMessage" placeholder="Message..." name="message">
+	                            </div>
+	                        </div>
+	                        <div class="form-group">
+	                            <div class="col-sm-offset-2 col-sm-10">
+	                                <button type="submit" class="btn btn-primary">Send</button>
+	                            </div>
+	                        </div>
+	                    </form>
+	                </div>
+	            </div>
         </div>
-        </div>
-        </section>
+            </div>
+
     </article>
     <script src="../js/vendor/jquery-1.12.1.min.js"></script>
     <script src="../js/plugins.js"></script>
