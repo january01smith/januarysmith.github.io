@@ -3,7 +3,7 @@ var map;
 function initMap() {
     // Create google map object and attach it to <div id='map'>
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7,
+        zoom: 8,
         center: {
             lat: 31.5,
             lng: -100.0

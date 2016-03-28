@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>January Smith - Photographer/Developer</title>
-        <meta name="description" content="This page displays virtual tours of county courthouses around the state of Texas and is located on the personal website of panoramic photographer and application software developer January Smith.">
+        <meta name="description" content="This is the personal website of panoramic photographer and application software developer January Smith.">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="icon" href="../img/home/favicon.ico">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -39,14 +39,14 @@
                     <li class="dropdown">
                         <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
                         <ul class="dropdown-menu">
-                            <li><a href="../blog/blog.html">Pic of the Day</a></li>
+                            <li><a href="../blog/blog.html">Pic of the Day</a></li> 
                             <li><a href="http://www.istockphoto.com/portfolio/01smith">Stock Photos</a></li>
                             <li><a href="../courthouse/Texas-Courthouse-Tours.html">Texas Courthouse Tours</a></li>
                         </ul>
                     </li>
 
                      <li>
-                        <a href="../about/about.html">About</a>
+                        <a href="#">About</a>
                     </li>
                 </ul>
             </div>
@@ -55,20 +55,22 @@
         <!-- /.container -->
     </nav>
 <!-- ===============================
-        Content - JavaScript function initMap() embeds Google Map at the id="map" below
-     =============================== -->        
-    <article class="container">
+        Picture of the Day
+     =============================== -->   
+    <article id="podContainer" class="container">
+        <section id="podSection">
+            <div id="podList" class="container">
 
-        <div id="map" >
-            
-        </div>
-
+            </div>
+        </section>
     </article>
+ <!-- ===============================
+        Scripts
+     =============================== -->           
     <script src="../js/vendor/jquery-1.12.1.min.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/vendor/bootstrap.min.js"></script>
-     <script src="../js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&amp;key=AIzaSyA3h96Za7Gnx6cCCYZq9qNDZEdpN_jqX-Y"></script>
+    <script src="../js/blog.js"></script>
 <!-- Google Analytics: -->
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
