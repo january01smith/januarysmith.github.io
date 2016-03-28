@@ -105,6 +105,10 @@ html, body, article, section, #mainRow, #title, #myPanoViewer{
      height: 100%
 }
 
+h4, h5{
+    color: gray;
+}
+
 #mainNav{
   background-color: black;
 }
@@ -125,6 +129,7 @@ html, body, article, section, #mainRow, #title, #myPanoViewer{
         background-color: white;
         color: black;
         overflow: auto;
+        height: 90%;
 }
 
 #map{
@@ -138,21 +143,11 @@ text-align: center;
 transform: translateY(35%);
 }
 
-h4{
-    color: gray;
-}
-
 #myPanoViewer{
     padding: 0px;
     cursor: move;
 }
 
-#iStock{
-    min-height: 100%;
-    width:100%;
-    height: 100%;
-  
-}
 
 .fill { 
     min-height: 100%;
