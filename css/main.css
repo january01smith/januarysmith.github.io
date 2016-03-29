@@ -154,10 +154,13 @@ transform: translateY(32%);
 
 #podSection{
     margin-top: 70px;
-    height: 99%;
+    height: 90%;
     overflow: auto;
 }
 
+/*
+ * hide scrollbar but still allow user to scroll through picture of the day images
+ */
 #podSection::-webkit-scrollbar { 
     width: 0px; 
 }
@@ -167,11 +170,15 @@ transform: translateY(32%);
     height: 150px;
     margin-top: 15px;
     margin-bottom: 15px;
-    overflow: auto;
 }
 
 .podImage:hover{
     opacity: .7;
+}
+
+.podCaption{
+    color: gray;
+    text-align: center;
 }
 
 .fill { 
