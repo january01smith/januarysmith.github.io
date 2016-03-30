@@ -113,6 +113,12 @@ h4, h5{
   background-color: black;
 }
 
+/* set margins for buttons used in navbar at bottom of pano page */
+#mainNav button{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
 #mainRow{
     margin-top: 40px;
     background-color: white;
@@ -130,6 +136,23 @@ h4, h5{
         color: black;
         overflow: auto;
         height: 90%;
+}
+
+#contactPage{
+        margin-top: 40px;
+        padding-top: 40px;
+        height: 90%;
+        background-color: white;
+        color: black;
+}
+
+#panoPage{
+        margin-top: 40px;
+        padding: 0px;
+        background-color: white;
+        color: black;
+        overflow: auto;
+        height: 100%;
 }
 
 #aboutImg{
@@ -164,6 +187,62 @@ transform: translateY(32%);
 #podSection::-webkit-scrollbar { 
     width: 0px; 
 }
+
+#contactPage > #title{
+    text-align: center;
+    transform: translateY(33%);
+}
+
+#myPano{
+height: 100%;
+z-index: 0;
+}
+
+#panoPanel {
+    top: 50px;
+    height: 80%;
+    width: 300px;
+    background-color: whitesmoke;
+ }
+
+ #panoMenu
+ {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ font-family: arial;
+ font-size:13px;
+ color:#717171;
+ width:100%;
+ height: 80%;
+ }
+
+ #panoMenu li
+ {
+ border-bottom:1px solid #eeeeee;
+ padding:7px 10px 7px 10px;
+ }
+
+ #panoMenu li:hover
+ {
+ background-color:#337cbb;
+ }
+
+ #panoMenu li:hover a
+ {
+ color:White;
+ }
+
+ #panoMenu a:link
+ {
+ color:#717171;
+ text-decoration:none;
+ }
+
+ #panoMenu a:hover
+ {
+ color:White;
+ }
 
 .podImage{
     width: 100%;

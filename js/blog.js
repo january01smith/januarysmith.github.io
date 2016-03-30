@@ -15,6 +15,7 @@ $(document ).ready(function() {
 	});
 });
 
+// Need to get NextPage token from header
 function loadMore(nextPageToken){
     $.get( "https://www.googleapis.com/plus/v1/people/108623753953418418615/activities/public?maxResults=100&fields=items(object(attachments%2Fimage%2Furl%2Ccontent%2Curl)%2Cpublished)&pageToken="+ nextPageToken + "&key=AIzaSyA3h96Za7Gnx6cCCYZq9qNDZEdpN_jqX-Y", function( response ) {
 
