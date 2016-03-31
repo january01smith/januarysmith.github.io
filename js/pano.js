@@ -2,7 +2,58 @@ var panoramaOptions;
 var panorama = google.maps.StreetViewPanorama;
 var map = google.maps.Map;
 var panoArray=[{panoName:"Advanced Smile Care", panoID:"FJ2zWEuz4QoAAAQYaKhd7A", panoLat:29.565453, panoLng:-98.558403},
-                {panoName:"Aladdin Carpets", panoID:"0kMPde70qqwAAAGuvY_iuw", panoLat:29.447252, panoLng:-98.485045}];
+                {panoName:"Aladdin Carpets", panoID:"0kMPde70qqwAAAGuvY_iuw", panoLat:29.447252, panoLng:-98.485045},
+                {panoName:"Alamo City Liquor(Bitters)", panoID:"3LESd3zuvjQAAAQn71PiPA",panoLat:29.601648, panoLng: -98.526543},
+                {panoName:"Alamo City Liquor(Stone Oak)", panoID:"xayNqk0grVIAAAQn71PkLQ",panoLat:29.686212, panoLng: -98.457759},
+                {panoName:"Alamo City Liquor(Thousand Oaks)", panoID:"6ni33-DZbWgAAAQn7zMmVA",panoLat:29.578264, panoLng: -98.438370},
+                {panoName:"Alamo Heights Pet Clinic", panoID:"nQ8NTZKDf-QAAAQYk4EKnQ",panoLat:29.490081, panoLng: -98.457695},
+                {panoName:"Alamo Karts", panoID:"5fJuBj5J-REAAAQWzI7wUw",panoLat:29.682350, panoLng: -98.638402},
+                {panoName:"Anytime Fitness (Copperas Cove)", panoID:"Y1An91S9jiwAAAQfDZMTTA",panoLat:31.119222, panoLng: -97.861912},
+                {panoName:"Anytime Fitness (CityBase)", panoID:"R0_8yVt6j3kAAAQo8T7Efw",panoLat:29.349458, panoLng: -98.434822},
+                {panoName:"Anytime Fitness (Kerrville)", panoID:"Wlg9RQHTl5MAAAQppySsIw",panoLat:30.056373, panoLng: -99.162101},
+                {panoName:"Anytime Fitness (Medical Center)", panoID:"3w4JH0LM84sAAAQfDSpDgg",panoLat:29.527010, panoLng: -98.597293},
+                {panoName:"Anytime Fitness (Victoria)", panoID:"6td18GXVNrsAAAQfDpMxZg",panoLat:28.814914, panoLng: -96.963887},
+                {panoName:"Augustine Law Office", panoID:"SsOj0Ec5D8UAAAQYlGXWEw",panoLat:29.455678, panoLng: -98.470808},
+                {panoName:"Aziz Rugs", panoID:"SrJyK05t4JUAAAQXMBew5w",panoLat:29.606979, panoLng: -98.524811},
+                {panoName:"Bec Dental Center", panoID:"3GGcgAi70doAAAGutXiSSA",panoLat:29.523202, panoLng: -98.570166},
+                {panoName:"Boba Sip", panoID:"Ua-ZYoTJrf4AAAQzS_H88w",panoLat:29.546969, panoLng: -98.577417},
+                {panoName:"Buddys Home Furnishings", panoID:"xT7C9_mSvkYAAAQo8i8LLw",panoLat:29.497153, panoLng: -98.624938},
+                {panoName:"Dr Robert Heinrich DDS", panoID:"FIENVsE_8Q8AAAQ0IuJaOA",panoLat:29.724965, panoLng: -98.097117},
+                {panoName:"Eraser Clinic Tattoo Removal", panoID:"VOWJxZ7uQPUAAAQvOXfv3Q",panoLat:29.527706, panoLng: -98.503963},
+                {panoName:"ExploreUSA", panoID:"D76VCMWIRnUAAAQp2bIJ2w",panoLat:29.550692, panoLng: -98.036970},
+                {panoName:"Frio Country Resort", panoID:"O9rxMjIMX3MAAAQz45ucEw",panoLat:29.513800, panoLng: -99.698603},
+                {panoName:"Futon Furniture Store", panoID:"Vv5NZl5pQCQAAAAGOwb0OQ",panoLat:29.532587, panoLng: -98.561023},
+                {panoName:"Gems of the Hill Country", panoID:"QK4oox8JiA0AAAQfCMrg5w",panoLat:30.073919, panoLng: -99.238055},
+                {panoName:"Greg Liquors", panoID:"rATG2tZNTW0AAAQfDpGjuQ",panoLat:28.817666, panoLng: -96.968063},
+                {panoName:"Heavenly Floral Designs", panoID:"tzD3Caye_D0AAAQo8ZL-lg",panoLat:29.540911, panoLng: -98.582597},
+                {panoName:"Irish Embassy Pub", panoID:"E2j3A7gI3uIAAAAGOt2O0w",panoLat:37.273595, panoLng: -107.879859},
+                {panoName:"Law Offices Jesus Lopez", panoID:"dMEdw05BcMcAAAQfCWsl6A",panoLat:29.428097, panoLng: -98.508308},
+                {panoName:"Museum of Western Art", panoID:"KSNieaMzWxUAAAQfCM6ATw",panoLat:30.024534, panoLng: -99.136563},
+                {panoName:"Mustang Inn", panoID:"o4Ov86GPviwAAAQo8Xs4bA",panoLat:29.357899, panoLng: -98.557801},
+                {panoName:"Oriental Rug Gallery of Texas", panoID:"zF3TaoiCVywAAAQfCXQ69A",panoLat:29.519818, panoLng: -98.502034},
+                {panoName:"Owens Liquor", panoID:"BKWPfinJShcAAAQY7LbxcA",panoLat:29.371082, panoLng: -100.899824},
+                {panoName:"Re-Bath(Bandera)", panoID:"cLCKP5fp3HkAAAQqyep5VA",panoLat:1 , panoLng: 2},
+                {panoName:"Re-Bath(Schertz)", panoID:"aDPpegoQLq0AAAQun3JKpg",panoLat:1 , panoLng: 2},
+                {panoName:"Rustic Gallery", panoID:"MIvQErKabRIAAAQzTy9ueA",panoLat:1 , panoLng: 2},
+                {panoName:"Sew Special", panoID:"ZwK9tfC2mbUAAAGu5veOcg",panoLat:1 , panoLng: 2},
+                {panoName:"Southpoint Auto", panoID:"Td5aLrTMBRQAAAQn7ypgTQ",panoLat:1 , panoLng: 2},
+                {panoName:"Stone Oak Orthodontics", panoID:"7AlEB4CrUJ0AAAQZUItWcQ",panoLat:1 , panoLng: 2},
+                {panoName:"Thanks for Vaping(Blanco)", panoID:"C2kLyCMFAagAAAQZZXWq9w",panoLat:1 , panoLng: 2},
+                {panoName:"Thanks for Vaping(IH35)", panoID:"d7bkGhjHJC4AAAQn7zSkOA",panoLat:1 , panoLng: 2},
+                {panoName:"Thanks for Vaping(San Pedro)", panoID:"QrXJ_xFAMuYAAAQZZXWRWQ",panoLat:1 , panoLng: 2},
+                {panoName:"The French Connection", panoID:"f7VRQmL_7OIAAAQZSJejTA",panoLat:1 , panoLng: 2},
+                {panoName:"Thrifty Liquor(Huebner)", panoID:"H_Of3Fdvz2UAAAAGOvYGbQ",panoLat:1 , panoLng: 2},
+                {panoName:"Thrifty Liquor(IH10)", panoID:"Xeoxf4UuavAAAAAGO0OFbw",panoLat:1 , panoLng: 2},
+                {panoName:"Trinity Baptist Church", panoID:"KC5Num7C7esAAAQpkPq5lQ",panoLat:1 , panoLng: 2},
+                {panoName:"Two Shots Liquor", panoID:"6Arw6wSpF5EAAAQn70HT7A",panoLat:1 , panoLng: 2},
+                {panoName:"Urban Mattress", panoID:"slMaViq0cl0AAAQqZcRMsQ",panoLat:1 , panoLng: 2},
+                {panoName:"VK Orthodontics", panoID:"kwS24V_TbMsAAAQo8a_bKg",panoLat:1 , panoLng: 2},
+                {panoName:"The Vapor Room", panoID:"04pmXlJmKwEAAAQZLBEVPA",panoLat:1 , panoLng: 2},
+                {panoName:"Wilson Family Chiropractic", panoID:"Vfw74XkEKb4AAAQYZ4bijw",panoLat:30.052585 , panoLng: -99.147840},
+                {panoName:"Winters Gallery", panoID:"50p19NuDtiMAAAQXH9V90A",panoLat:1 , panoLng: 2},
+                {panoName:"W Dental", panoID:"Nm0g8bk0qsAAAAQqfeeJ7w",panoLat:1 , panoLng: 2},
+                {panoName:"Xpressions Florist", panoID:"0JvML8_mn_UAAAQo8amSoQ",panoLat:1 , panoLng: 2},
+                {panoName:"Yummiberry Yogurt", panoID:"z7lGzsBJlVAAAAAGOo4dUA",panoLat:1 , panoLng: 2}];
 
 $(document ).ready(function() {
     //================================================================
@@ -58,6 +109,8 @@ $(document ).ready(function() {
         }, 20);
     }
 
+    buildModalList(panoArray);
+
     //================================================================
     // Instantiate panorama with user specified options
     //================================================================
@@ -95,6 +148,16 @@ function toggleAutoRotate() {
   }
 } 
 
+function buildModalList(panoArray){
+var panoObj={}
+for(i=0; i<panoArray.length; i++){
+    panoObj=panoArray[i];
+    $('#panoList').append('<li>'+
+                          '<a href="#"" onclick="setPano(\''+ panoObj.panoID +'\');">'+ panoObj.panoName +'</a>'+
+                          '</li>');
+    }
+}
+
 });
 
  
@@ -115,43 +178,24 @@ function setMap(){
     var sanAntonio = {lat: 29.425572, lng: -98.485857};
     map = new google.maps.Map(document.getElementById('myPano'), {
           center: sanAntonio,
-          zoom: 11
+          zoom: 7
         });
-// Set up the markers on the map
-    mapMarkers[0] = new google.maps.Marker({
-          position: {lat: 29.565453, lng: -98.558403},
+
+for(i=0; i<panoArray.length; i++){
+    var panoObj=panoArray[i];
+    mapMarkers[i] = new google.maps.Marker({
+          position: { lat:panoObj.panoLat, lng: panoObj.panoLng},
           map: map,
-          title: "Advanced Smile Care"
+          title: panoObj.panoName
       });
-    mapMarkers[0].addListener('click', function () {
-        setPano("FJ2zWEuz4QoAAAQYaKhd7A");
-    });
-//==================================================================
-    mapMarkers[1] = new google.maps.Marker({
-          position: {lat: 29.447252, lng: -98.485045},
-          map: map,
-          title: "Aladdin Carpets"
-      });
-    mapMarkers[1].addListener('click', function () {
-        setPano("0kMPde70qqwAAAGuvY_iuw");
-    });
-//==================================================================
-    mapMarkers[2] = new google.maps.Marker({
-          position: {lat: 29.601648, lng: -98.526543},
-          map: map,
-          title: "Alamo City Liquor"
-      });
-    mapMarkers[2].addListener('click', function () {
-        setPano("3LESd3zuvjQAAAQn71PiPA");
-    });
-//==================================================================
-    mapMarkers[2] = new google.maps.Marker({
-          position: {lat: 29.686212, lng: -98.457759},
-          map: map,
-          title: "Alamo City Liquor"
-      });
-    mapMarkers[2].addListener('click', function () {
-        setPano("xayNqk0grVIAAAQn71PkLQ");
-    });
+    setMarkerListner(mapMarkers[i], panoObj.panoID);
+    };
+
+}
+
+function setMarkerListner(marker,panoID){
+marker.addListener('click', function () {
+        setPano(panoID);
+});
 }
 
