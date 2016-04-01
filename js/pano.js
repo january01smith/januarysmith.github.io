@@ -3,6 +3,7 @@ var panorama = google.maps.StreetViewPanorama;
 var map = google.maps.Map;
 var panoArray=[{panoName:"Advanced Smile Care", panoID:"FJ2zWEuz4QoAAAQYaKhd7A", panoLat:29.565453, panoLng:-98.558403},
                 {panoName:"Aladdin Carpets", panoID:"0kMPde70qqwAAAGuvY_iuw", panoLat:29.447252, panoLng:-98.485045},
+                {panoName:"Alamo", panoID:"MHPJcWMfFK0AAAAGOyjoQQ",panoLat:29.425948, panoLng: -98.485691},
                 {panoName:"Alamo City Liquor(Bitters)", panoID:"3LESd3zuvjQAAAQn71PiPA",panoLat:29.601648, panoLng: -98.526543},
                 {panoName:"Alamo City Liquor(Stone Oak)", panoID:"xayNqk0grVIAAAQn71PkLQ",panoLat:29.686212, panoLng: -98.457759},
                 {panoName:"Alamo City Liquor(Thousand Oaks)", panoID:"6ni33-DZbWgAAAQn7zMmVA",panoLat:29.578264, panoLng: -98.438370},
@@ -27,15 +28,20 @@ var panoArray=[{panoName:"Advanced Smile Care", panoID:"FJ2zWEuz4QoAAAQYaKhd7A",
                 {panoName:"Futon Furniture Store", panoID:"Vv5NZl5pQCQAAAAGOwb0OQ",panoLat:29.532587, panoLng: -98.561023},
                 {panoName:"Gems of the Hill Country", panoID:"QK4oox8JiA0AAAQfCMrg5w",panoLat:30.073919, panoLng: -99.238055},
                 {panoName:"Greg Liquors", panoID:"rATG2tZNTW0AAAQfDpGjuQ",panoLat:28.817666, panoLng: -96.968063},
+                {panoName:"Graffiti", panoID:"PQCGv9V-Q-4AAAGuqliGuQ",panoLat:29.438074, panoLng: -98.498393},
                 {panoName:"Heavenly Floral Designs", panoID:"tzD3Caye_D0AAAQo8ZL-lg",panoLat:29.540911, panoLng: -98.582597},
                 {panoName:"Irish Embassy Pub", panoID:"E2j3A7gI3uIAAAAGOt2O0w",panoLat:37.273595, panoLng: -107.879859},
                 {panoName:"Law Offices Jesus Lopez", panoID:"dMEdw05BcMcAAAQfCWsl6A",panoLat:29.428097, panoLng: -98.508308},
+                {panoName:"Mason County Courthouse", panoID:"U0rwkqfaChUAAAQo8B70Lg",panoLat:30.748311, panoLng: -99.231477},
+                {panoName:"Mission San Jose", panoID:"UQiOsNn5YTMAAAQpe5pnqg",panoLat:29.362187, panoLng: -98.479609},
                 {panoName:"Museum of Western Art", panoID:"KSNieaMzWxUAAAQfCM6ATw",panoLat:30.024534, panoLng: -99.136563},
                 {panoName:"Mustang Inn", panoID:"o4Ov86GPviwAAAQo8Xs4bA",panoLat:29.357899, panoLng: -98.557801},
                 {panoName:"Oriental Rug Gallery of Texas", panoID:"zF3TaoiCVywAAAQfCXQ69A",panoLat:29.519818, panoLng: -98.502034},
                 {panoName:"Owens Liquor", panoID:"BKWPfinJShcAAAQY7LbxcA",panoLat:29.371082, panoLng: -100.899824},
+                {panoName:"Real County Courthouse", panoID:"auLjIPPnW80AAAQYn9ZQyQ",panoLat:29.726308, panoLng: -99.762597},
                 {panoName:"Re-Bath(Bandera)", panoID:"cLCKP5fp3HkAAAQqyep5VA",panoLat:29.554925, panoLng: -98.661790},
                 {panoName:"Re-Bath(Schertz)", panoID:"aDPpegoQLq0AAAQun3JKpg",panoLat:29.596870, panoLng: -98.276947},
+                {panoName:"Riverwalk", panoID:"kjct6n0sItMAAAQYKDbvKA",panoLat:29.423423, panoLng: -98.487839},
                 {panoName:"Rustic Gallery", panoID:"MIvQErKabRIAAAQzTy9ueA",panoLat:29.609477, panoLng: -98.512853},
                 {panoName:"Sew Special", panoID:"ZwK9tfC2mbUAAAGu5veOcg",panoLat:29.593092, panoLng: -98.586740},
                 {panoName:"Southpoint Auto", panoID:"Td5aLrTMBRQAAAQn7ypgTQ",panoLat:29.359857, panoLng: -98.524395},
@@ -63,7 +69,7 @@ $(document ).ready(function() {
     // Set User Preferences
     //
     //================================================================
-    var upPanoID = "UQiOsNn5YTMAAAQpe5pnqg"
+    var upPanoID = "kjct6n0sItMAAAQYKDbvKA"
     var upHeading = 0;
     var upPitch = 0;
     var upZoomLevel = 0;
