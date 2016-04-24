@@ -244,6 +244,11 @@ z-index: 0;
  color:White;
  }
 
+ #myArt{
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 .podImage{
     width: 100%;
     height: 150px;
