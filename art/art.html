@@ -5,8 +5,14 @@
     <title>Chromata distribution file test page</title>
 </head>
 <body>
+
+<div>
 <img src="../img/art/alamo.jpg" />
+</div>
+
+
 <script src="../js/art.js" type="text/javascript"></script>
+
 <script type="text/javascript">
     var image = document.querySelector('img');
     chromata = new Chromata(image, {
@@ -17,7 +23,7 @@
             lineWidth: 6,
             lineMode: 'smooth',
             origin: ['bottom'],
-            outputSize: '',
+            outputSize: 'original',
             pathFinderCount: 50,
             speed: 7,
             turningAngle: Math.PI
