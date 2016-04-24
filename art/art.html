@@ -10,8 +10,17 @@
 <script type="text/javascript">
     var image = document.querySelector('img');
     chromata = new Chromata(image, {
-        pathFinderCount: 50,
-        speed: 5
+            colorMode: 'color',
+            compositeOperation: 'lighten',
+            iterationLimit: 0,
+            key: 'low',
+            lineWidth: 6,
+            lineMode: 'smooth',
+            origin: ['bottom'],
+            outputSize: 'original',
+            pathFinderCount: 50,
+            speed: 7,
+            turningAngle: Math.PI
     });
     document.body.addEventListener('click', function() {
         chromata.toggle();
