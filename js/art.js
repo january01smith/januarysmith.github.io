@@ -143,7 +143,7 @@ var Chromata = (function () {
           lineWidth: 2,
           lineMode: "smooth",
           origin: ["bottom"],
-          outputSize: "original",
+          outputSize: "",
           pathFinderCount: 30,
           speed: 7,
           turningAngle: Math.PI
