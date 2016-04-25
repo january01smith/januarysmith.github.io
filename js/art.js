@@ -19,6 +19,10 @@ var Chromata = (function () {
         dimensions,
         ready = false;
 
+	var att = document.createAttribute("class");       // Create a "class" attribute
+	att.value = "artCanvas";                           // Set the value of the class attribute
+	renderCanvas.setAttributeNode(att);   
+
     this.options = this._mergeOptions(options);
 
     image.src = imageElement.src;
