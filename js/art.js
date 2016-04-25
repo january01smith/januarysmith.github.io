@@ -144,8 +144,8 @@ var ImageTracer = (function () {
           lineMode: "smooth",
           origin: ["bottom"],
           outputSize: "",
-          pathFinderCount: 30,
-          speed: 7,
+          pathFinderCount: 50,
+          speed: 10,
           turningAngle: Math.PI
         };
 

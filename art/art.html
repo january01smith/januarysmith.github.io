@@ -79,19 +79,7 @@
     <script src="../js/art.js" type="text/javascript"></script>
     <script type="text/javascript">
     var image = document.querySelector('img');
-    imageTracer = new ImageTracer(image, {
-            colorMode: 'color',
-            compositeOperation: 'lighten',
-            iterationLimit: 0,
-            key: 'low',
-            lineWidth: 6,
-            lineMode: 'smooth',
-            origin: ['bottom'],
-            outputSize: '',
-            pathFinderCount: 50,
-            speed: 7,
-            turningAngle: Math.PI
-    });
+    imageTracer = new ImageTracer(image, { });
     document.body.addEventListener('click', function() {
         imageTracer.toggle();
     })
