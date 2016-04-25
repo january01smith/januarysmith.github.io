@@ -244,6 +244,12 @@ z-index: 0;
  color:White;
  }
 
+ #artContainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+ }
+
  #artCanvas{
     margin-left: auto;
     margin-right: auto;
