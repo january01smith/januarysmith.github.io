@@ -244,12 +244,10 @@ z-index: 0;
  color:White;
  }
 
- #artCanvas{
-    margin-left: auto;
-    margin-right: auto;
+
+ #artContainer{
     margin-top: 40px;
  }
-
 .podImage{
     width: 100%;
     height: 150px;
