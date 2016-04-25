@@ -7,8 +7,8 @@ var _prototypeProperties = function (child, staticProps, instanceProps) {
   if (instanceProps) Object.defineProperties(child.prototype, instanceProps);
 };
 
-var Chromata = (function () {
-  function Chromata(imageElement) {
+var ImageTracer = (function () {
+  function ImageTracer(imageElement) {
     var _this = this;
     var options = arguments[1] === undefined ? {} : arguments[1];
     var renderCanvas = document.createElement("canvas"),
@@ -57,7 +57,7 @@ var Chromata = (function () {
     this.iterationCount = 0;
   }
 
-  _prototypeProperties(Chromata, null, {
+  _prototypeProperties(ImageTracer, null, {
     start: {
 
       /**
@@ -427,10 +427,10 @@ var Chromata = (function () {
     }
   });
 
-  return Chromata;
+  return ImageTracer;
 })();
 
-window.Chromata = Chromata;
+window.ImageTracer = ImageTracer;
 
 var MAX = 255;
 
