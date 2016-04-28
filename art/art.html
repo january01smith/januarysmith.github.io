@@ -78,7 +78,18 @@
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/art.js" type="text/javascript"></script>
     <script type="text/javascript">
+    var randomImage = ["../img/art/alamo.jpg",
+    "../img/art/mission.jpg",
+    "../img/art/stock.jpg",
+    "../img/art/taco.jpg",
+    "../img/art/gas.jpg",
+    "../img/art/waring.jpg",
+    "../img/art/windmill.jpg",
+    "../img/art/longhorn.jpg",
+    "../img/art/chairs.jpg",
+    "../img/art/riverwalk.jpg",]
     var image = document.querySelector('img');
+    image.src=randomImage[Math.floor((Math.random() * 10))]; 
     imageTracer = new ImageTracer(image, { });
     document.body.addEventListener('click', function() {
         imageTracer.toggle();
