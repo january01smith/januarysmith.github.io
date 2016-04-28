@@ -19,7 +19,7 @@ var ImageTracer = (function () {
         dimensions,
         ready = false;
 
-    att = document.createAttribute("class");
+    var att = document.createAttribute("class");
     att.value = "artCanvas";
     renderCanvas.setAttributeNode(att);   
     this.options = this._mergeOptions(options);
