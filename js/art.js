@@ -15,12 +15,12 @@ var ImageTracer = (function () {
         renderContext = renderCanvas.getContext("2d"),
         sourceCanvas = document.createElement("canvas"),
         sourceContext = sourceCanvas.getContext("2d"),
-        att = document.createAttribute("class"),       // Create a "class" attribute
-        att.value = "artCanvas",    
         image = new Image(),
         dimensions,
         ready = false;
 
+    att = document.createAttribute("class");
+    att.value = "artCanvas";
     renderCanvas.setAttributeNode(att);   
     this.options = this._mergeOptions(options);
 
