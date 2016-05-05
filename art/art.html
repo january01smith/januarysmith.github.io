@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>January Smith - Photographer/Developer</title>
-        <meta name="description" content="This is the personal website of panoramic photographer and application software developer January Smith.">
+        <meta name="description" content="This is an example of generative javascript art on the personal website of panoramic photographer and application software developer January Smith.">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="icon" href="../img/home/favicon.ico">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -78,24 +78,32 @@
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/art.js" type="text/javascript"></script>
     <script type="text/javascript">
-    var randomImage = ["../img/art/alamo.jpg",
-    "../img/art/mission.jpg",
-    "../img/art/stock.jpg",
-    "../img/art/taco.jpg",
-    "../img/art/gas.jpg",
-    "../img/art/waring.jpg",
-    "../img/art/windmill.jpg",
-    "../img/art/longhorn.jpg",
-    "../img/art/chairs.jpg",
-    "../img/art/riverwalk.jpg",]
-    var image = document.querySelector('img');
-    image.src=randomImage[Math.floor((Math.random() * 10))]; 
-    imageTracer = new ImageTracer(image, { });
-    document.body.addEventListener('click', function() {
+        var randomImage = ["../img/art/alamo.jpg",
+        "../img/art/mission.jpg",
+        "../img/art/stock.jpg",
+        "../img/art/taco.jpg",
+        "../img/art/gas.jpg",
+        "../img/art/waring.jpg",
+        "../img/art/windmill.jpg",
+        "../img/art/longhorn.jpg",
+        "../img/art/chairs.jpg",
+        "../img/art/riverwalk.jpg",]
+        var image = document.querySelector('img');
+        image.src=randomImage[Math.floor((Math.random() * 10))]; 
+        var speed = Math.floor((Math.random() * 100));
+        var lineWidth = Math.floor((Math.random() * 100));
+        var pathFinderCount = Math.floor((Math.random() * 1000));
+
+        imageTracer = new ImageTracer(image, {
+            pathFinderCount: pathFinderCount,
+            speed: speed,
+            lineWidth: lineWidth
+         });
+        document.body.addEventListener('click', function() {
+            imageTracer.toggle();
+        })
+        // autostart
         imageTracer.toggle();
-    })
-    // autostart
-    imageTracer.toggle();
     </script>
     
 <!-- Google Analytics: -->
