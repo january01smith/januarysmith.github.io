@@ -7,6 +7,35 @@ var _prototypeProperties = function (child, staticProps, instanceProps) {
   if (instanceProps) Object.defineProperties(child.prototype, instanceProps);
 };
 
+var randomImage = ["../img/art/alamo.jpg",
+    "../img/art/mission.jpg",
+    "../img/art/stock.jpg",
+    "../img/art/taco.jpg",
+    "../img/art/gas.jpg",
+    "../img/art/waring.jpg",
+    "../img/art/windmill.jpg",
+    "../img/art/longhorn.jpg",
+    "../img/art/chairs.jpg",
+    "../img/art/riverwalk.jpg",]
+var image = document.querySelector('img');
+image.src=randomImage[Math.floor((Math.random() * 10))]; 
+var speed = Math.floor((Math.random() * 100));
+var lineWidth = Math.floor((Math.random() * 100));
+var pathFinderCount = Math.floor((Math.random() * 1000));
+
+imageTracer = new ImageTracer(image, {
+    pathFinderCount: pathFinderCount,
+    speed: speed,
+    lineWidth: lineWidth
+ });
+document.body.addEventListener('click', function() {
+    imageTracer.toggle();
+})
+// autostart in 3 seconds
+setTimeout(imageTracer.toggle, 3000);
+
+//=================================================================================
+
 var ImageTracer = (function () {
   function ImageTracer(imageElement) {
     var _this = this;
