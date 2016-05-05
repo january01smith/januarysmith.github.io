@@ -437,6 +437,9 @@ window.ImageTracer = ImageTracer;
 
 var MAX = 255;
 
+// autostart in 3 seconds
+setTimeout(window.ImageTracer.toggle, 3000);
+
 var PathFinder = (function () {
   function PathFinder(pixelArray, workingArray, targetColor) {
     var initX = arguments[3] === undefined ? 0 : arguments[3];
@@ -1075,5 +1078,4 @@ var imageTracer = new ImageTracer(image, {
 document.body.addEventListener('click', function() {
     imageTracer.toggle();
 })
-// autostart in 3 seconds
-setTimeout($(document.body).trigger('click'), 3000);
+
