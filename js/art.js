@@ -1064,7 +1064,7 @@ var randomImage = ["../img/art/alamo.jpg",
 var image = document.querySelector('img');
 image.src=randomImage[Math.floor((Math.random() * 10))]; 
 var speed = Math.floor((Math.random() * 100));
-var lineWidth = Math.floor((Math.random() * 100));
+var lineWidth = Math.floor((Math.random() * 10));
 var pathFinderCount = Math.floor((Math.random() * 1000));
 
 var imageTracer = new ImageTracer(image, {
