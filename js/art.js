@@ -1077,4 +1077,4 @@ document.body.addEventListener('click', function() {
 })
 
 // autostart in 3 seconds
-setTimeout(imageTracer.toggle.call(imageTracer), 3000);
+setTimeout(imageTracer.toggle.bind(imageTracer), 3000);
