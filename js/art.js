@@ -7,7 +7,8 @@ var _prototypeProperties = function (child, staticProps, instanceProps) {
   if (instanceProps) Object.defineProperties(child.prototype, instanceProps);
 };
 
-
+//=================================================================================
+//
 //=================================================================================
 
 var ImageTracer = (function () {
@@ -1047,8 +1048,9 @@ var Utils = (function () {
 })();
 })(window);
 
-//=============================================================================
-
+//=================================================================================
+//
+//=================================================================================
 var randomImage = ["../img/art/alamo.jpg",
     "../img/art/mission.jpg",
     "../img/art/stock.jpg",
@@ -1074,4 +1076,4 @@ document.body.addEventListener('click', function() {
     imageTracer.toggle();
 })
 // autostart in 3 seconds
-setTimeout(imageTracer.toggle, 3000);
+setTimeout($(document.body).trigger('click'), 3000);
