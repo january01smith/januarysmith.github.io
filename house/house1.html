@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <div id="myPanoViewer">
+
+        </div>
+           
+<!-- ===============================
+        Scripts
+     =============================== -->
+        <script src="../js/main.js"></script>
+        <script type="text/javascript">
+        // create a new viewer object:
+        var viewer=new PANOViewer();
+
+
+        // set parameters for the viewer:
+        viewer.setVars({
+          pano: "../img/house/house1_",
+          format: "14faces",
+          pan: 180,
+          minpan: -180,
+          maxpan: 180,
+          tilt:0,
+          mintilt: -90,
+          maxtilt: 90,
+          fov: 90,
+          minfov: 10,
+          maxfov: 120,
+          autorotatespeed: 5,
+          autorotatedelay: 10,
+          maxiosdimension: 567,
+          enablegyroscope: 0
+        });
+
+        viewer.embed("myPanoViewer");
+
+        </script>
+ 
+    </body>
+</html>
