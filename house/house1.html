@@ -1,45 +1,75 @@
 <!doctype html>
 <html>
-    <head>
-      <link rel="stylesheet" href="../css/main.css">
-    </head>
-    <body >
+<head>
+        <link rel="icon" href="../img/home/favicon.ico">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+<style>
+html,body {
+    background-color: white;
+    overflow: hidden;
+    height: 100%
+}
+</style>
+</head>
+<body >
 
-        <div id="myPanoViewer" >
+<div class="container">
+    <h1>House For Sale By Owner</h1>
+    <h1>11942 Mission Trace</h1>
+    <h3>San Antonio, TX 78230</h3>
+    <h3>(210) 870-6991</h3>
+</div>
 
-        </div>
-           
+
+    <div id="myPanoViewer" >
+
+    </div>
+    
 <!-- ===============================
-        Scripts
-     =============================== -->
-        <script src="../js/main.js"></script>
-        <script type="text/javascript">
-        // create a new viewer object:
-        var viewer=new PANOViewer();
+    Scripts
+ =============================== -->
+    <script src="../js/vendor/jquery-1.12.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript">
+    // create a new viewer object:
+    var viewer=new PANOViewer();
 
 
-        // set parameters for the viewer:
-        viewer.setVars({
-          pano: "../img/house/house1_",
-          format: "14faces",
-          pan: 180,
-          minpan: -180,
-          maxpan: 180,
-          tilt:0,
-          mintilt: -90,
-          maxtilt: 90,
-          fov: 90,
-          minfov: 10,
-          maxfov: 120,
-          autorotatespeed: 5,
-          autorotatedelay: 10,
-          maxiosdimension: 567,
-          enablegyroscope: 0
-        });
+    // set parameters for the viewer:
+    viewer.setVars({
+      pano: "../img/house/house1_",
+      format: "14faces",
+      pan: 180,
+      minpan: -180,
+      maxpan: 180,
+      tilt:0,
+      mintilt: -90,
+      maxtilt: 90,
+      fov: 90,
+      minfov: 10,
+      maxfov: 120,
+      autorotatespeed: 5,
+      autorotatedelay: 10,
+      maxiosdimension: 567,
+      enablegyroscope: 0
+    });
 
-        viewer.embed("myPanoViewer");
+    viewer.embed("myPanoViewer");
 
-        </script>
- 
-    </body>
+    </script>
+    <!-- Google Analytics: -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-48280446-1','auto');ga('send','pageview');
+    </script>    
+
+</body>
 </html>
