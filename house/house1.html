@@ -12,6 +12,44 @@ html,body {
     cursor: move;
     height: 100%
 }
+#panel {
+   position: absolute;
+   top: 50px;
+   left: 0px;
+   background-color: whitesmoke;
+}
+#menu
+{
+padding:0;
+margin:0;
+list-style-type:none;
+font-family: arial;
+font-size:13px;
+color:#717171;
+width:100%;
+}
+#menu li
+{
+border-bottom:1px solid #eeeeee;
+padding:7px 10px 7px 10px;
+}
+#menu li:hover
+{
+background-color:#337cbb;
+}
+#menu li:hover a
+{
+color:White;
+}
+#menu a:link
+{
+color:#717171;
+text-decoration:none;
+}
+#menu a:hover
+{
+color:White;
+}
 </style>
 </head>
 <body >
@@ -20,7 +58,38 @@ html,body {
     <div id="myPanoViewer" >
 
     </div>
-    
+  
+      <div id="panel">
+      <ul id="menu" style="width: 175px; height: 300px; overflow: auto" class="hidden-xs">
+        <li>
+          <a href="#">Front Door</a>
+        </li>
+        <li>
+          <a href="#">Dining Room</a>
+        </li>
+        <li>
+          <a href="#">Kitchen</a>
+        </li>
+        <li>
+          <a href="#">Living Room</a>
+        </li>
+         <li>
+          <a href="#">Guest Bedroom</a>
+        </li>
+                <li>
+          <a href="#">Master Bedroom</a>
+        </li>
+                <li>
+          <a href="#">Courtyard</a>
+        </li> 
+               <li>
+          <a href="#">Back Porch / Hot Tub</a>
+        </li>
+                <li>
+          <a href="#">Breakfast</a>
+        </li>
+               </ul>
+    </div>  
 <!-- ===============================
     Scripts
  =============================== -->
