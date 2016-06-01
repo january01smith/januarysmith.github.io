@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<h3>Javascript Function as Value</h3>
+
+<script>
+//=========================
+// square - function returns parameter times itself
+//=========================
+function square(number) {
+	return number*number;
+}
+
+alert("Call square function square(2): " + square(2));
+
+var s = square;
+
+alert("Variable s(3): " + s(3));
+
+</script>
+
+</body>
+</html>

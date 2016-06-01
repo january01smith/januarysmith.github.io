@@ -1,0 +1,67 @@
+<html>
+
+<body>
+
+
+<h3>Javascript Function Parameters</h3>
+
+
+<input id="operand1" >
+ <br>	
+
+<input id="operand2" >
+ <br>
+
+
+<button onclick="myFunction()">Add</button>
+
+
+<script>
+
+//=========================
+
+// myFunction - is called when you click the html button
+
+//=========================
+
+function myFunction() {
+
+    var value1 = Number(document.getElementById("operand1").value);
+
+    var value2 = Number(document.getElementById("operand2").value);
+
+    alert( addNumbers(value1,value2));
+
+}
+
+
+//=========================
+
+// addNumbers - is called from myFunction() and alert() it returns the sum of the parameters
+
+//=========================
+
+function addNumbers(firstNumber, secondNumber){
+
+	return firstNumber+secondNumber;
+
+}
+
+
+//=========================
+
+// alert is called every time the page is refreshed 
+
+//=========================
+
+
+alert(addNumbers(5,12));
+
+
+
+</script>
+
+
+</body>
+
+</html>

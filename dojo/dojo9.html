@@ -3,11 +3,16 @@
 
 <h3>Javascript Function</h3>
 
-<input type="text" id="myText" value="Enter your name...">
+<input id="myText">
 
 <button onclick="myFunction()">Click Me</button>
 
 <script>
+//=====================
+// myFunction - gets the value you entered in the myText input 
+//     and calls the alert() function concatenating Hello with 
+//     value you entered
+//=====================
 function myFunction() {
     var name = document.getElementById("myText").value;
     alert("Hello " + name);

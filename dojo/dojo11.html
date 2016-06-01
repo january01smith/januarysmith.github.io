@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<h3>Javascript Function</h3>
+
+<input id="operand1" > <br>	
+<input id="operand2" > <br>
+
+<button onclick="myFunction()">Add</button>
+
+<script>
+function myFunction() {
+    var value1 = Number(document.getElementById("operand1").value);
+    var value2 = Number(document.getElementById("operand2").value);
+    alert( addNumbers(value1,value2));
+}
+
+function addNumbers(firstNumber, secondNumber){
+	return firstNumber+secondNumber;
+}
+</script>
+
+</body>
+</html>
