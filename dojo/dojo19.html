@@ -1,25 +1,44 @@
 <html>
+
 <body>
+
 
 <h3>Javascript IF() Toggle Background Function</h3>
 
+
 <button onclick="setBackground()">Click to Switch Background Color</button>
 
+
 <script>
+
 //=========================
+
 // setBackground() - is called when you click the html button above,
+
 //     it checks the background color and sets it to white if it is currently red 
+
 //     and to red if it is currently white
+
 //=========================
+
 function setBackground() {
+
 	var myBackgroundColor=document.body.style.backgroundColor;
 
+
+
 	if(myBackgroundColor == "red"){
+
 		document.body.style.backgroundColor = "white";} else {
+
 			document.body.style.backgroundColor = "red";}
-}
+
+	}
+
 
 </script>
 
+
 </body>
+
 </html>

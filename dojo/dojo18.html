@@ -1,23 +1,40 @@
 <html>
+
 <body>
+
 
 <h3>Javascript setBackground Random rgb() Function</h3>
 
+
 <button onclick="setBackground()">Click to Set Random rgb() Background Color</button>
 
+
 <script>
+
 //=========================
+
 // setBackground() - is called when you click the html button above,
+
 //     it sets the background color to an rgb() value with random variables
+
 //=========================
+
 function setBackground() {
+
 	var red=Math.floor(Math.random() * 255);
+
 	var	green=Math.floor(Math.random() * 255);
+
 	var blue=Math.floor(Math.random() * 255);
+
 	document.body.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+
 }
+
 
 </script>
 
+
 </body>
+
 </html>
