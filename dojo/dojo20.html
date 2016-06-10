@@ -1,0 +1,58 @@
+<html>
+
+<body>
+
+
+<h3>Javascript Login</h3>
+
+
+<input id="userID">User ID</input>
+
+
+<input id="password")>Password</input>
+
+
+<button id="loginButton" onclick="login()">Login</button>
+
+
+<script>
+
+//=====================
+
+// login - the login function accepts a userID and password
+
+//  IF the password is the word secret THEN it alerts you that you have logged in
+
+//  ELSE it sets the background color of the textbox to red and alerts Invalid Password
+
+//=====================
+
+function login() {
+
+    var name = document.getElementById("userID").value;
+
+    var password = document.getElementById("password").value;
+
+
+    if(password=="secret"){
+
+    	   alert("Hello " + name + " you have successfully logged in.");
+
+
+    } else{
+
+    	document.getElementById("password").style.backgroundColor ="red";
+
+    	alert("Invalid Password");
+
+
+    }
+
+ 
+}
+</script>
+
+
+</body>
+
+</html>

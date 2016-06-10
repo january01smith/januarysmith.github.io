@@ -1,0 +1,44 @@
+<html>
+
+<body>
+
+
+<h3>Javascript Login</h3>
+
+
+<input id="loopCount"> How many times do you want to loop?</input>
+
+
+<button id="loginButton" onclick="loop()">Loop</button>
+
+
+<script>
+
+//=====================
+
+// loop - the function is called when the user clicks the loop button
+
+//   it starts at 0 and continues to increment the count variable as long
+
+//   as count is less than the number you entered for loops
+
+//=====================
+
+function loop() {
+
+    var loops = document.getElementById("loopCount").value;
+
+    for(var count = 0; count<loops; count++){
+
+    	alert("The loop count is: " + count)
+    }
+
+
+}
+
+</script>
+
+
+</body>
+
+</html>
