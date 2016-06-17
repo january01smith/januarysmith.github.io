@@ -1,0 +1,39 @@
+<html>
+
+<body>
+
+
+<h3>Javascript Do While - Array Loop</h3>
+
+
+<button id="loopButton" onclick="loop()">Loop</button>
+
+
+<script>
+//=====================
+
+// loop - the function is called when the user clicks the loop button
+//   it starts at 0 and continues to increment the count variable until
+//   count reaches 11
+//=====================
+
+function loop() {
+
+var months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+var count=0;
+
+ do{
+
+ 	count=count+1;
+ 	document.write(months[count]);
+
+} while(count<11)
+
+}
+
+</script>
+
+
+</body>
+
+</html>

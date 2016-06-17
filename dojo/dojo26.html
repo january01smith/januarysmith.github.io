@@ -1,0 +1,41 @@
+<html>
+
+<body>
+
+
+<h3>Javascript Do While - Move Button Loop</h3>
+
+
+<button id="loopButton" onclick="loop()">Loop</button>
+
+
+<script>
+//=====================
+
+// loop - the function is called when the user clicks the loop button
+//   it starts at 0 and continues to increment the count variable until
+//   count reaches 500 as it sets the position of the left side of the button
+//=====================
+
+function loop() {
+
+var myButton = document.getElementById("loopButton");
+myButton.style.position="absolute";
+var count=0;
+
+ do{
+
+ 	myButton.style.left = count+"px";
+ 	myButton.style.top = count+"px";
+ 	count=count+1;
+
+} while(count<500)
+
+}
+
+</script>
+
+
+</body>
+
+</html>
