@@ -1,27 +1,106 @@
 <html>
 <body>
-
+<h1>Javascript Calculator</h1>
 <input id="answer" > <br>	
+
+<button onclick="function7()">7</button>
+<button onclick="function8()">8</button>
+<button onclick="function9()">9</button>
+<button onclick="divideButton()">/</button>
+<button onclick="multiplyButton()">*</button>
+<br>
+
+<button onclick="function4()">4</button>
+<button onclick="function5()">5</button>
+<button onclick="function6()">6</button>
+<button onclick="subtractButton()">-</button>
+<button onclick="addButton()">+</button>
+<br>
 
 <button onclick="function1()">1</button>
 <button onclick="function2()">2</button>
 <button onclick="function3()">3</button>
+<button onclick="calcButton()">=</button>
+<button onclick="clearButton()">C</button>
+<br>
 
 <script>
 var answer = Number(document.getElementById("answer").value);
+var operand1=0, operand2=0, operation="";
 
 function function1() {
-	var answer = document.getElementById("answer").value + "1";
+	answer = document.getElementById("answer").value + "1";
 	document.getElementById("answer").value=answer;
 }
 function function2() {
-	var answer = document.getElementById("answer").value + "2";
+	answer = document.getElementById("answer").value + "2";
 	document.getElementById("answer").value=answer;
 }
 function function3() {
-	var answer = document.getElementById("answer").value + "3";
+	answer = document.getElementById("answer").value + "3";
 	document.getElementById("answer").value=answer;
 }
+
+//=======================
+// clearButton - reset the answer value on the screen
+//    and the operation variable, zero out both operands
+//=======================
+function clearButton(){
+	document.getElementById("answer").value="";
+	operation="";
+	operand1=0;
+	operand2=0;
+}
+
+//=======================
+// ADD
+//=======================
+function addButton(){
+
+		operation="+";
+		operand1=Number(document.getElementById("answer").value);
+		document.getElementById("answer").value="";
+	
+}
+
+//=======================
+// SUBTRACT
+//=======================
+function subtractButton(){
+
+		operation="-";
+		operand1=Number(document.getElementById("answer").value);
+		document.getElementById("answer").value="";
+	
+}
+//=======================
+// calcButton - clicked the = button so store the number on the 
+//   screen into the operand2 variable and figure out what operation
+//   to perform on the operands +,-,*,/
+//=======================
+function calcButton(){
+
+	operand2=Number(document.getElementById("answer").value);
+
+	if (operation==""){
+		document.getElementById("answer").value="error"
+
+	} else if (operation=="+"){
+
+		document.getElementById("answer").value=operand1+operand2;
+
+	} else if (operation=="-"){
+
+		document.getElementById("answer").value=operand1-operand2;
+
+	} 
+
+	operation="";
+	operand1=0;
+	operand2=0;
+
+}
+
 </script>
 
 </body>
