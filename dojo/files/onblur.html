@@ -1,24 +1,32 @@
 <html>
 <head>
 <script>
+//======================
+// onfocus - when you enter a text input field
+//======================
+function myFocusFunction() {
+	var x = document.getElementById("name");
+    x.style.backgroundColor = "yellow";
+}
+//======================
+// onblur - when you leave a text input field
+//======================
 function myBlurFunction() {
     var x = document.getElementById("name");
     x.value = x.value.toUpperCase();
+    x.style.backgroundColor = "white";
 }
+
 </script>
 </head>
 <body>
-<h1>onblur</h1>
+<h1>onfocus  &  onblur </h1>
 
-Enter your name: <input type="text" id="name" onblur="myBlurFunction()">
+Enter your name: <input type="text" id="name" onblur="myBlurFunction()" onfocus="myFocusFunction()">
 
-<p>When you leave the input field, the myBlurFunction is triggered to convert the input text to upper case.</p>
-
-=================
-
-<br>
-
- Right-click => Inspect to view the code
+<p>When you enter the input field, the myFocusFunction is triggered to set the input text background color to yellow.</p>
+<p>When you leave the input field, the myBlurFunction is triggered to convert the input text to upper case and reset the background color to white.</p>
+<p> Right-click => Inspect to view the code</p>
 
  <br>
 
