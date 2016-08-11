@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+//======================
+// onmouseover - when you put the mouse over an html element
+//======================
+function myMouseOverFunction(x) {
+	x.style.backgroundColor = "blue";
+	x.style.color = "white";
+}
+//======================
+// onmouseout - when your mouse leavee an html element
+//======================
+function myMouseOutFunction(x) {
+    x.style.backgroundColor = "white";
+    x.style.color = "black";
+}
+
+</script>
+</head>
+<body>
+<h1>onmouseover  &  onmouseout </h1>
+
+<div id="menu1" onmouseover="myMouseOverFunction(this);" onmouseout="myMouseOutFunction(this);" >HOME</div>
+<div id="menu2" onmouseover="myMouseOverFunction(this);" onmouseout="myMouseOutFunction(this);" >ABOUT</div>
+
+
+<p>When you position your mouse over the HOME or ABOUT menu items, the myMouseOverFunction is triggered to set the input text background color to blue and the text color to white for the current menu item.</p>
+<p>When you leave the HOME or ABOUT html elements, the myMouseOutFunction is triggered to set the input text background color back to white and the text color to black for the current menu item.</p>
+<p> Right-click => Inspect to view the code</p>
+
+ <br>
+
+ <img src="onmouseover.png">
+
+</body>
+</html>
