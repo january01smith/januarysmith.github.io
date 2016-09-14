@@ -1,0 +1,21 @@
+<html>
+	<body>
+		Guess my number 1-100
+		<input type="text" id="guess">
+		<button onclick="guess()">Guess</button>
+		<script type="text/javascript">
+		var numToGuess = Math.floor(Math.random()*100);
+
+		function guess(){
+			var guess = document.getElementById("guess").value;
+			if(guess==numToGuess){
+				alert("You got it!");
+			} else if(guess>numToGuess){
+				alert("Too high");
+			} else if(guess<numToGuess){
+				alert("Too low");
+			}
+		}
+		</script>
+	</body>
+</html>
