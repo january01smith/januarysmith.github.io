@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="icon" 
+      type="image/gif" 
+      href="images/54330619eb46.gif">
+</head>
+<body>
+	<h1>Hello</h1>
+	<h2>my name is Kyan</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wcN9nwAJ82E" frameborder="0" allowfullscreen></iframe>	
+		<a href="https://www.youtube.com/channel/UC8ojUJCEzhb2ahuAK5BfAAQ"><button id="myButton">My Channel</button></a>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://www.youtube.com/channel/UC8ojUJCEzhb2ahuAK5BfAAQ";
+        (function() {
+    var link = document.createElement("link")
+</script>
+			
+	<p>Kyan</p>
+		
+
+</body></html>
