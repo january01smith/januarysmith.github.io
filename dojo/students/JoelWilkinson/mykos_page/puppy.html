@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Found Puppy</title>
+	</head>
+	<body>
+	<a href="index.html" >Home</a>
+	<a href="puppy.html" >Puppy</a>
+	<h1>Found Puppy</h1>
+	<img id="puppyPicture" src="images/puppy1.jpg" height="500" width="500">
+	<br>
+	<img src="images/puppy1.jpg" height="50" width="50" onmouseover="setPuppy1();">
+	<img src="images/puppy2.jpg" height="50" width="50" onmouseover="setPuppy2();">
+	<p> My puppy is found.  His name is Lucky.</p>
+	<p>Please give me a call if you find him.</p>
+	<h2 onmouseover="this.style.color='red';">210-888-9999</h2>
+
+	<script type="text/javascript">
+	var bigPicture = document.getElementById("puppyPicture");
+
+	function setPuppy1(){
+		bigPicture.src="images/puppy1.jpg";
+	}
+
+	function setPuppy2(){
+		bigPicture.src="images/puppy2.jpg";
+	}
+	</script>
+	</body>
+</html>

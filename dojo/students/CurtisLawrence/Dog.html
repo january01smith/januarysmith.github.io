@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title> Dog </title>
+	</head>
+	<body>
+	<a href="MyPage.html">Home</a>
+	<a href="Dog.html">Puppy</a>
+	<a href="x.html">Dinosaur</a>
+        <a href="My Singing Monsters DOF.html">MySingingMonsters</a>
+
+	<h1>Lost Puppy</h1>
+     
+        <audio autoplay >
+
+        <source src="DogBark.mp3" type="audio/mpeg">
+
+        </audio >
+
+	<img id="puppyPicture" src="puppy1.jpg" height="500" width="500">
+	<br>
+	<img src="puppy1.jpg" height="50" width="50" onmouseover="setPuppy1();">
+	<img src="puppy2.jpg" height="50" width="50" onmouseover="setPuppy2();">
+	<p> My puppy is lost.  His name is Lucky. He was last seen near the Alamo last weekend.</p>
+	<p>Please give me a call if you find him.</p>
+	<h2 onmouseover="this.style.color='red';">210-888-9999</h2>
+
+	<script type="text/javascript">
+	var bigPicture = document.getElementById("puppyPicture");
+
+	function setPuppy1(){
+		bigPicture.src="puppy1.jpg";
+	}
+
+	function setPuppy2(){
+		bigPicture.src="puppy2.jpg";
+	}
+	</script>
+	</body>
+</html>
