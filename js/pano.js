@@ -14,9 +14,9 @@ var panoArray=[{panoName:"Advanced Smile Care", panoID:"FJ2zWEuz4QoAAAQYaKhd7A",
                 {panoName:"Anytime Fitness (Kerrville)", panoID:"Wlg9RQHTl5MAAAQppySsIw",panoLat:30.056373, panoLng: -99.162101},
                 {panoName:"Anytime Fitness (Medical Center)", panoID:"3w4JH0LM84sAAAQfDSpDgg",panoLat:29.527010, panoLng: -98.597293},
                 {panoName:"Anytime Fitness (Victoria)", panoID:"6td18GXVNrsAAAQfDpMxZg",panoLat:28.814914, panoLng: -96.963887},
-                {panoName:"Augustine Law Office", panoID:"SsOj0Ec5D8UAAAQYlGXWEw",panoLat:29.455678, panoLng: -98.470808},
+                {panoName:"Augustine Law Office", panoID:"SsOj0Ec5D8UAAAQYlGXWEw",panoLat:29.455678, panoLng: -98.470808},              
+                {panoName:"Avocet Apartments",panoID:"auLjIPPnW80AAAQYn9ZQyQ",panoLat:29.485429, panoLng:-98.716242}
                 {panoName:"Aziz Rugs", panoID:"SrJyK05t4JUAAAQXMBew5w",panoLat:29.606979, panoLng: -98.524811},
-                {panoName:"Avocet Apartments",pano:"auLjIPPnW80AAAQYn9ZQyQ",panoLat:29.485429, panoLng:-98.716242}
                 {panoName:"Battle Tactics Academy", panoID:"vJctMB0EZ_IAAAQvOdg8iA",panoLat:29.532183, panoLng: -98.451792},
                 {panoName:"Bec Dental Center", panoID:"3GGcgAi70doAAAGutXiSSA",panoLat:29.523202, panoLng: -98.570166},
                 {panoName:"Boba Sip", panoID:"Ua-ZYoTJrf4AAAQzS_H88w",panoLat:29.546969, panoLng: -98.577417},
